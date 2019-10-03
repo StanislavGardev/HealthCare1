@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="340dp"
+        tools:visibility="visible">
+
+<!--        <TableRow-->
+
+<!--            android:id="@+id/firstRow"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            &lt;!&ndash; first element of the row&ndash;&gt;-->
+<!--            <TextView-->
+
+<!--                android:id="@+id/simpleTextView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#b0b0b0"-->
+<!--                android:padding="18dip"-->
+<!--                android:text="Text 1"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="12dp"-->
+<!--                android:layout_weight="1"-->
+<!--                />-->
+
+<!--            <TextView-->
+
+<!--                android:id="@+id/simpleTextView1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#FF0000"-->
+<!--                android:padding="18dip"-->
+<!--                android:layout_weight="4"-->
+
+<!--                android:text="asdasdasdasdasdдфгдфгдфгдфгдсфгдфгефефвефвефвефвфвефефевфвефвефвефвефвеф"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="14dp" />-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+
+<!--            android:id="@+id/firstRow8"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            &lt;!&ndash; first element of the row&ndash;&gt;-->
+<!--            <TextView-->
+
+<!--                android:id="@+id/simpleTextView6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#b0b0b0"-->
+<!--                android:padding="18dip"-->
+<!--                android:text="Text 1"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="12dp" />-->
+
+<!--            <TextView-->
+
+<!--                android:id="@+id/simpleTextView4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#FF0000"-->
+<!--                android:padding="18dip"-->
+<!--                android:text="asdasdasdasdasd"-->
+<!--                android:textColor="#000"-->
+<!--                android:textSize="14dp" />-->
+
+<!--        </TableRow>-->
+        <TableRow
+
+        android:id="@+id/firstRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- first element of the row-->
+
+
+        <TextView
+            android:id="@+id/textToLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_span="2"
+            android:text="@string/this_is_new"
+            android:layout_weight="1"/>
+
+    </TableRow>
+    </TableLayout>
+
+
+</androidx.core.widget.NestedScrollView>

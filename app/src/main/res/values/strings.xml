@@ -1,0 +1,925 @@
+<resources>
+    <string name="app_name">Health Care</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling"></string>
+    <string name="large_text">
+
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="TextFirstPage">Интердисциплинарно ръководство на качество S3 за ранно откриване, диагностициране и терапия на различните статии на рак на простатата. </string>
+    <string name="this_is_new">Това е ново
+
+Важни промени при актуализация 2018 на ръководството (Версия 5) Версия  5.1 (Mai 2019). Направени са основно редакторски преработки и промени на номерацията на главите. Глави 1.12 -1.14 стават Глава 2. Глава 7 „Рехабилитация и последваща грижа“ са разделени на глава 8 Rehabilitation и глава 9 „Последваща грижа“. Преработка на информацията за във връзка с кофликта на интереси -  информацията от ръководните принципи е взета, защото е по-подробна.
+
+Версия 5.0 (Април 2018)
+Следните промени са направени по съдържанието
+
+a. При първоначалната диагностика при негативен резултат от биопсията се препоръчва образно изследване с помощта на МРТ и съответно последваща целева плюс системна биопсия, чийто резултат определя по-нататъшните инвазивни интервенции и образни диагностики (виж препоръки 5.13, 5.14, 5.17)
+b. Преди решението за активно наблюдение е необходимо да се направи образна диагностика с MRT (виж препоръки 5.18., 6.9.).
+c. Лъчетерапията би трябвало да се проведе съвместно с имиджова диагностика (виж препоръки 6.19., 6.45.).
+d. При рак на прастатата, който е навлязал в лимфните възли, след радикална простатектомия и лимфаденоктомия може да се предложи съпътстваща лъчева терапия в комбинация с хормонална (виж препоръка 6.61.).
+e.При хормоночувствителен метастазирал рак на простатата би трябвало допълнително към хормоналната терапия да се препоръча химиотерапия с Docetaxel или допълваща антихормонална терапия с Abirateron (off-Label) (виж препоръки 7.17., 7.19., 7.20., 7.21.).
+f. При кастрационно-резистентен прогресиращ рак на простатата би трябвало при безсимптомни пациенти, съответно би могло и при симптоматични пациенти, като основна терапия да се предложи Abirateron или Enzalutamid (виж препоръки 7.32., 7.33.).
+g.При кастрационно-резистентен, прогресиращ рак на простатата би могло, след изчерпване на предложените възможности за терапия, да се опита терапия с Lutetium-177-PSMA (виж препоръки 7.45.).
+h. При хормонално наивен стадии би трябвало за превенция на усложнения с костни метастази да не се използва Bisphosphonate (виж препоръка 7.50.).
+i. По време на хормонална терапия би трябвало да се вземат рехабилитационни мерки с включване на  кинезотерапия (виж препоръка 8.8.).
+Подробен преглед на промените по препоръките/твърденията в сравнение с предишната версия 3 (2016) се намира в приложение 15.2. на дългата версия.
+</string>
+    <string name="informationForThosVer">1 Информация за тази кратка версия
+1.1
+Издател
+Програмата за ръководство по онкология на професионалното дружество по научна медицина (AWMF),
+Немското онкологично дружество (DKG) и Немското общество за помощ срещу рака (Deutschen
+Krebshilfe - DKH).
+1.2
+Водеща професионална организация
+Немското общество по урология (DGU)
+1.3
+Финансиране на ръководството
+Това ръководство е поръчано от немското общество за помощ срещу рака в рамките на програмата за
+ръководства по онкология.
+1.4
+Контакт
+Офис Leitlinienprogramm Onkologie c/o Deutsche Krebsgesellschaft e.V. Kuno-Fischer-Straße 8
+14057 Berlin
+leitlinienprogramm@krebsgesellschaft.de www.leitlinienprogramm-onkologie.de
+1.5.Начин на цитиране
+Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, AWMF):
+Interdisziplinäre Leitlinie der Qualität S3 zur Früherkennung, Diagnose und Therapie der
+verschiedenen Stadien des Prostatakarzinoms, Kurzversion 5.1, 2019, AWMF Registernummer:
+043/022OL, https://www.leitlinienprogramm-onkologie.de/leitlinien/prostatakarzinom/ (abgerufen
+am: TT.MM.JJJJ)
+1.6. Специално указание
+Медицината търпи постоянно развитие, така че всички данни, в частност диагностични и
+терапевтични процедури, винаги съответстват на научните резултати от момента на отпечатване на
+ръководството. Дадените препоръки за терапия и избор на дозиране на медикаментите са съставени с
+възможно най-голяма прецизност. В същотовреме препоръчваме на потребителя да преглежда
+опаковката и професионалната информация на производителя за допълнителна проверка и в случай на
+колебание да се консултира със специалист. Моля споделяйте въпросните несъответствия с
+редакцията на онкологичните ръководства в името на общия интерес.
+Потребителят сам е отговорен за всяко диагностично и терапевтично приложение, лечение и
+дозиране.
+В това ръководство регистрирани продуктови символи (защитени продуктови имена) не са отбелязани
+по специален начин. Липсата на специално указание не може да се счита за основание , че се отнася за
+свободно продуктово име..
+Ръководството във всичките си части е защитено по авторското право. Всяко използване извън
+позволеното от авторското право и без писменото одобрение на редакцията на онкологичното
+ръководство е недопустимо и наказуемо. Никоя част от него не може да се репродуцира без писмено
+разрешение от редакцията на онкологичното ръководство. Това се отнася в частност за размножаване,
+превод, екранизация и записване и използване в електронни системи, интранет мрежи и интернет.
+1.7 Цели на ръководството по онкология
+Професионалното дружество по научна медицина (AWMF), немското онкологично дружество (DKG) и
+немското общество за помощ срещу рака (DKH) си поставиха за цел с ръководството по онкология (РО)
+общото развитие и подобряване, поощтряването и поддръжката и използването на научно обосновано
+и практично ръководство по онкология Основите на програмата са положени върху медицинските
+научни знания на професионалните общества и на немското онкологично дружество (DKG), на
+консенсуса на медицинските професионални експерти, практикуващи и пациенти както и на правилата
+за изработката на ръководството от професионалното дружество по научна медицина (AWMF) и
+професионалната поддружка и финансиране чрез немското общество за помощ срещу рака (DKH). За
+да се създаде на основата на съвременното състояние на медицинската наука и да се използват
+напредъка на медицината, ръководствата е необходимо редовно да се проверява и развива. Приложението на правилата на професионалното дружество по научна медицина (AWMF) е
+основа за разработката на качествено и високо стойностно онкологично ръководство. Тъй като
+ръководството е важен инструмент за осигуряване качеството и управлението на качеството на
+онкологията, необходимо е то целенасочено и трайно да бъде въведено в ежедневната практика.
+Затова активните мерки за приложението му и програмата за оценка са важна съставна част от
+промотирането на ръководството по онкология. Целта на програмата е в Германия да се създадат
+профисионално и средносрочно финансово гарантирани условия за развитието и поддружката на
+високо качествено ръководство. Това високо качествено ръководство служи не само за структуриран
+научен трансфер, а може да намери своето място и при оформянето на структурите на здравната
+система. Заслужава да се споменат основаните на доказателства ръководства като основа за
+създаване и актуализиране на Програмата за Управление на Болестите или приложението на
+извлечените от ръководствата критерии за качество в рамките на сертифицирането на центровете за
+тумори на органите.
+1.8. Допълнителни документи към ръководството
+Съдържанието на тази кратка версия идва от пълната версия на ръководството за ранно откриване
+диагностициране и лечение на различните стадии на рак на простатата, което е достъпно от следните
+сайтове:
+• професионалното дружество по научна медицина (AWMF)
+(http://www.awmf.org/leitlinien/aktuelle-leitlinien.html)
+•
+Програма за ръководства по онкология https://www.leitlinienprogramm-
+onkologie.de/leitlinien/prostatakarzinom/
+•
+Ръководства на международната мрежа - Guidelines International Network (www.g-i-n.net)
+Заедно с кратката версия са са налични следните документи към ръководството:
+•
+Пълната версия на ръководството
+•
+Отчет за ръководството (Leitlinienreport)
+•
+Документ със таблици на свидетелствата към ръководството (Dokument mit Evidenztabellen
+zur Leitlinie)
+•
+Ръководство за пациента "Ранно откриване на рак на простатата"
+•
+Ръководство за пациента “Рак на простатата 1 – локално ограничен рак на простатата“
+•
+Ръководство за пациента "Рак на простатата 2 – локално напреднал и метастазирал рак на
+простатата“
+•
+Английски превод (планиран)
+Всички тези документи би трябвало да са достъпни от споменатите по-горе уеб сайтове.
+1.9. Състав на групата за ръководството
+1.9.1. Ръководна група на ръководството
+Manfred Wirth (председател), Richard Berges (от актуализация 2016), Michael Fröhner, Kurt Miller,
+Herbert Rübben, Michael Stöckle (от актуализация 2011), Frederik Wenz (от актуализация 2011),
+Thomas Wiegel, Bernhard Wörmann, Oliver Hakenberg (от актуализация 2016).
+1.9.2. Участващи автори и членове на групата на ръководството
+Участниците в първоначалното създаване, както и участниците в последващите актуализации са
+изброени в таблица 1 Таблица 1: Участници в групата на ръководството 2006-2018
+Име
+Организация
+Времеви период
+Ackermann, Prof. Dr. med. Rolf
+DGU
+2006–2009
+Aebersold, Prof. Dr. med.
+DEGRO
+2016-2018
+Daniel
+Ahmadzadehfar, PD Dr. Hojjat
+DGN
+2016-2018
+Albers, Univ.-Prof. Dr. med.
+DGU
+2016-2018
+Peter
+Alberti, Prof. Dr. med. Winfried
+DEGRO
+2006–2009
+Albrecht, Dr. med. Clemens
+DEGRO/ BDVST
+2006–2014
+BVDST
+2016-2018
+Asbach, PD Dr. med. Patrick
+BDR
+2016-2018
+    Baumann, PD Dr. Freerk
+ASORS
+2016-2018
+Berges, Dr. med. Richard
+BDU
+2016-Яниари.2017
+Beyersdorff, PD Dr. med. Dirk
+DRG
+2006–2009, 2016-2018
+Blana, Prof. Dr. med. Andreas
+DGU
+2011–2018
+Böhmer, PD Dr. med. Dirk
+DEGRO, BVDST
+2006–2018
+Börgermann, Dr. med. Christof
+DGU
+2006–2018
+Borchers, Dr. med. Holger
+DGU
+2006–2009
+Burchardt, Prof. Dr. med.
+DGU
+2006–2018
+Martin
+Carl, Ernst-Günther
+BPS
+2016-2018
+Deger, Prof. Dr. med. Serdar
+DGU
+2006–2009
+Dietz, Josef
+BPS
+2016-2018
+Doehn, Prof. Dr. med.
+DGU
+2006–2018
+Christian
+Donner-Banzhoff, Prof. Dr.
+DEGAM
+2013–2014
+Norbert
+Ebermayer, Dr. med. Johann
+DGU
+2006–2009
+Ebert, Prof. Dr. med. Thomas
+DGU
+2006–2009
+Egidi, Dr. med. Günther
+DEGAM
+2013–2014
+Ehrmann, Udo
+BPS
+2016-2018
+Enders, Dipl. Ing. Paul
+BPS
+2006–2018
+Fichtner, Prof. Dr. med. Jan
+DGU
+2006–2009
+Fiebrandt, Hanns-Jörg
+BPS
+2006–2014
+Flentje, Prof. Dr. med. Michael
+DEGRO
+2016-2018
+Fornara, Univ.-Prof. Dr. med.
+DGU
+2006–2018
+Paolo
+Fröhner, PD Dr. med. Michael
+DGU
+2006–2018
+Galalae, PD Dr. med. Razvan-
+DEGRO
+2006–2009
+Mircea
+Ganswindt, PD Dr. med. Ute
+DEGRO
+2013–2018
+Ghadjar, PD Dr. med. Pirus
+DEGRO
+2016-2018
+Göckel-Beining, Dr. med.
+BDU
+2006–2014
+Bernt
+Goldner, Dr. med. Gregor
+DGU
+2006–2009
+Graefen, Prof. Dr. med.
+DGU
+2006–2018
+Markus
+Grimm, Prof. Dr. med. habil.
+DGU
+2006–2018
+Marc-Oliver
+Grün, Dr. med. Arne
+DEGRO
+2006–2009
+Hampel, PD Dr. med. Christian
+DGU
+2006–2009
+Hadaschik, Prof. Dr. Boris
+DGU
+2016-2018
+Hakenberg, Prof. Dr. med.
+DGU
+2006–2018
+Oliver
+Hammerer, Prof. Dr. med.
+DGU
+2006–2009
+Peter
+Hartmann, Prof. Dr. med.
+DGP/BDP
+2013–2018
+Arndt
+Hautmann, Prof. Dr. med.
+DGU
+2006–2009
+Richard
+Heidenreich, Prof. Dr. med.
+DGU
+2006–2018
+Axel
+Henkel, Dr. med. Thomas-
+DGU
+2006–2018
+Oliver
+Hinkelbein, Prof. Dr. med.
+DEGRO
+2006–2014
+Wolfgang
+Höcht, Prof. Dr. med. Stefan
+DEGRO
+2006–2018
+Hölscher, Dr. med. Tobias
+DEGRO
+2006–2018
+Hoffmann, Dr. med. Wilfried
+ASORS
+2016-2018
+Hoffmann, Prof. Dr. med.
+BVDST
+2013–2018
+Wolfgang
+    Jakse, Prof. Dr. med. Gerhard
+DGU
+2006–2009
+Jocham, Prof. Dr. med. Dieter
+DGU
+2006–2009
+Jünemann, Prof. Dr. med.
+DGU
+2006–2009
+Klaus-Peter
+Kahl, Dr. med. Philip
+DGP
+2006–2009
+Kaiser, Prof. Dr. Ulrich
+DGHO
+2016-2018
+Karger, André
+PSO
+2016-2018
+Kaufmann, Dr. med. Sascha
+DGU
+2006–2009
+Klein, Tobias
+KOK
+2013–2014
+Kötter, Dr. med. Thomas, MPH
+DEGAM
+2016-2018
+Kotzerke, Prof. Dr. med. habil.
+DGN
+2013–2018
+Jörg
+Krause, Prof. Dr. med. Bernd
+DGN
+2011–2018
+Kristiansen, Prof. Dr. med.
+DGP/BDP
+2013–2018
+Glen
+Küfer, PD Dr. med. Rainer
+DGU
+2006–2009
+Lein, Prof. Dr. med. Michael
+DGU
+2011–2018
+Loch, Prof. Dr. med. Tillmann
+DGU
+2006–2018
+Loertzer, Prof. Dr. med. Hagen
+DGU
+2006–2018
+Luboldt, PD Dr. med. Hans-
+DGU
+2006–2018
+Joachim
+Lümmen, Prof. Dr. med. Gerd
+DGU
+2006–2018
+Machtens, Dr. med. Stefan
+DGU
+2006–2018
+Martin, Dr. med. Thomas
+DEGRO
+2006–2018
+Micke, Prof. Dr. med. Oliver
+PRiO
+2016-2018
+Miller, Prof. Dr. med. Kurt
+DGU
+2006–2018
+Moser, Dr. med. Lutz
+DEGRO
+2006–2014
+Mueller-Lisse, Prof. Dr. med.
+DRG
+2006–2018
+Ullrich Gerd
+Ohlmann, PD. Dr. med.
+DGU
+2016-2018
+Carsten
+Otto, Prof. Dr. med. Ullrich
+DGU
+2006–2018
+Palmedo, Prof. Dr. med.
+DGN
+2006–2014
+Holger
+Paradies, Kerstin
+KOK
+2016-2018
+Pelzer, Prof. Dr. med. univ.
+DGU
+2016-2018
+Alexandre
+Pöppel, Dr. Thorsten
+DGN
+2016-2018
+Pummer, Univ.-Prof. Dr. med.
+DGU
+2006–2018
+Karl
+Rahbar, Dr. Kambiz
+DGN
+2016-2018
+Rohde, Dr. med. Volker
+DGU
+2006–2018
+Roth, Prof. Dr. med. Wilfried
+DGP/BDP
+2013–2018
+Rübben, Prof. Dr. med. Dr. h.c.
+DGU
+2006–2018
+Herbert
+Scheidler, PD Dr. med. Jürgen
+DRG
+2017-2018
+Schlemmer, Univ.-Prof. Dr.
+DRG
+2016-2018
+med. Dipl.-Phys. Heinz-Peter
+Schmidt, Dr. Thorsten
+PRiO
+2016-2018
+Schmitz-Dräger, Prof. Dr. med.
+DGU
+2006–2018
+Bernd Jürgen
+Schostak, Prof. Dr. med.
+DGU
+2006–2018
+Martin
+Schrader, Prof. Dr. med. Mark
+DGU
+2006–2018
+Schulz, Prof. Dr. rer. nat.
+DGU
+2006–2009
+Wolfgang Arthur
+Sedlmayer, Prim. Univ.-Prof.
+DEGRO
+2006–2018
+Dr. Felix
+Semjonow, Prof. Dr. med. Axel
+DGU
+2006–2018
+Steuber, Prof. Dr. med.
+DGU
+2006–2009,
+Thomas
+2013–2018
+Stöckle, Prof. Dr. med. Michael
+DGU
+2011–2018
+    Tedsen, Dr. med. Sönke
+DGU
+2006–2009
+Thomas, Dr. med. Christian
+DGU
+2006–2009
+Thüroff, Prof. Dr. med. Joachim
+DGU
+2006–2009
+W.
+Uebel, Dr. med. Til
+DEGAM
+2016-2018
+Vögeli, Prof. Dr. med. Thomas-
+DGU
+2011–2018
+Alexander
+Volkmer, Prof. Dr. med. Björn
+DGP
+2016-2018
+Volkmer, Dr. med. Jens-Peter
+DGU
+2006–2009
+von Amsberg, PD Dr. med.
+DGHO
+2016-2018
+Gunhild
+Wagner, Dr. med. Sigrid
+DGU
+2009–2018
+Walden, Dr. med. Oliver
+DGU
+2006–2009
+Wawroschek, PD Dr. Friedhelm
+DGU
+2016-2018
+Wedding, PD Dr. med. Ulrich
+DGG
+2013–2018
+Weißbach, Prof. Dr. med.
+DGU
+2006–2014
+Lothar
+Wenz, Prof. Dr. med. Frederik
+DEGRO
+2006–2018
+Wernert, Prof. Dr. med.
+DGP
+2006–2014
+Nicolas*
+Wetterauer, Prof. Dr. med.
+DGU
+2006–2009
+Ulrich
+Wiedemann, PD Dr. med.
+DGG
+2013–2018
+Andreas
+Wiegel, Prof. Dr. med. Thomas
+DEGRO
+2006–2018
+Wirth, Prof. Dr. med. Dr. h.c.
+DGU
+2006–2018
+Manfred P.
+Wörmann, Prof. Dr. Bernhardt
+DGHO
+2006–2018
+Wolff, Prof. Dr. med. Johannes
+DGU
+2006–2018
+M.
+Zacharias, Dipl. Ing. Jens-Peter
+BPS
+2006–2018
+Zastrow, Dr. med. Stefan
+DGU
+2013–2018
+Zips, Prof. Dr. med. Daniel
+DEGRO
+2013–2018
+Съкращения: ASORS = Работна Група за Поддръжка на Мерките в Онкологията, Рехабилитацията и Социалната
+медицина (Arbeitsgemeinschaft Supportive Maßnahmen in der Onkologie, Rehabilitation und Sozialmedizin),
+BDP = Федерална Асоциация на Немските Патолози (Bundesverband Deutscher Pathologen e.V)., BDR =
+Асоциация на Работещите в Немската Радиология (Berufsverband der Deutschen Radiologen) , BDU =
+Федерален Съюз на Немските Уролози, BPS = Федерален Съюз за Самопомощ при Рак на Простатата
+(Bundesverband Prostatakrebs Selbsthilfe), BVDST = Професионален Съюз на Немските Лъчетерапевти
+(Berufsverband Deutscher Strahlentherapeuten), DEGAM = Немско Общество за Обща Медицина и Фамилна
+Медицина (Deutsche Gesellschaft für Allgemeinmedizin und Familienmedizin), DEGRO = Немско Общество по
+Радиоонкология (Deutsche Gesellschaft für Radioonkologie), DGG = Немско Общество по Гериатрия (Deutsche
+Gesellschaft für Geriatrie), DGHO = Немско Общество за Хематология и Онкология (Deutsche Gesellschaft für
+Hämatologie und Onkologie), DGN = Немско Общество за Нуклеарна Медицина (Deutsche Gesellschaft für
+Nuklearmedizin), DGP = Немско Общество по Патология (Deutsche Gesellschaft für Pathologie), DGP = Немско
+Общество за Палиативна Медицина (Deutsche Gesellschaft für Palliativmedizin), DGU = Немско Общество по
+Урология (Deutsche Gesellschaft für Urologie), DRG = Немско Общество Рентгенология, KOK = Конференция за
+Онкологични Грижи за Болните и Грижи за Децата. (Konferenz Onkologischer Kranken- und
+Kinderkrankenpflege), PriO = Професионално Общество за Превенция и Интегрална Медицина в Онкологията
+(Arbeitsgemeinschaft Prävention und integrative Medizin in der Onkologie), PSO = Професионално Общество
+за Психоонкология (Arbeitsgemeinschaft für Psychoonkologie).
+* За 2 Актуализация 2014 като член-консултант на групата по ръководството
+За 3 и 4 Актуализации 2016-2018 следните експерти са споменати само като представители за
+конференцията за консенсус.: Baumann, PD Dr. Freerk (ASORS), Micke, Prof. Dr. med. Oliver
+(PRiO), Scheidler, PD Dr. Jürgen (DRG), Zacharias, Dipl. Ing. Jens-Peter (BPS).
+   1.9.3. Участващи организации
+•
+• Немско Общество по Урология (DGU)
+•
+• Немско Общество по Радиоонкология (DEGRO)
+•
+• Немско Общество за Хематология и Онкология (DGHO)
+•
+• Немско Общество за Палиативна Медицина(DGP)
+    •
+• Немско Общество по Патология (DGP)
+•
+• Немско Общество за Нуклеарна Медицина (DGN)
+•
+• Немско Общество Рентгенология (DRG)
+•
+• Немско Общество по Гериатрия (DGG)
+•
+• Немско Общество за Обща Медицина и Фамилна Медицина (DEGAM)
+•
+• Федерален Съюз на Немските Уролози (BDU)
+•
+• Асоциация на Работещите в Немската Радиология (BDR)
+•
+• Професионален Съюз на Немските Лъчетерапевти (BVDST)
+•
+• Федерален Съюз на Немските Патолози (BDP)
+•
+• Федерален Съюз за Самопомощ при Рак на Простатата (BPS)
+•
+• Конференция за Онкологични Грижи за Болните и Грижи за Децата (KOK)
+•
+• Професионално Общество за Поддръжащи Мерки в Онкологията, Рехабилитацията и
+Социалната медицина (ASORS)
+•
+• Професионално Общество за Превенция и Интегрална Медицина в Онкологията (PRiO)
+•
+• Професионално Общество за Психоонкология (PSO)
+1.9.4. Редакция, координация и методична поддръжка
+1 Медицински Център за Качество е Медицината (ÄZQ), Съвместно инициатива на немската камара на
+лекарите и обединението на немските здравни каси.
+a. Създаване - Версия 1 (Christoph Röllig, Christina Niederstadt, Monika Lelgemann, Achim
+Wöckel, Monika Nothacker, Marga Cox, Susanne Weinbrenner, Günter Ollenschläger)
+b. 1 Актуализация - Версия 2 (Monika Nothacker, Thomas Langer, Susanne Weinbrenner, Günter
+Ollenschläger)
+c. 2 Актуализация – Версия 3 (Susanne Schorr, Carmen Khan)
+d. 3 Актуализация - Версия 4 (Corinna Schaefer, Leah Eissing)
+e. 4 Актуализация - Версия 5 (Corinna Schaefer, Leah Eissing)
+2 Професионално обюество за научна медицина (Arbeitsgemeinschaft der Wissenschaftlichen
+Medizinischen Fachgesellschaften), AWMF (Ina Kopp, Monika Nothacker (от 2-та актуализация))
+3 Програма за ръководство по онкология, OL (Markus Follmann, Thomas Langer (от 2-та
+актуализация))
+1.9.5. Участващи външни експерти
+1 Създаване (2006 – 2009, Версия 1):
+a. Behre, Prof. Dr. med. Hermann M.; Глава 3.2.2 Замяна на тестостерона
+b. Koller, Prof. Dr. med. Michael; Глава 10.2 Психосоциална подкрепа
+2 1 Актуализация (2011, Версия 2):
+a. Dubben, PD Dr. rer. nat Hans-Herrmann.; Глава 4.1 PSA и DRU при ранно
+диагностициране/скрининг
+3 2 Актуализация (2014, Версия 3):
+a. Böcking, Prof. Dr. med. Alfred; Глава 5.4 Патоморфологични изследвания
+b. Seitz, Prof. Dr. med. Gerhard; Глава 5.4 Патоморфологични изследвания
+1.9.6. Участие на пациенти
+По време на целия процес на създаването и последващите актуализации, представители (Enders,
+Fiebrandt, Zacharias, Dietz, Carl) на Федералния Съюз за Самопомощ при Рак на Простатата (BPS) са
+участвали в изработването и гласуването на препоръките.
+7
+   1.10. Използвани съкръщения
+Съкръщение
+Обяснение
+АКЛ
+Американски Колеж на Лекарите (ACP)
+АПТ
+Андроген-Потискаща Терапия (AD)
+ПЛ
+Последващо Лечение (AHB)
+ПЗ
+Предно Заден (AP)
+АН
+Активно Наблюдение (AS)
+ПА
+Потискане на Андрогена (AS)
+АДП
+Атипична Дребноацинарна Пролиферация
+(ASAP)
+АУА
+Американска Урологична Асоциация (AUA)
+ФПД
+Федерални Предпазващи Договори (BMV)
+ОИПМ
+Обструкция на Изхода на Пикочния Мехур (BOO)
+БТ
+Брахитерапия (BT)
+ПАБ
+Пълна Андрогенна Блокада (CAB)
+КИВЛ
+Комбинирани Импланти и Външна Лъчетерапия
+(COMB)
+CSI
+Chemical Shift Imaging
+КТ
+Компютърна Томография (CT)
+DCE-MRI
+Динамични контрастно подобрени магнитно
+резонансни изображения
+DES
+Diethylstilbestrol ?
+ДРИ
+Дигитално Ректално Изследване (DRU)
+DWI
+Diffusion-weighted imaging
+ЕАУ
+Европейска Асоциация по Урология (EAU)
+ПЛ
+Перкутанно Лъчелечение (EBRT)
+ИКГО
+Източна Кооперативна Група по Онкология (ECOG)
+ЕК
+Експертен Консенсус (EK)
+ЕКГ
+Електрокардиограма (EKG)
+ЕОИЛК
+Европейска Организация за Изследване и Лечение
+на Рака (EORTC)
+РТДЛВ
+Разширена Тазова Дисекция на Лимфните Възли
+(ePLND)
+FDG
+Fluordesoxyglucose
+сПСА
+Свободни Простато Специфични Антигени (fPSA)
+ДКП
+Добра Клинична Практика (GCP)
+ЗЗО
+Задължително Здравно Осигуряване (GKV)
+ГнОХ
+Гонадотропин-Освобождаващ Хормон (GnRH)
+GS
+Оценка по Gleason (GS)
+Gy
+Съкращение за единицата за енергийна доза за
+облъчване
+ВДР
+Високо Дозова Радиация (HDR)
+HIFU
+Високоинтензивен Фокусиран Ултразвук
+КО
+Коефициент на Опасност (HR)
+ХТ
+Хормонална Терапия (HT)
+ОЗТ
+Оценка на Здравната Технология (HTA)
+ИКИ
+РИнтракавенозна Инжекция (ICI)
+МКРЕИ
+Международна Комисия за Радиационни Единици
+и Измервания (ICRU)
+ИЗУ
+Индивидуални Здравни Услуги (IGeL)
+ИРФ
+Инсулино-подобни Растежни Фактори (IGF)
+РТУИ
+Радиационна Терапия Управлявана от
+Изображения (IGRT)
+РТМИ
+Радиотерапия с Модулиран Интензитет (IMRT)
+МССП
+Международна Скала за Симиптоми на Простатата (IPSS)
+КСБ
+Коронарна Сърдечна Болест (KHK) t
+ДИ
+Доверителен Интервал (KI)
+КМ
+Костни Метастази (KM)
+НДР
+Ниско Дозирана Радиация (LDR)
+ЛХОХ
+Лутенизиращ Хормоно Освобождаващ Хормон
+(LH-RH)
+ЛВ
+Лимфни Възли (LK)
+РВ
+Ръководство
+ДЛВ
+Дисекция на Лимфен Възел (LND)
+НнД
+Ниво на Доказателствата (LoE)
+МРС
+Магнитно Резонансна Спектроскопия (MRS)
+ОМРС
+Образна Магнитно Резонансна Спектроскопия
+(MRSI)
+МРТ
+Магнитно Резонансна Томография (MRT)
+НИЗКК
+Национален Институт за Здравно и Клинично
+Качество (NICE)
+БНИ
+Брой Необходим за Излекуване (NNT)
+СЕ
+Странични Ефекти (NW)
+ПОР
+Програма за Онкологични Ръководства (OL)
+СШ
+Съотношение на Шансовете (OR)
+ОП
+Обща Преживяемост (OS)
+РП
+Рак на Простатата
+PCTCG
+Prostate Cancer Trialists Collaborative Group
+PET/CT
+Позитрон Емисионна Томография / Компютърна
+Томография (PET/CT)
+ИПН
+Интраепителиална Простатна Неоплазия (PIN)
+СТРПБДЧЯ
+Скрининг Тест за Рак на Простата, Белия Дроб,
+Червата и Яйчниците (PLCO)
+ППС
+Положителна Предикативна Стойност (PPW)
+PSA
+Простатно Специфичен Антиген
+PSADT
+PSA-време за Удвояване
+PSMA
+Простатно Специфичен Мембранен Антиген
+КнЖ
+Качество на Живот (QOL)
+ХКТ
+Хаотизирани Контролирани Тестове (RCT)
+РПЕ
+Радикална Просатектомия
+ЛТ
+Лъчетеряпия (RT)
+ОГЛТ
+Онкологична Група по Лъчетерапия (RTOG)
+SEER
+Surveillance Epidemiology and End Results
+SGB
+Книга за Социалния Закон (SGB)
+SIGN
+Шотландска Междуколежна Мрежа за Ръководства
+(SIGN)
+SPECT
+Единична Фотон Емисионна Томография
+ЛТ
+Лъчетерапия (SRT)
+TED
+Теле Диалог
+TRUS
+Трансректално Ултразвуково Изследване (TRUS)
+ВП
+Време до Прогресия (TTP)
+ТУРП
+Трансуретрална Резекция на Простатата (TURP)
+UAW
+Нежелани Лекарствени Ефекти (UAW)
+UICC
+Union Internationale Contre le Cancer
+ИУТ
+Инфекции на Уринарния Тракт (UTI)
+С.за.
+Съмнение за
+VACURG
+Изследователска Група за Урологични
+Изследвания на Ветераните (Veterans
+Administration Cooperative Urology Research
+Group)
+WHO
+Световна Здравна Организация
+WW
+Бдително Изчакване</string>
+    <string name="title_activity_2">Ръководство – кратка версия</string>
+    <string name="title_activity_table">TableActivity</string>
+</resources>
