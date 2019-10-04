@@ -18,7 +18,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        >
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -31,6 +31,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+            android:id="@+id/layout0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -42,6 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="10dp"
                 android:text="Това е ново
 " />
 
@@ -49,6 +51,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -60,6 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="10dp"
                 android:text="1. Информация за тази кратка версия
 " />
 
@@ -67,6 +71,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -78,6 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="10dp"
                 android:text="2.Въведение
 
 " />
@@ -87,6 +93,7 @@
 
 
         <LinearLayout
+            android:id="@+id/layout3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -98,11 +105,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="9"
+                android:paddingLeft="10dp"
                 android:text="3. Епидемиология, рискови фактори, превенция и хранене
 " />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButton3"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 
@@ -112,13 +120,13 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layout2"
+            android:id="@+id/layout3_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-            android:paddingLeft="26dp"
+
             android:visibility="gone">
 
             <TextView
@@ -126,25 +134,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="TextView" />
+                android:paddingLeft="20dp"
+                android:text="3.1TextView" />
 
-            <ImageButton
-                android:id="@+id/imageButton3_1"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-
-                android:background="@drawable/icon_plus" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/layout3"
+            android:id="@+id/layout3_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-            android:paddingLeft="26dp"
+
             android:visibility="gone">
 
             <TextView
@@ -152,7 +155,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="TextView" />
+                android:paddingLeft="20dp"
+                android:text="3.2 TextView" />
 
             <ImageButton
                 android:id="@+id/imageButton3_2"
@@ -162,15 +166,55 @@
                 android:background="@drawable/icon_plus" />
 
         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout3_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
 
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewRow3_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="3.2.1 TextView" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout3_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewRow3_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="3.2.2 TextView" />
+
+
+        </LinearLayout>
         <LinearLayout
             android:id="@+id/layout3_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-            android:paddingLeft="26dp"
+
             android:visibility="gone">
 
             <TextView
@@ -178,16 +222,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="TextView" />
+                android:paddingLeft="20dp"
+                android:text="3.3 TextView" />
 
-            <ImageButton
-                android:id="@+id/imageButton3_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_input_add" />
 
         </LinearLayout>
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -422,15 +463,7 @@
 
     </LinearLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="-3dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
+
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
