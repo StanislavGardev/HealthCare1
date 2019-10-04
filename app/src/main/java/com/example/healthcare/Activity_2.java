@@ -92,9 +92,12 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 else {
                     btn3.setImageResource(R.drawable.icon_plus);
+                    btn3_2.setImageResource(R.drawable.icon_plus);
                     Layout3_1.setVisibility(View.GONE);
                     Layout3_2.setVisibility(View.GONE);
                     Layout3_3.setVisibility(View.GONE);
+                    Layout3_2_1.setVisibility(View.GONE);
+                    Layout3_2_2.setVisibility(View.GONE);
                     openMenu3 =false;
                     openMenu3_2 =false;
                     //   btn1.setVisibility(View.INVISIBLE);
