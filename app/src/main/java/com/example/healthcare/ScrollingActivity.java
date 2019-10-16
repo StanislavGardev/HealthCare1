@@ -8,11 +8,17 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
+import  android.text.Html;
 import android.view.View;
 import android.widget.TextView;
 
 public  class ScrollingActivity extends AppCompatActivity {
+    private final String htmlText = "<body><h1>Heading Text</h1><p>This tutorial " +
+            "explains how to display " +
+            "<strong>HTML </strong>text in android text view.&nbsp;</p>" +
+            "<img src=\"hughjackman.jpg\">" +
+            "<blockquote>Example from <a href=\"www.stacktips.com\">" +
+            "stacktips.com<a></blockquote></body>";
     int textToSet;
      @Override
     protected void onCreate(Bundle savedInstanceState) {

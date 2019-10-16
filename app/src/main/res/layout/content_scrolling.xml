@@ -104,7 +104,9 @@
             android:layout_margin="@dimen/text_margin"
             android:layout_span="2"
             android:text="@string/this_is_new"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:autoLink="web"
+            android:linksClickable="true"/>
 
     </TableRow>
     </TableLayout>

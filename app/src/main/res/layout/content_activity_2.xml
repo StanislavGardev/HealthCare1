@@ -130,12 +130,12 @@
             android:visibility="gone">
 
             <TextView
-                android:id="@+id/textView3_1"
+                android:id="@+id/textViewRow3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
-                android:text="3.1TextView" />
+                android:text="3.1 Епидемиология" />
 
 
         </LinearLayout>
@@ -156,7 +156,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
-                android:text="3.2 TextView" />
+                android:text="3.2 Рискови фактори" />
 
             <ImageButton
                 android:id="@+id/imageButton3_2"
@@ -182,7 +182,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="30dp"
-                android:text="3.2.1 TextView" />
+                android:text="3.2.1 Рискови фактори за появата на рак на простатата" />
 
 
         </LinearLayout>
@@ -203,7 +203,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="30dp"
-                android:text="3.2.2 TextView" />
+                android:text="3.2.2 Заместване на тестостерона" />
 
 
         </LinearLayout>
@@ -223,7 +223,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
-                android:text="3.3 TextView" />
+                android:text="3.3 Превенция и хранене" />
 
 
         </LinearLayout>

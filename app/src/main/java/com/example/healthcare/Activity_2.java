@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class Activity_2 extends AppCompatActivity implements View.OnClickListener{
     ImageButton btn3,btn3_2,btn4,btn5,btn6;
-    TextView row0,row1,row2,row3,row3_1,row3_2,row321,row322,row3_3,row4;
+    TextView row0,row1,row2,row3,row3_1,row3_2, row3_2_1,row3_2_2,row3_3,row4;
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3;
 
     private boolean openMenu3 =false,openMenu3_2 =false;
@@ -30,6 +30,9 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row0=findViewById(R.id.textViewRow0);
         row1=findViewById(R.id.textViewRow1);
         row2=findViewById(R.id.textViewRow2);
+        row3=findViewById(R.id.textViewRow3);
+        row3_1=findViewById(R.id.textViewRow3_1);
+        row3_2_1 =findViewById(R.id.textViewRow3_2_1);
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
@@ -46,6 +49,9 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row0.setOnClickListener(this);
         row1.setOnClickListener(this);
         row2.setOnClickListener(this);
+        row3.setOnClickListener(this);
+        row3_1.setOnClickListener(this);
+        row3_2_1.setOnClickListener(this);
       //  btn2.setOnClickListener(this);
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -77,7 +83,14 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow1:{
                 Intent intent;
                 intent = new Intent(Activity_2.this, ScrollingActivity.class );
-                intent.putExtra("textToLoad",R.string.informationForThosVer);
+                intent.putExtra("textToLoad",R.string.informationForThisVer);
+                startActivity(intent);               // ScrollingActivity.text.setText(R.string.informationForThosVer);
+                break;
+            }
+            case R.id.textViewRow2:{
+                Intent intent;
+                intent = new Intent(Activity_2.this, ScrollingActivity.class );
+                intent.putExtra("textToLoad",R.string.introduction);
                 startActivity(intent);               // ScrollingActivity.text.setText(R.string.informationForThosVer);
                 break;
             }
@@ -130,6 +143,20 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                         Toast.LENGTH_LONG).show();
 
 
+                break;
+            }
+            case R.id.textViewRow3_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, ScrollingActivity.class );
+                intent.putExtra("textToLoad",R.string.epidemiology);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow3_2_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, TableActivity.class );
+
+                startActivity(intent);
                 break;
             }
 
