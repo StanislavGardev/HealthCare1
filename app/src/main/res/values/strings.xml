@@ -1138,8 +1138,8 @@ USA (124,8/100.000), по-специално при афроамериканци
 физически, психологически и духовен характер. По отношение на палиативната медицина, независимо
 от поставената диагноза, ръководството за палиативна медицина на онкологичната програма (S3-
 Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
-(http://leitlinienprogramm-onkologie.de/Palliativmedizin.80.0.html).</string>
-    \n <b>7.6.1 Профилактично/поддържащо третиране на чести нежелани ефекти, свързани с лечението</b>
+(http://leitlinienprogramm-onkologie.de/Palliativmedizin.80.0.html).
+    \n <b>7.6.1 Профилактично/поддържащо третиране на чести нежелани ефекти, свързани с лечението</b></string>
     <string name="title_7_6_1_1"><b>7.6.1.1 Операция</b></string>
     <string name="title_7_6_1_2"><b>7.6.1.2 Лъчева терапияи</b></string>
     <string name="title_7_6_1_3"><b>7.6.1.3 Хормонална терапия</b></string>
@@ -1157,6 +1157,11 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
     <string name="title_10_1"><b>10.1 Разясняване и съвети</b></string>
     <string name="title_10_2"><b>10.2 Психосоциална поддръжка</b></string>
     <string name="title_11"><b>11 Показатели за качеството</b></string>
+
+    <string name="Link_8"><b>&lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/12673715.>[8]&lt;/a>,  &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/12780833>[9]&lt;/a>,  &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/15988645>[10]&lt;/a></b></string>
+    <string name="Link_9"><b>&lt;a href=http://www.dir.bg>9&lt;/a></b></string>
+    <string name="Link">@string/Link_8</string>
+
 
 
 

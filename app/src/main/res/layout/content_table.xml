@@ -319,19 +319,21 @@
                 />
 
             <TextView
-
-                android:id="@+id/column14"
+                android:id="@+id/column1_5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_span="1"
                 android:layout_weight=".1"
                 android:background="@color/cardview_light_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
                 android:padding="1dip"
-                android:text="[8-10]"
+                android:text=""
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="12dp"
+                android:textSize="14sp"
 
 
                 />
