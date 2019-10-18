@@ -26,8 +26,8 @@ public  class ScrollingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrolling);
 
         Intent secondIntent = getIntent();
+        textToSet = secondIntent.getIntExtra("textToLoad",0);
 
-         textToSet = secondIntent.getIntExtra("textToLoad",0);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

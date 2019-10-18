@@ -155,7 +155,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow3_2_1: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, TableActivity.class );
-
+               intent.putExtra("textToLoad1",R.string.title_3_2_2);
+                intent.putExtra("textToLoad4",R.string.Link_8);
                 startActivity(intent);
                 break;
             }

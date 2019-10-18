@@ -38,7 +38,7 @@
             >
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/title"
                 android:layout_weight=".1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -154,7 +154,7 @@
 
             <TextView
 
-                android:id="@+id/column"
+                android:id="@+id/table_0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -171,7 +171,7 @@
 
             <TextView
 
-                android:id="@+id/column9"
+                android:id="@+id/table_1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -188,7 +188,7 @@
 
             <TextView
 
-                android:id="@+id/column6"
+                android:id="@+id/table_2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -206,7 +206,7 @@
 
             <TextView
 
-                android:id="@+id/column7"
+                android:id="@+id/table_3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -224,7 +224,7 @@
 
             <TextView
 
-                android:id="@+id/column8"
+                android:id="@+id/table_4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -248,7 +248,7 @@
 
             <TextView
 
-                android:id="@+id/column10"
+                android:id="@+id/table_1_0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -267,7 +267,7 @@
 
             <TextView
 
-                android:id="@+id/column11"
+                android:id="@+id/table_1_1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -284,7 +284,7 @@
 
             <TextView
 
-                android:id="@+id/column12"
+                android:id="@+id/table_1_2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -302,7 +302,7 @@
 
             <TextView
 
-                android:id="@+id/column13"
+                android:id="@+id/table_1_3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -319,7 +319,7 @@
                 />
 
             <TextView
-                android:id="@+id/column1_5"
+                android:id="@+id/table_2_0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -346,7 +346,7 @@
 
             <TextView
 
-                android:id="@+id/table_3_1"
+                android:id="@+id/table_2_0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -363,7 +363,7 @@
 
             <TextView
 
-                android:id="@+id/table_3_2"
+                android:id="@+id/table_2_1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -380,7 +380,7 @@
 
             <TextView
 
-                android:id="@+id/table_3_3"
+                android:id="@+id/table_2_2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -398,7 +398,7 @@
 
             <TextView
 
-                android:id="@+id/table_3_4"
+                android:id="@+id/table_2_3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -416,7 +416,7 @@
 
             <TextView
 
-                android:id="@+id/table_3_5"
+                android:id="@+id/table_2_4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"

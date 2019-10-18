@@ -1,5 +1,6 @@
 package com.example.healthcare;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -15,13 +16,40 @@ import android.view.View;
 import android.widget.TextView;
 
 public class TableActivity extends AppCompatActivity {
-    TextView links;
+    TextView column0,column1,column2,column3, column4,column1_4,
+    table0,table1,table2,table3,table4,table1_0,table1_1,table1_2,table1_3,table1_4,
+            table2_0,table2_1,table2_2,table2_3,table2_4;
 
-    protected void onCreate(Bundle savedInstanceState) {
+
+        int  text_1_0, text_1_1,text_1_2,text_1_3,text_1_4;
+        protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_table);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Intent secondIntent = getIntent();
+        text_1_1 = secondIntent.getIntExtra("textToLoad1",0);
+        text_1_2 = secondIntent.getIntExtra("textToLoad2",0);
+        text_1_3 = secondIntent.getIntExtra("textToLoad3",0);
+        text_1_4 = secondIntent.getIntExtra("textToLoad4",0);
+        text_1_0 = secondIntent.getIntExtra("textToLoad0",0);
+
+            table0 = findViewById(R.id.table_0);
+            table1 = findViewById(R.id.table_1);
+            table2 = findViewById(R.id.table_2);
+            table3 = findViewById(R.id.table_3);
+            table4 = findViewById(R.id.table_4);
+            table1_0 = findViewById(R.id.table_1_0);
+            table1_1 = findViewById(R.id.table_1_1);
+            table1_2 = findViewById(R.id.table_1_2);
+            table1_3 = findViewById(R.id.table_1_3);
+            table1_4 = findViewById(R.id.table_2_0);
+            table2_0 = findViewById(R.id.table_2_0);
+            table2_1 = findViewById(R.id.table_2_1);
+            table2_2 = findViewById(R.id.table_2_2);
+            table2_3 = findViewById(R.id.table_2_3);
+            table2_4 = findViewById(R.id.table_2_4);
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -34,11 +62,19 @@ public class TableActivity extends AppCompatActivity {
 
 
         });
-        Spanned Link = Html.fromHtml(getString(R.string.Link));
+
+       table2_1.setText(text_1_1);
+
+
+
+        Spanned Link = Html.fromHtml(getString(text_1_4));
+       // Spanned Link = Html.fromHtml(getString(R.string.Link_8));
         Spanned Link1 = Html.fromHtml(getString(R.string.Link_9));
-        links = findViewById(R.id.column1_5);
-        links.setText(Link);
-        links.setMovementMethod(LinkMovementMethod.getInstance());
+
+        table1_4.setText(Link);
+        table2_4.setText(Link);
+        table1_4.setMovementMethod(LinkMovementMethod.getInstance());
+        table2_4.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
 }
