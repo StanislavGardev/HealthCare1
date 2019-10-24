@@ -231,6 +231,50 @@
 
 
         <LinearLayout
+            android:id="@+id/layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="9"
+                android:text="4. Ранна диагностика" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="9"
+                android:text="4.1 PSA и ДРИ при ранното откриване/скрининиг" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -241,8 +285,8 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
-                android:layout_weight="9"
-                android:text="4. Ранна диагностика" />
+                android:layout_weight="8"
+                android:text="Диагностика и стадиране" />
 
             <ImageButton
                 android:id="@+id/imageButton5"
@@ -252,8 +296,341 @@
                 android:background="@drawable/icon_plus" />
 
         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton5_2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_2_2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_3" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton5_4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton5_4_2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_2_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_2_2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_2_3" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_3" />
+
+            <ImageButton
+                android:id="@+id/imageButton5_4_3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_3_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_3_2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_3_3" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_3_4" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout5_4_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_5_4_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton5_4_4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+
 
         <LinearLayout
+            android:id="@+id/layout6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -265,7 +642,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Диагностика и стадиране" />
+                android:text="Терапия на рак на простатата без метастази" />
 
             <ImageButton
                 android:id="@+id/imageButton6"
@@ -275,8 +652,384 @@
                 android:background="@drawable/icon_plus" />
 
         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3" />
+
+            <ImageButton
+                android:id="@+id/imageButton6_3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3_2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3_3" />
+
+            <ImageButton
+                android:id="@+id/imageButton6_3_3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3_3_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3_3_2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3_4" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_3_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_3_5" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton6_4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/layout6_4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6_4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="8"
+            android:text="@string/title_6_4_1" />
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_4_2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_4_3" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_4_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_4_4" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_4_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_4_5" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_4_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_4_6"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_4_6" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_5" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_6"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_6" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout6_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6_7"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:text="@string/title_6_7" />
+
+
+
+        </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -288,34 +1041,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Терапия на рак на простатата без метастази" />
-
-            <ImageButton
-                android:id="@+id/imageButton7"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-
-                android:background="@drawable/icon_plus" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:layout_weight="8"
                 android:text="Диагностика и терапия на рецидивиращ или метастазиращ
 рак на простатата" />
 
             <ImageButton
-                android:id="@+id/imageButton8"
+                android:id="@+id/imageButton7"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 
