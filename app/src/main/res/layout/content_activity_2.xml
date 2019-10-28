@@ -243,6 +243,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="9"
+                android:paddingLeft="10dp"
                 android:text="4. Ранна диагностика" />
 
             <ImageButton
@@ -259,7 +260,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -267,6 +268,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="9"
+                android:paddingLeft="20dp"
                 android:text="4.1 PSA и ДРИ при ранното откриване/скрининиг" />
 
 
@@ -286,7 +288,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Диагностика и стадиране" />
+                android:paddingLeft="10dp"
+                android:text="5. Диагностика и стадиране" />
 
             <ImageButton
                 android:id="@+id/imageButton5"
@@ -301,7 +304,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -309,6 +312,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_5_1" />
 
 
@@ -319,7 +323,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -327,6 +331,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_5_2" />
 
             <ImageButton
@@ -342,7 +347,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -350,6 +355,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_5_1" />
 
 
@@ -360,7 +366,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -368,6 +374,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_5_2_2" />
 
 
@@ -378,7 +385,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -386,6 +393,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_5_3" />
 
 
@@ -396,7 +404,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -404,6 +412,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_5_4" />
 
             <ImageButton
@@ -419,7 +428,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -427,6 +436,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_5_4_1" />
 
 
@@ -437,7 +447,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -445,6 +455,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_5_4_2" />
 
             <ImageButton
@@ -460,7 +471,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -468,6 +479,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_5_4_2_1" />
 
 
@@ -478,7 +490,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -486,6 +498,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_5_4_2_2" />
 
 
@@ -496,7 +509,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -504,6 +517,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_5_4_2_3" />
 
 
@@ -514,7 +528,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -522,6 +536,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_5_4_3" />
 
             <ImageButton
@@ -537,7 +552,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -545,6 +560,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_5_4_3_1" />
 
 
@@ -555,7 +571,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -563,6 +579,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_5_4_3_2" />
 
 
@@ -573,7 +590,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -581,6 +598,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_5_4_3_3" />
 
 
@@ -591,7 +609,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -599,6 +617,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_5_4_3_4" />
 
 
@@ -609,7 +628,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -617,6 +636,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_5_4_4" />
 
             <ImageButton
@@ -642,7 +662,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Терапия на рак на простатата без метастази" />
+                android:paddingLeft="10dp"
+                android:text="6. Терапия на рак на простатата без метастази" />
 
             <ImageButton
                 android:id="@+id/imageButton6"
@@ -657,7 +678,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -665,6 +686,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_6_1" />
 
 
@@ -675,7 +697,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -683,6 +705,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_6_2" />
 
 
@@ -693,7 +716,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -701,6 +724,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_6_3" />
 
             <ImageButton
@@ -716,7 +740,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -724,6 +748,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_3_1" />
 
 
@@ -734,7 +759,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -742,6 +767,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_3_2" />
 
 
@@ -752,7 +778,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -760,6 +786,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_3_3" />
 
             <ImageButton
@@ -775,7 +802,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -783,6 +810,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_6_3_3_1" />
 
 
@@ -793,7 +821,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -801,6 +829,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="40dp"
                 android:text="@string/title_6_3_3_2" />
 
 
@@ -811,7 +840,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -819,6 +848,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_3_4" />
 
 
@@ -829,7 +859,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -837,6 +867,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_3_5" />
 
 
@@ -847,7 +878,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -855,6 +886,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_6_4" />
 
             <ImageButton
@@ -870,7 +902,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryDark"
         android:orientation="horizontal">
 
         <TextView
@@ -878,6 +910,7 @@
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_weight="8"
+            android:paddingLeft="30dp"
             android:text="@string/title_6_4_1" />
 
 
@@ -888,7 +921,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -896,6 +929,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_4_2" />
 
 
@@ -906,7 +940,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -914,6 +948,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_4_3" />
 
 
@@ -924,7 +959,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -932,6 +967,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_4_4" />
 
 
@@ -942,7 +978,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -950,6 +986,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_4_5" />
 
 
@@ -960,7 +997,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -968,6 +1005,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="30dp"
                 android:text="@string/title_6_4_6" />
 
 
@@ -978,7 +1016,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -986,6 +1024,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_6_5" />
 
 
@@ -996,7 +1035,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -1004,6 +1043,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_6_6" />
 
 
@@ -1014,7 +1054,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="horizontal">
 
             <TextView
@@ -1022,6 +1062,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
+                android:paddingLeft="20dp"
                 android:text="@string/title_6_7" />
 
 
@@ -1039,9 +1080,10 @@
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="8"
-                android:text="Диагностика и терапия на рецидивиращ или метастазиращ
+                android:paddingLeft="10dp"
+                android:text="7. Диагностика и терапия на рецидивиращ или метастазиращ
 рак на простатата" />
 
             <ImageButton
@@ -1052,8 +1094,447 @@
                 android:background="@drawable/icon_plus" />
 
         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_7_1" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_7_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton7_2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_2_1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_2_2" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_2_3" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_7_3" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_7_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton7_4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewRow7_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_4_1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_4_2" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+>
+            !--            android:visibility="gone"-->
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_4_3" />
+            <ImageButton
+                android:id="@+id/imageButton7_4_3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_4_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_4_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="40dp"
+                android:text="@string/title_7_4_3_1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_4_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_4_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="40dp"
+                android:text="@string/title_7_4_3_1" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_7_5" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_7_6" />
+
+            <ImageButton
+                android:id="@+id/imageButton7_6"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/textViewRow7_6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_6_1" />
+            <ImageButton
+                android:id="@+id/imageButton7_6_1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+
+                android:background="@drawable/icon_plus" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_6_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_6_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="40dp"
+                android:text="@string/title_7_6_1_1" />
+
+
+        </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout7_6_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_6_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="40dp"
+                android:text="@string/title_7_6_1_2" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_6_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_6_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="40dp"
+                android:text="@string/title_7_6_1_3" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_6_1_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow7_6_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_weight="8"
+                android:paddingLeft="40dp"
+                android:text="@string/title_7_6_1_4" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout7_6_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+                android:id="@+id/textViewRow7_6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="30dp"
+                android:text="@string/title_7_6_2" />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/layout8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -1061,11 +1542,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Рехабилитация" />
+                android:paddingLeft="10dp"
+                android:text="8. Рехабилитация" />
 
             <ImageButton
                 android:id="@+id/imageButton9"
@@ -1077,6 +1559,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -1084,7 +1567,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView10"
+                android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
@@ -1100,6 +1583,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -1107,11 +1591,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Психологически условия на качеството на живот" />
+                android:paddingLeft="10dp"
+                android:text="10. Психологически условия на качеството на живот" />
 
             <ImageButton
                 android:id="@+id/imageButton11"
@@ -1123,6 +1608,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -1130,11 +1616,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView12"
+                android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Показатели за качеството" />
+                android:paddingLeft="10dp"
+                android:text="11. Показатели за качеството" />
 
             <ImageButton
                 android:id="@+id/imageButton12"
@@ -1146,6 +1633,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -1153,11 +1641,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Списък на таблиците" />
+               android:paddingLeft="10dp"
+                android:text="12. Списък на таблиците" />
 
             <ImageButton
                 android:id="@+id/imageButton13"
@@ -1169,6 +1658,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/layout13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
@@ -1176,11 +1666,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/textView13"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Приложения" />
+                android:paddingLeft="10dp"
+                android:text="13. Приложения" />
 
             <ImageButton
                 android:id="@+id/imageButton14"
