@@ -103,7 +103,7 @@
             <TextView
                 android:id="@+id/textViewRow3"
                 android:layout_width="wrap_content"
-                android:layout_height="48dp"
+                android:layout_height="match_parent"
                 android:layout_weight="9"
                 android:paddingLeft="10dp"
                 android:text="3. Епидемиология, рискови фактори, превенция и хранене
@@ -261,7 +261,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textView4_1"
@@ -356,7 +357,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="30dp"
-                android:text="@string/title_5_1" />
+                android:text="@string/title_5_2_1" />
 
 
 
@@ -596,7 +597,7 @@
             <TextView
                 android:id="@+id/textView5_4_3_3"
                 android:layout_width="wrap_content"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="8"
                 android:paddingLeft="40dp"
                 android:text="@string/title_5_4_3_3" />
@@ -639,12 +640,7 @@
                 android:paddingLeft="30dp"
                 android:text="@string/title_5_4_4" />
 
-            <ImageButton
-                android:id="@+id/imageButton5_4_4"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
 
-                android:background="@drawable/icon_plus" />
 
         </LinearLayout>
 

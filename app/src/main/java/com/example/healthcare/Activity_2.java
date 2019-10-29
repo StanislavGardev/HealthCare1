@@ -16,11 +16,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Activity_2 extends AppCompatActivity implements View.OnClickListener{
-    ImageButton btn3,btn3_2,btn4,btn5,btn6;
-    TextView row0,row1,row2,row3,row3_1,row3_2, row3_2_1,row3_2_2,row3_3,row4;
-    LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3;
+    ImageButton btn3,btn3_2,btn4,btn5,btn5_2,btn5_4,btn5_4_2,btn5_4_3,btn6;
 
-    private boolean openMenu3 =false,openMenu3_2 =false;
+    TextView row0,row1,row2,row3,row3_1,row3_2, row3_2_1,row3_2_2,row3_3,row4;
+
+    LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
+            Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
+            Layout5_4_2_2,Layout5_4_2_3,Layout5_4_3,Layout5_4_3_1,Layout5_4_3_2,Layout5_4_3_3,Layout5_4_3_4,Layout5_4_4;
+
+    private boolean openMenu3 =false,openMenu3_2 =false,openMenu3_4 =false,openMenu4 =false,openMenu5 =false,openMenu5_2 =false,
+            openMenu5_4 =false,openMenu5_4_2 =false,openMenu5_4_3 =false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,15 +41,45 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
+        btn4=findViewById(R.id.imageButton4);
+        btn5=findViewById(R.id.imageButton5);
+        btn5_2=findViewById(R.id.imageButton5_2);
+        btn5_4=findViewById(R.id.imageButton5_4);
+        btn5_4_2=findViewById(R.id.imageButton5_4_2);
+        btn5_4_3=findViewById(R.id.imageButton5_4_3);
 
         Layout3_1 =findViewById(R.id.layout3_1);
         Layout3_2 =findViewById(R.id.layout3_2);
         Layout3_2_1 =findViewById(R.id.layout3_2_1);
         Layout3_2_2 =findViewById(R.id.layout3_2_2);
         Layout3_3 =findViewById(R.id.layout3_3);
+        Layout4_1 =findViewById(R.id.layout4_1);
+        Layout5_1 =findViewById(R.id.layout5_1);
+        Layout5_2 =findViewById(R.id.layout5_2);
+        Layout5_2_1 =findViewById(R.id.layout5_2_1);
+        Layout5_2_2 =findViewById(R.id.layout5_2_2);
+        Layout5_3 =findViewById(R.id.layout5_3);
+        Layout5_4 =findViewById(R.id.layout5_4);
+        Layout5_4_1 =findViewById(R.id.layout5_4_1);
+        Layout5_4_2 =findViewById(R.id.layout5_4_2);
+        Layout5_4_2_1 =findViewById(R.id.layout5_4_2_1);
+        Layout5_4_2_2 =findViewById(R.id.layout5_4_2_2);
+        Layout5_4_2_3 =findViewById(R.id.layout5_4_2_3);
+        Layout5_4_3 =findViewById(R.id.layout5_4_3);
+        Layout5_4_3_1 =findViewById(R.id.layout5_4_3_1);
+        Layout5_4_3_2 =findViewById(R.id.layout5_4_3_2);
+        Layout5_4_3_3 =findViewById(R.id.layout5_4_3_3);
+        Layout5_4_3_4 =findViewById(R.id.layout5_4_3_4);
+        Layout5_4_4 =findViewById(R.id.layout5_4_4);
 
         btn3.setOnClickListener(this);
         btn3_2.setOnClickListener(this);
+        btn4.setOnClickListener(this);
+        btn5.setOnClickListener(this);
+        btn5_2.setOnClickListener(this);
+        btn5_4.setOnClickListener(this);
+        btn5_4_2.setOnClickListener(this);
+        btn5_4_3.setOnClickListener(this);
 
         row0.setOnClickListener(this);
         row1.setOnClickListener(this);
@@ -113,11 +148,10 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                     Layout3_2_2.setVisibility(View.GONE);
                     openMenu3 =false;
                     openMenu3_2 =false;
-                    //   btn1.setVisibility(View.INVISIBLE);
+
                 }
 
-                Toast.makeText(getBaseContext(), "Отваря се  подменю",
-                        Toast.LENGTH_LONG).show();
+
 
 
                 break;
@@ -134,15 +168,149 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                     btn3_2.setImageResource(R.drawable.icon_plus);
                     Layout3_2_1.setVisibility(View.GONE);
                     Layout3_2_2.setVisibility(View.GONE);
-
                     openMenu3_2 =false;
-                    //   btn1.setVisibility(View.INVISIBLE);
+                                    }
+                break;
+            }
+            case R.id.imageButton4: {
+                if(!openMenu4){
+                    btn4.setImageResource(R.drawable.icon_minus);
+                    Layout4_1.setVisibility(View.VISIBLE);
+                    openMenu4 =true;
                 }
+                else {
+                    btn4.setImageResource(R.drawable.icon_plus);
+                    Layout4_1.setVisibility(View.GONE);
+                    openMenu4 =false;
+                                }
+                break;
+            }
+            case R.id.imageButton5: {
+                if(!openMenu5){
+                    btn5.setImageResource(R.drawable.icon_minus);
+                    Layout5_1.setVisibility(View.VISIBLE);
+                    Layout5_2.setVisibility(View.VISIBLE);
+                    Layout5_3.setVisibility(View.VISIBLE);
+                    Layout5_4.setVisibility(View.VISIBLE);
+                    openMenu5 =true;
+                }
+                else {
+                    btn5.setImageResource(R.drawable.icon_plus);
+                    btn5_2.setImageResource(R.drawable.icon_plus);
+                    btn5_4.setImageResource(R.drawable.icon_plus);
+                    btn5_4_2.setImageResource(R.drawable.icon_plus);
+                    btn5_4_3.setImageResource(R.drawable.icon_plus);
+                    Layout5_1.setVisibility(View.GONE);
+                    Layout5_2.setVisibility(View.GONE);
+                    Layout5_2_1.setVisibility(View.GONE);
+                    Layout5_2_2.setVisibility(View.GONE);
+                    Layout5_3.setVisibility(View.GONE);
+                    Layout5_4.setVisibility(View.GONE);
+                    Layout5_4_1.setVisibility(View.GONE);
+                    Layout5_4_2.setVisibility(View.GONE);
+                    Layout5_4_2_1.setVisibility(View.GONE);
+                    Layout5_4_2_2.setVisibility(View.GONE);
+                    Layout5_4_2_3.setVisibility(View.GONE);
+                    Layout5_4_3.setVisibility(View.GONE);
+                    Layout5_4_3_1.setVisibility(View.GONE);
+                    Layout5_4_3_2.setVisibility(View.GONE);
+                    Layout5_4_3_3.setVisibility(View.GONE);
+                    Layout5_4_3_4.setVisibility(View.GONE);
+                    Layout5_4_4.setVisibility(View.GONE);
+                    openMenu5 =false;
+                    openMenu5_2 =false;
+                    openMenu5_4 =false;
+                    openMenu5_4_2=false;
+                    openMenu5_4_3 =false;
+                }
+                break;
+            }
+            case R.id.imageButton5_2: {
+                if(!openMenu5_2){
+                    btn5_2.setImageResource(R.drawable.icon_minus);
+                    Layout5_2_1.setVisibility(View.VISIBLE);
+                    Layout5_2_2.setVisibility(View.VISIBLE);
+                    openMenu5_2=true;
+                }
+                else {
+                    btn5_2.setImageResource(R.drawable.icon_plus);
+                    Layout5_2_1.setVisibility(View.GONE);
+                    Layout5_2_2.setVisibility(View.GONE);
+                    openMenu5_2 =false;
+                }
+                break;
+            }
+            case R.id.imageButton5_4: {
+                if(!openMenu5_4){
+                    btn5_4.setImageResource(R.drawable.icon_minus);
+                    Layout5_4_1.setVisibility(View.VISIBLE);
+                    Layout5_4_2.setVisibility(View.VISIBLE);
+                    Layout5_4_3.setVisibility(View.VISIBLE);
+                    Layout5_4_4.setVisibility(View.VISIBLE);
+                    openMenu5_4=true;
+                }
+                else {
+                    btn5_4.setImageResource(R.drawable.icon_plus);
+                    btn5_4_2.setImageResource(R.drawable.icon_plus);
+                    btn5_4_3.setImageResource(R.drawable.icon_plus);
+                    Layout5_4_1.setVisibility(View.GONE);
+                    Layout5_4_2.setVisibility(View.GONE);
+                    Layout5_4_2_1.setVisibility(View.GONE);
+                    Layout5_4_2_2.setVisibility(View.GONE);
+                    Layout5_4_2_3.setVisibility(View.GONE);
+                    Layout5_4_3.setVisibility(View.GONE);
+                    Layout5_4_3_1.setVisibility(View.GONE);
+                    Layout5_4_3_2.setVisibility(View.GONE);
+                    Layout5_4_3_3.setVisibility(View.GONE);
+                    Layout5_4_3_4.setVisibility(View.GONE);
+                    Layout5_4_4.setVisibility(View.GONE);
+                    openMenu5_4 =false;
+                    openMenu5_4_2 =false;
+                    openMenu5_4_3 =false;
+                }
+                break;
+            }
+            case R.id.imageButton5_4_2: {
+                if(!openMenu5_4_2){
+                    btn5_4_2.setImageResource(R.drawable.icon_minus);
+                    Layout5_4_2_1.setVisibility(View.VISIBLE);
+                    Layout5_4_2_2.setVisibility(View.VISIBLE);
+                    Layout5_4_2_3.setVisibility(View.VISIBLE);
 
-                Toast.makeText(getBaseContext(), "Отваря се  подменю",
-                        Toast.LENGTH_LONG).show();
+                    openMenu5_4_2=true;
+                }
+                else {
+                    btn5_4_2.setImageResource(R.drawable.icon_plus);
 
+                    Layout5_4_2_1.setVisibility(View.GONE);
+                    Layout5_4_2_2.setVisibility(View.GONE);
+                    Layout5_4_2_3.setVisibility(View.GONE);
 
+                    openMenu5_4_2 =false;
+
+                }
+                break;
+            }
+            case R.id.imageButton5_4_3: {
+                if(!openMenu5_4_3){
+                    btn5_4_3.setImageResource(R.drawable.icon_minus);
+                    Layout5_4_3_1.setVisibility(View.VISIBLE);
+                    Layout5_4_3_2.setVisibility(View.VISIBLE);
+                    Layout5_4_3_3.setVisibility(View.VISIBLE);
+                    Layout5_4_3_4.setVisibility(View.VISIBLE);
+                    openMenu5_4_3=true;
+                }
+                else {
+                    btn5_4_3.setImageResource(R.drawable.icon_plus);
+
+                    Layout5_4_3_1.setVisibility(View.GONE);
+                    Layout5_4_3_2.setVisibility(View.GONE);
+                    Layout5_4_3_3.setVisibility(View.GONE);
+                    Layout5_4_3_4.setVisibility(View.GONE);
+
+                    openMenu5_4_3 =false;
+
+                }
                 break;
             }
             case R.id.textViewRow3_1: {
