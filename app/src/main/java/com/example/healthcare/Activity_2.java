@@ -29,8 +29,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             Layout7_1, Layout7_2,Layout7_2_1,Layout7_2_2,Layout7_2_3,Layout7_3,Layout7_4,Layout7_4_1,Layout7_4_2,Layout7_4_3,Layout7_4_3_1,Layout7_4_3_2
             ,Layout7_5,Layout7_6,Layout7_6_1,Layout7_6_1_1,Layout7_6_1_2,Layout7_6_1_3,Layout7_6_1_4,Layout7_6_2;
 
-    private boolean openMenu3 =false,openMenu3_2 =false,openMenu3_4 =false,openMenu4 =false,openMenu5 =false,openMenu5_2 =false,
-            openMenu5_4 =false,openMenu5_4_2 =false,openMenu5_4_3 =false;
+    private boolean openMenu3 =false,openMenu3_2 =false,openMenu4 =false,openMenu5 =false,openMenu5_2 =false,
+            openMenu5_4 =false,openMenu5_4_2 =false,openMenu5_4_3 =false,openMenu6 =false,openMenu6_3 =false,openMenu6_3_3 =false,openMenu6_4 =false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -385,6 +385,54 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                     Layout5_4_3_4.setVisibility(View.GONE);
 
                     openMenu5_4_3 =false;
+
+                }
+                break;
+            } case R.id.imageButton6: {
+                if(!openMenu6){
+
+                    btn6.setImageResource(R.drawable.icon_minus);
+
+                    Layout6_1.setVisibility(View.VISIBLE);
+                    Layout6_2.setVisibility(View.VISIBLE);
+                    Layout6_3.setVisibility(View.VISIBLE);
+                    Layout6_4.setVisibility(View.VISIBLE);
+                    Layout6_5.setVisibility(View.VISIBLE);
+                    Layout6_6.setVisibility(View.VISIBLE);
+                    Layout6_7.setVisibility(View.VISIBLE);
+                    openMenu6 =true;
+                }
+                else {
+                    btn6.setImageResource(R.drawable.icon_plus);
+                    btn6_3.setImageResource(R.drawable.icon_plus);
+                    btn6_3_3.setImageResource(R.drawable.icon_plus);
+                    btn6_4.setImageResource(R.drawable.icon_plus);
+
+                    Layout6_1.setVisibility(View.GONE);
+                    Layout6_2.setVisibility(View.GONE);
+                    Layout6_3.setVisibility(View.GONE);
+                    Layout6_3_1.setVisibility(View.GONE);
+                    Layout6_3_2.setVisibility(View.GONE);
+                    Layout6_3_3.setVisibility(View.GONE);
+                    Layout6_3_3_1.setVisibility(View.GONE);
+                    Layout6_3_3_2.setVisibility(View.GONE);
+                    Layout6_3_4.setVisibility(View.GONE);
+                    Layout6_3_5.setVisibility(View.GONE);
+                    Layout6_4.setVisibility(View.GONE);
+                    Layout6_4_1.setVisibility(View.GONE);
+                    Layout6_4_2.setVisibility(View.GONE);
+                    Layout6_4_3.setVisibility(View.GONE);
+                    Layout6_4_4.setVisibility(View.GONE);
+                    Layout6_4_5.setVisibility(View.GONE);
+                    Layout6_4_6.setVisibility(View.GONE);
+                    Layout6_5.setVisibility(View.GONE);
+                    Layout6_6.setVisibility(View.GONE);
+                    Layout6_7.setVisibility(View.GONE);
+
+                    openMenu6 =false;
+                    openMenu6_3 =false;
+                    openMenu6_3_3 =false;
+                    openMenu6_4 =false;
 
                 }
                 break;
