@@ -1252,7 +1252,7 @@
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
 
-            android:visibility="gone">
+           >
 
             <TextView
                 android:id="@+id/textViewRow7_4_1"
@@ -1347,7 +1347,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="40dp"
-                android:text="@string/title_7_4_3_1" />
+                android:text="@string/title_7_4_3_2" />
 
 
         </LinearLayout>
@@ -1546,7 +1546,7 @@
                 android:text="8. Рехабилитация" />
 
             <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/imageButton8"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 
@@ -1570,7 +1570,7 @@
                 android:text="Последващи грижи" />
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/imageButton9"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 
@@ -1595,7 +1595,7 @@
                 android:text="10. Психологически условия на качеството на живот" />
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/imageButton10"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 
@@ -1620,7 +1620,7 @@
                 android:text="11. Показатели за качеството" />
 
             <ImageButton
-                android:id="@+id/imageButton12"
+                android:id="@+id/imageButton11"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 
@@ -1645,7 +1645,7 @@
                 android:text="12. Списък на таблиците" />
 
             <ImageButton
-                android:id="@+id/imageButton13"
+                android:id="@+id/imageButton12"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 
@@ -1670,7 +1670,7 @@
                 android:text="13. Приложения" />
 
             <ImageButton
-                android:id="@+id/imageButton14"
+                android:id="@+id/imageButton13"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
 

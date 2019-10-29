@@ -16,13 +16,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Activity_2 extends AppCompatActivity implements View.OnClickListener{
-    ImageButton btn3,btn3_2,btn4,btn5,btn5_2,btn5_4,btn5_4_2,btn5_4_3,btn6;
+    ImageButton btn3,btn3_2,btn4,btn5,btn5_2,btn5_4,btn5_4_2,btn5_4_3,btn6,
+    btn6_3,btn6_3_3,btn6_4,btn7,btn7_2,btn7_4,btn7_4_3,btn7_6,btn7_6_1,btn8,btn9,btn10,btn11,btn13,btn14;
 
     TextView row0,row1,row2,row3,row3_1,row3_2, row3_2_1,row3_2_2,row3_3,row4;
 
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
             Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
-            Layout5_4_2_2,Layout5_4_2_3,Layout5_4_3,Layout5_4_3_1,Layout5_4_3_2,Layout5_4_3_3,Layout5_4_3_4,Layout5_4_4;
+            Layout5_4_2_2,Layout5_4_2_3,Layout5_4_3,Layout5_4_3_1,Layout5_4_3_2,Layout5_4_3_3,Layout5_4_3_4,Layout5_4_4,
+           Layout6_1, Layout6_2, Layout6_3,Layout6_3_1,Layout6_3_2,Layout6_3_3,Layout6_3_3_1,Layout6_3_3_2,Layout6_3_4,Layout6_3_5,
+            Layout6_4,Layout6_4_1,Layout6_4_2,Layout6_4_3,Layout6_4_4,Layout6_4_5,Layout6_4_6,Layout6_5,Layout6_6,Layout6_7,
+            Layout7_1, Layout7_2,Layout7_2_1,Layout7_2_2,Layout7_2_3,Layout7_3,Layout7_4,Layout7_4_1,Layout7_4_2,Layout7_4_3,Layout7_4_3_1,Layout7_4_3_2
+            ,Layout7_5,Layout7_6,Layout7_6_1,Layout7_6_1_1,Layout7_6_1_2,Layout7_6_1_3,Layout7_6_1_4,Layout7_6_2;
 
     private boolean openMenu3 =false,openMenu3_2 =false,openMenu3_4 =false,openMenu4 =false,openMenu5 =false,openMenu5_2 =false,
             openMenu5_4 =false,openMenu5_4_2 =false,openMenu5_4_3 =false;
@@ -47,6 +52,23 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         btn5_4=findViewById(R.id.imageButton5_4);
         btn5_4_2=findViewById(R.id.imageButton5_4_2);
         btn5_4_3=findViewById(R.id.imageButton5_4_3);
+        btn6=findViewById(R.id.imageButton6);
+        btn6_3=findViewById(R.id.imageButton6_3);
+        btn6_3_3=findViewById(R.id.imageButton6_3_3);
+        btn6_4=findViewById(R.id.imageButton6_4);
+        btn7=findViewById(R.id.imageButton7);
+        btn7_2=findViewById(R.id.imageButton7_2);
+        btn7_4=findViewById(R.id.imageButton7_4);
+        btn7_4_3=findViewById(R.id.imageButton7_4_3);
+        btn7_6=findViewById(R.id.imageButton7_6);
+        btn7_6_1=findViewById(R.id.imageButton7_6_1);
+        btn8=findViewById(R.id.imageButton8);
+        btn9=findViewById(R.id.imageButton9);
+        btn10=findViewById(R.id.imageButton10);
+        btn11=findViewById(R.id.imageButton11);
+        btn13=findViewById(R.id.imageButton13);
+
+
 
         Layout3_1 =findViewById(R.id.layout3_1);
         Layout3_2 =findViewById(R.id.layout3_2);
@@ -71,6 +93,46 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         Layout5_4_3_3 =findViewById(R.id.layout5_4_3_3);
         Layout5_4_3_4 =findViewById(R.id.layout5_4_3_4);
         Layout5_4_4 =findViewById(R.id.layout5_4_4);
+        Layout6_1=findViewById(R.id.layout6_1);
+        Layout6_2=findViewById(R.id.layout6_2);
+        Layout6_3=findViewById(R.id.layout6_3);
+        Layout6_3_1=findViewById(R.id.layout6_3_1);
+        Layout6_3_2=findViewById(R.id.layout6_3_2);
+        Layout6_3_3=findViewById(R.id.layout6_3_3);
+        Layout6_3_3_1=findViewById(R.id.layout6_3_3_1);
+        Layout6_3_3_2=findViewById(R.id.layout6_3_3_2);
+        Layout6_3_4=findViewById(R.id.layout6_3_4);
+        Layout6_3_5=findViewById(R.id.layout6_3_5);
+        Layout6_4 =findViewById(R.id.layout6_4);
+        Layout6_4_1=findViewById(R.id.layout6_4_1);
+        Layout6_4_2=findViewById(R.id.layout6_4_2);
+        Layout6_4_3=findViewById(R.id.layout6_4_3);
+        Layout6_4_4=findViewById(R.id.layout6_4_4);
+        Layout6_4_5=findViewById(R.id.layout6_4_5);
+        Layout6_4_6=findViewById(R.id.layout6_4_6);
+        Layout6_5=findViewById(R.id.layout6_5);
+        Layout6_6=findViewById(R.id.layout6_6);
+        Layout6_7=findViewById(R.id.layout6_7);
+        Layout7_1=findViewById(R.id.layout7_1);
+        Layout7_2=findViewById(R.id.layout7_2);
+         Layout7_2_1=findViewById(R.id.layout7_2_1);
+         Layout7_2_2=findViewById(R.id.layout7_2_2);
+         Layout7_2_3=findViewById(R.id.layout7_2_3);
+         Layout7_3=findViewById(R.id.layout7_3);
+         Layout7_4=findViewById(R.id.layout7_4);
+         Layout7_4_1=findViewById(R.id.layout7_4_1);
+         Layout7_4_2=findViewById(R.id.layout7_4_2);
+         Layout7_4_3=findViewById(R.id.layout7_4_3);
+         Layout7_4_3_1=findViewById(R.id.layout7_4_3_1);
+         Layout7_4_3_2=findViewById(R.id.layout7_4_3_2);
+        Layout7_5=findViewById(R.id.layout7_5);
+        Layout7_6=findViewById(R.id.layout7_6);
+         Layout7_6_1=findViewById(R.id.layout7_6_1);
+        Layout7_6_1_1=findViewById(R.id.layout7_6_1_1);
+        Layout7_6_1_2=findViewById(R.id.layout7_6_1_2);
+        Layout7_6_1_3=findViewById(R.id.layout7_6_1_3);
+        Layout7_6_1_4=findViewById(R.id.layout7_6_1_4);
+        Layout7_6_2=findViewById(R.id.layout7_6_2);
 
         btn3.setOnClickListener(this);
         btn3_2.setOnClickListener(this);
@@ -80,6 +142,20 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         btn5_4.setOnClickListener(this);
         btn5_4_2.setOnClickListener(this);
         btn5_4_3.setOnClickListener(this);
+        btn6.setOnClickListener(this);
+        btn6_3.setOnClickListener(this);
+        btn6_3_3.setOnClickListener(this);
+        btn6_4.setOnClickListener(this);
+        btn7.setOnClickListener(this);
+        btn7_2.setOnClickListener(this);
+        btn7_4.setOnClickListener(this);
+        btn7_6.setOnClickListener(this);
+        btn7_6_1.setOnClickListener(this);
+        btn8.setOnClickListener(this);
+        btn9.setOnClickListener(this);
+        btn10.setOnClickListener(this);
+        btn11.setOnClickListener(this);
+        btn13.setOnClickListener(this);
 
         row0.setOnClickListener(this);
         row1.setOnClickListener(this);
