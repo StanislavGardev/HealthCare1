@@ -1538,7 +1538,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textViewRow8"
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
@@ -1552,6 +1552,60 @@
 
                 android:background="@drawable/icon_plus" />
 
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/layout8_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textViewRow8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:paddingLeft="20dp"
+            android:text="@string/title_8_1" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout8_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow8_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_8_2" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout8_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow8_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_8_3" />
         </LinearLayout>
 
         <LinearLayout
@@ -1567,7 +1621,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:text="Последващи грижи" />
+                android:paddingLeft="10dp"
+                android:text="@string/title_9" />
 
             <ImageButton
                 android:id="@+id/imageButton9"
@@ -1576,6 +1631,60 @@
 
                 android:background="@drawable/icon_plus" />
 
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout9_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_9_1" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout9_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_9_2" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout9_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow9_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_9_3" />
         </LinearLayout>
 
         <LinearLayout
@@ -1602,6 +1711,42 @@
                 android:background="@drawable/icon_plus" />
 
         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow10_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_10_1" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout10_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:id="@+id/textViewRow10_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:paddingLeft="20dp"
+                android:text="@string/title_10_2" />
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/layout11"
@@ -1617,14 +1762,8 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="11. Показатели за качеството" />
+                android:text="@string/title_11" />
 
-            <ImageButton
-                android:id="@+id/imageButton11"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-
-                android:background="@drawable/icon_plus" />
 
         </LinearLayout>
 
@@ -1642,14 +1781,8 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                android:paddingLeft="10dp"
-                android:text="12. Списък на таблиците" />
+                android:text="@string/title_12" />
 
-            <ImageButton
-                android:id="@+id/imageButton12"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-
-                android:background="@drawable/icon_plus" />
 
         </LinearLayout>
 
@@ -1667,14 +1800,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="13. Приложения" />
-
-            <ImageButton
-                android:id="@+id/imageButton13"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-
-                android:background="@drawable/icon_plus" />
+                android:text="@string/title_13" />
 
         </LinearLayout>
 
