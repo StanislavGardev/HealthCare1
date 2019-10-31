@@ -72,6 +72,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
 
 
+
         Layout3_1 =findViewById(R.id.layout3_1);
         Layout3_2 =findViewById(R.id.layout3_2);
         Layout3_2_1 =findViewById(R.id.layout3_2_1);
@@ -171,8 +172,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         btn8.setOnClickListener(this);
         btn9.setOnClickListener(this);
         btn10.setOnClickListener(this);
-        btn11.setOnClickListener(this);
-        btn13.setOnClickListener(this);
+
 
         row0.setOnClickListener(this);
         row1.setOnClickListener(this);
