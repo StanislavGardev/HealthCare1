@@ -46,6 +46,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row3=findViewById(R.id.textViewRow3);
         row3_1=findViewById(R.id.textViewRow3_1);
         row3_2_1 =findViewById(R.id.textViewRow3_2_1);
+        row3_2_2 =findViewById(R.id.textViewRow3_2_2);
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
@@ -180,6 +181,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row3.setOnClickListener(this);
         row3_1.setOnClickListener(this);
         row3_2_1.setOnClickListener(this);
+        row3_2_2.setOnClickListener(this);
       //  btn2.setOnClickListener(this);
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -729,8 +731,27 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow3_2_1: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, TableActivity.class );
-               intent.putExtra("textToLoad1",R.string.title_3_2_2);
-                intent.putExtra("textToLoad4",R.string.Link_8);
+                intent.putExtra("textToLoad_1_0","3.1");
+                 intent.putExtra("textToLoad_1_1",R.string.text3_1);
+                intent.putExtra("textToLoad_1_2","A");
+               intent.putExtra("textToLoad_1_3","4");
+                intent.putExtra("textToLoad_1_4","EK");
+                intent.putExtra("textToLoad_2_0","3.2");
+                intent.putExtra("textToLoad_2_1",R.string.text3_2);
+                intent.putExtra("textToLoad_2_2","A");
+                intent.putExtra("textToLoad_2_3","2++");
+                intent.putExtra("textToLoadLink_2_4",R.string.Link_8);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow3_2_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, TableActivity.class );
+                intent.putExtra("textToLoad_2_0","0");
+                intent.putExtra("textToLoad_2_1",R.string.text3_2_2);
+                intent.putExtra("textToLoad_2_2","A");
+                intent.putExtra("textToLoad_2_3","2++");
+                intent.putExtra("textToLoadLink_2_0",R.string.Link_8);
                 startActivity(intent);
                 break;
             }
