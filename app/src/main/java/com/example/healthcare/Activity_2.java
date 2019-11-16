@@ -20,7 +20,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
     btn6_3,btn6_3_3,btn6_4,btn7,btn7_2,btn7_4,btn7_4_3,btn7_6,btn7_6_1,btn8,btn8_1,btn8_2,btn8_3,btn9,btn9_1,btn9_2,btn9_3
             ,btn10,btn10_1,btn10_2,btn11,btn13,btn14;
 
-    TextView row0,row1,row2,row3,row3_1,row3_2, row3_2_1,row3_2_2,row3_3,row4;
+    TextView row0,row1,row2,row3,row3_1,row3_2, row3_2_1,row3_2_2,row3_3,row4_1;
 
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
             Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
@@ -47,6 +47,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row3_1=findViewById(R.id.textViewRow3_1);
         row3_2_1 =findViewById(R.id.textViewRow3_2_1);
         row3_2_2 =findViewById(R.id.textViewRow3_2_2);
+        row3_3 =findViewById(R.id.textViewRow3_3);
+        row4_1 =findViewById(R.id.textViewRow4_1);
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
@@ -182,6 +184,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row3_1.setOnClickListener(this);
         row3_2_1.setOnClickListener(this);
         row3_2_2.setOnClickListener(this);
+        row3_3.setOnClickListener(this);
+        row4_1.setOnClickListener(this);
       //  btn2.setOnClickListener(this);
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -730,28 +734,42 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             }
             case R.id.textViewRow3_2_1: {
                 Intent intent;
-                intent = new Intent(Activity_2.this, TableActivity.class );
-                intent.putExtra("textToLoad_1_0","3.1");
-                 intent.putExtra("textToLoad_1_1",R.string.text3_1);
-                intent.putExtra("textToLoad_1_2","A");
-               intent.putExtra("textToLoad_1_3","4");
-                intent.putExtra("textToLoad_1_4","EK");
-                intent.putExtra("textToLoad_2_0","3.2");
-                intent.putExtra("textToLoad_2_1",R.string.text3_2);
-                intent.putExtra("textToLoad_2_2","A");
-                intent.putExtra("textToLoad_2_3","2++");
-                intent.putExtra("textToLoadLink_2_4",R.string.Link_8);
-                startActivity(intent);
+                intent = new Intent(Activity_2.this, table_3_2_1.class );
+//                intent.putExtra("textToLoad_1_0","3.1");
+//                 intent.putExtra("textToLoad_1_1",R.string.text3_1);
+//                intent.putExtra("textToLoad_1_2","A");
+//               intent.putExtra("textToLoad_1_3","4");
+//                intent.putExtra("textToLoad_1_4","EK");
+//                intent.putExtra("textToLoad_2_0","3.2");
+//                intent.putExtra("textToLoad_2_1",R.string.text3_2);
+//                intent.putExtra("textToLoad_2_2","A");
+//                intent.putExtra("textToLoad_2_3","2++");
+//                intent.putExtra("textToLoadLink_2_4",R.string.Link_8);
+               startActivity(intent);
                 break;
             }
             case R.id.textViewRow3_2_2: {
                 Intent intent;
-                intent = new Intent(Activity_2.this, TableActivity.class );
-                intent.putExtra("textToLoad_2_0","0");
-                intent.putExtra("textToLoad_2_1",R.string.text3_2_2);
-                intent.putExtra("textToLoad_2_2","A");
-                intent.putExtra("textToLoad_2_3","2++");
-                intent.putExtra("textToLoadLink_2_0",R.string.Link_8);
+                intent = new Intent(Activity_2.this, table_3_2_2.class );
+//                intent.putExtra("textToLoad_2_0","0");
+//                intent.putExtra("textToLoad_2_1",R.string.text3_2_2);
+//                intent.putExtra("textToLoad_2_2","A");
+//                intent.putExtra("textToLoad_2_3","2++");
+//                intent.putExtra("textToLoadLink_2_0",R.string.Link_8);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow3_3: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_3_3.class );
+
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow4_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_4_1.class );
+
                 startActivity(intent);
                 break;
             }
