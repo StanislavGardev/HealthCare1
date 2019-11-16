@@ -10,9 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".table_4_1"
+            android:label="@string/title_activity_table_4_1"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_3_3"
+            android:label="@string/title_activity_table_3_3"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_3_2_2"
+            android:label="@string/title_activity_table_3_2_2"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_3_2_1"
+            android:label="@string/title_activity_table_3_2_1"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
             android:name=".TableActivity"
             android:label="@string/title_activity_table"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity_2"
             android:label="@string/title_activity_2"

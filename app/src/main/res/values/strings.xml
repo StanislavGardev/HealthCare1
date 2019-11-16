@@ -95,7 +95,6 @@
     <string name="TextFirstPage">Интердисциплинарно ръководство на качество S3 за ранно откриване, диагностициране и терапия на различните статии на рак на простатата. </string>
 
 
-
     <string name="this_is_new">Това е ново
 
 \n \n Важни промени при актуализация 2018 на ръководството (Версия 5) Версия  5.1 (Mai 2019). Направени са основно редакторски преработки и промени на номерацията на главите. Глави 1.12 -1.14 стават Глава 2. Глава 7 „Рехабилитация и последваща грижа“ са разделени на глава 8 Rehabilitation и глава 9 „Последваща грижа“. Преработка на информацията за във връзка с кофликта на интереси -  информацията от ръководните принципи е взета, защото е по-подробна.
@@ -115,7 +114,6 @@
 \n i. По време на хормонална терапия би трябвало да се вземат рехабилитационни мерки с включване на  кинезотерапия (виж препоръка 8.8.).
 \n Подробен преглед на промените по препоръките/твърденията в сравнение с предишната версия 3 (2016) се намира в приложение 15.2. на дългата версия.
 </string>
-
 
 
     <string name="informationForThisVer">
@@ -1063,8 +1061,6 @@ USA (124,8/100.000), по-специално при афроамериканци
     </string>
 
 
-
-
     <string name="title_activity_2">Ръководство – кратка версия</string>
     <string name="title_activity_table">Ръководство</string>
     <string name="title_3_2"><b>3.2 Рискови фактори</b></string>
@@ -1163,20 +1159,11 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
 
     <string name="Link_8"><b>&lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/12673715.>[8]&lt;/a>,  &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/12780833>[9]&lt;/a>,  &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/15988645>[10]&lt;/a></b></string>
     <string name="Link_9"><b>&lt;a href=http://www.dir.bg>9&lt;/a></b></string>
+    <string name="Link_11"><b>&lt;a href=http://www.dir.bg>9&lt;/a></b></string>
     <string name="Link">@string/Link_8</string>
 
 
-
-
-
-
-
-
-
     <string name="text3_1">Мъжете трябва да бъдат информирани, че възрастта е най-важния рисков фактор за появата на рак на простатата. (За последствията за раното откриване и скрининг вижте глава 4.1 „PSA и DRU в ранното откриване/ Скрининг“).</string>
-
-
-
 
 
     <string name="text3_2">Мъжете, чийто брат или/и баща е/е бил болен от рак на простатата имат двойно по- голям риск през живота си да се разболеят от рак на простатата..</string>
@@ -1273,7 +1260,6 @@ PSA (без промяна на начина на
 измерване).</string>
 
 
-
     <string name="text4_1">Мъжете, които са на поне 45 години
 и имат очакване за
 продължителност на живота поне
@@ -1350,9 +1336,6 @@ b. В допълнение на MRT
 насочената биопсия би трябвало
 едновременно да се направи и
 систематична биопсия.</string>
-
-
-
 
 
     vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
@@ -1855,7 +1838,6 @@ Grade-PIN“) останалият материал
 откриване, диагноза и терапия на рака на
 простатата. Тук могат да се ползват
 Charlson-Score и ASA-класификациите.</string>
-
 
 
     <string name="text6_7">Пациенти с локално ограничен рак на простатата, които подлежат на
@@ -2485,10 +2467,6 @@ GnRH-Blocker)или с подоходящия
 заедно с орхиектомия само за 150
 мг бикалутамид (Bicalutamid)
 дневно.</string>
-
-
-
-
 
 
     <string name="text7">Номер</string>
@@ -3142,9 +3120,6 @@ b. На пациентите трябва да
 палиативно обучен персонал).</string>
 
 
-
-
-
     <string name="text7_62">a. Медикаментозното
 лечение на туморните болки трябва
 да става на базата на поетапния
@@ -3390,16 +3365,16 @@ https://www.prostatakrebs-bps.de/
 простатата.</string>
 
 
-
-
-
-
-
-
-
     <string name="column_1_title"><b><i>Номер</i></b></string>
     <string name="column_2_title"><b><i>Препоръка/твърдение</i></b></string>
     <string name="column_3_title"><b><i>Ниво на препоръка</i></b></string>
     <string name="column_4_title"><b><i>Ниво на доказателства</i></b></string>
     <string name="column_5_title"><b><i>Източник</i></b></string>
+    <string name="title_activity_table3_2_1">table3_2_1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_table_3_2_1">Рискови фактори</string>
+    <string name="title_activity_table_3_2_2">Рискови фактори</string>
+    <string name="title_activity_table_3_3">Превенция и хранене</string>
+    <string name="title_activity_table_4_1">table_4_1</string>
 </resources>
