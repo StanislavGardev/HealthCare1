@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".table_3_3"
-    tools:showIn="@layout/activity_table_3_3">
+    tools:context=".table_5_1"
+    tools:showIn="@layout/activity_table_5_1">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,14 +38,13 @@
 
                 <TextView
                     android:id="@+id/title"
-                    android:layout_weight=".1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/title_3_3"
-                    android:padding="5dp"
-                    android:textSize="18sp"
+                    android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
-                    />
+                    android:padding="5dp"
+                    android:text="@string/title_5_1"
+                    android:textSize="18sp" />
             </TableRow>
 
             <TableRow
@@ -67,6 +66,7 @@
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:layout_width="0dp"
+
                     android:padding="1dip"
                     android:text="@string/column_1_title"
                     android:textColor="#000"
@@ -90,6 +90,8 @@
                     android:textSize="14sp"
                     android:layout_margin="1dp"
                     android:layout_span="1"
+
+
                     />
                 <TextView
 
@@ -104,6 +106,8 @@
                     android:layout_margin="1dp"
                     android:layout_span="1"
                     android:background="@color/cardview_light_background"
+
+
                     />
                 <TextView
 
@@ -118,8 +122,11 @@
                     android:textSize="12sp"
                     android:layout_margin="1dp"
                     android:layout_span="1"
+
+
                     />
                 <TextView
+
                     android:id="@+id/column5"
                     android:layout_weight=".1"
                     android:layout_width="0dp"
@@ -152,7 +159,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="3.5"
+                    android:text="5.1"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
@@ -169,9 +176,10 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text3_3_1"
+                    android:text="@string/text5_1_1"
                     android:textColor="#000"
                     android:textSize="14sp"
+
 
                     />
 
@@ -185,10 +193,10 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="A"
+                    android:text="ST"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
+                    android:textSize="12dp"
 
 
                     />
@@ -203,10 +211,11 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="4"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
+
+
                     />
 
                 <TextView
@@ -223,6 +232,8 @@
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
+
+
                     />
 
             </TableRow>
@@ -241,10 +252,12 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="3.6"
+                    android:text="5.2"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
+
+
                     />
 
                 <TextView
@@ -257,13 +270,15 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text3_3_2"
+                    android:text="@string/text5_1_2"
                     android:textColor="#000"
                     android:textSize="14sp"
+
 
                     />
 
                 <TextView
+
                     android:id="@+id/table_1_2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -272,10 +287,11 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="ST"
+                    android:text="A,A,A"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
+
 
                     />
 
@@ -289,10 +305,11 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="4"
+                    android:text="2+,4,4"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
+
 
                     />
 
@@ -308,7 +325,7 @@
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
-                    android:text="[20-23]"
+                    android:text="[35-40]"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
@@ -324,76 +341,389 @@
                 >
 
                 <TextView
-                    android:layout_column="0"
                     android:id="@+id/table_2_0"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_column="0"
                     android:layout_margin="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:textColor="#000"
-                    android:textSize="12sp"
+                    android:text="5.3"
                     android:textAlignment="center"
+                    android:textColor="#000"
 
-                    />
+                    android:textSize="12sp" />
 
                 <TextView
-                    android:layout_column="1"
                     android:id="@+id/table_2_1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_column="1"
                     android:layout_margin="1dp"
                     android:layout_span="1"
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-
+                    android:text="@string/text5_1_3"
                     android:textColor="#000"
-                    android:textSize="14sp"
-
-
-                    />
+                    android:textSize="14sp" />
 
                 <TextView
-                    android:layout_column="2"
                     android:id="@+id/table_2_2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_column="2"
                     android:layout_margin="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
 
-                    android:textColor="#000"
-                    android:textSize="12dp"
+                    android:text="A "
                     android:textAlignment="center"
-
-
-                    />
+                    android:textColor="#000"
+                    android:textSize="12sp" />
 
                 <TextView
-                    android:layout_column="3"
                     android:id="@+id/table_2_3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_column="3"
                     android:layout_margin="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:textColor="#000"
-                    android:textSize="12sp"
+                    android:text="1++"
                     android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
 
+                <TextView
+                    android:id="@+id/table_2_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="[36,40-42]"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
 
-                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2,3,4"
+                android:collapseColumns="0,1,2,3,4"
+                >
+
+                <TextView
+                    android:id="@+id/table_3_0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="5.4"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/table_3_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".4"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="@string/text5_1_4"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/table_3_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="A"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/table_3_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="1+"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/table_3_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="43]"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2,3,4"
+                android:collapseColumns="0,1,2,3,4"
+                >
+
+                <TextView
+                    android:id="@+id/table_4_0"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="5.5"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/table_4_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".4"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="@string/text5_1_5"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/table_4_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="B"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/table_4_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="1++"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/table_4_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="[44-46]"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2,3,4"
+                android:collapseColumns="0,1,2,3,4"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="5.6"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".4"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="@string/text5_1_6"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="A"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="2+"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/table_4_5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="[47-49]"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2,3,4"
+                android:collapseColumns="0,1,2,3,4"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="5.7"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".4"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="@string/text5_1_7"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
 
                 <TextView
                     android:layout_column="4"
-                    android:id="@+id/table_2_4"
+                    android:id="@+id/table_4_6"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -404,12 +734,9 @@
                     android:textColor="#000"
                     android:textSize="12sp"
                     android:textAlignment="center"
-
-
                     />
 
             </TableRow>
-
             <TableRow
                 android:id="@+id/Line"
                 android:layout_width="match_parent"
@@ -417,7 +744,6 @@
                 android:layout_margin="2dp"
                 android:stretchColumns="0"
                 >
-
                 <TextView
                     android:id="@+id/textViewLine"
                     android:layout_weight=".1"
@@ -431,10 +757,6 @@
                     />
             </TableRow>
         </TableLayout>
-
-
-
-
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
