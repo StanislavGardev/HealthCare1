@@ -2,25 +2,24 @@ package com.example.healthcare;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class Activity_2 extends AppCompatActivity implements View.OnClickListener{
     ImageButton btn3,btn3_2,btn4,btn5,btn5_2,btn5_4,btn5_4_2,btn5_4_3,btn6,
     btn6_3,btn6_3_3,btn6_4,btn7,btn7_2,btn7_4,btn7_4_3,btn7_6,btn7_6_1,btn8,btn8_1,btn8_2,btn8_3,btn9,btn9_1,btn9_2,btn9_3
             ,btn10,btn10_1,btn10_2,btn11,btn13,btn14;
 
-    TextView row0,row1,row2,row3,row3_1,row3_2, row3_2_1,row3_2_2,row3_3,row4_1,row5_1,row5_2;
+    TextView row0, row1, row2, row3, row3_1, row3_2, row3_2_1, row3_2_2, row3_3, row4_1, row5_1, row5_2, row5_2_1, row5_2_2, row5_3,
+            row5_4, row5_4_1, row5_4_2, row5_4_2_1, row5_4_2_2, row5_4_2_3, row5_4_3, row5_4_3_1, row5_4_3_2, row5_4_3_3, row5_4_3_4, row5_4_4, row6_1;
 
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
             Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
@@ -51,6 +50,22 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row4_1 =findViewById(R.id.textViewRow4_1);
         row5_1 =findViewById(R.id.textViewRow5_1);
         row5_2 =findViewById(R.id.textViewRow5_2);
+        row5_2_1 = findViewById(R.id.textViewRow5_2_1);
+        row5_2_2 = findViewById(R.id.textViewRow5_2_2);
+        row5_3 = findViewById(R.id.textViewRow5_3);
+        row5_4 = findViewById(R.id.textViewRow5_4);
+        row5_4_1 = findViewById(R.id.textViewRow5_4_1);
+        row5_4_2 = findViewById(R.id.textViewRow5_4_2);
+        row5_4_2_1 = findViewById(R.id.textViewRow5_4_2_1);
+        row5_4_2_2 = findViewById(R.id.textViewRow5_4_2_2);
+        row5_4_2_3 = findViewById(R.id.textViewRow5_4_2_3);
+        row5_4_3 = findViewById(R.id.textViewRow5_4_3);
+        row5_4_3_1 = findViewById(R.id.textViewRow5_4_3_1);
+        row5_4_3_2 = findViewById(R.id.textViewRow5_4_3_2);
+        row5_4_3_3 = findViewById(R.id.textViewRow5_4_3_3);
+        row5_4_3_4 = findViewById(R.id.textViewRow5_4_3_4);
+        row5_4_4 = findViewById(R.id.textViewRow5_4_4);
+        row6_1 = findViewById(R.id.textViewRow6_1);
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
@@ -75,86 +90,83 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         btn10=findViewById(R.id.imageButton10);
 
 
-
-
-
-        Layout3_1 =findViewById(R.id.layout3_1);
-        Layout3_2 =findViewById(R.id.layout3_2);
-        Layout3_2_1 =findViewById(R.id.layout3_2_1);
-        Layout3_2_2 =findViewById(R.id.layout3_2_2);
-        Layout3_3 =findViewById(R.id.layout3_3);
-        Layout4_1 =findViewById(R.id.layout4_1);
-        Layout5_1 =findViewById(R.id.layout5_1);
-        Layout5_2 =findViewById(R.id.layout5_2);
-        Layout5_2_1 =findViewById(R.id.layout5_2_1);
-        Layout5_2_2 =findViewById(R.id.layout5_2_2);
-        Layout5_3 =findViewById(R.id.layout5_3);
-        Layout5_4 =findViewById(R.id.layout5_4);
-        Layout5_4_1 =findViewById(R.id.layout5_4_1);
-        Layout5_4_2 =findViewById(R.id.layout5_4_2);
-        Layout5_4_2_1 =findViewById(R.id.layout5_4_2_1);
-        Layout5_4_2_2 =findViewById(R.id.layout5_4_2_2);
-        Layout5_4_2_3 =findViewById(R.id.layout5_4_2_3);
-        Layout5_4_3 =findViewById(R.id.layout5_4_3);
-        Layout5_4_3_1 =findViewById(R.id.layout5_4_3_1);
-        Layout5_4_3_2 =findViewById(R.id.layout5_4_3_2);
-        Layout5_4_3_3 =findViewById(R.id.layout5_4_3_3);
-        Layout5_4_3_4 =findViewById(R.id.layout5_4_3_4);
-        Layout5_4_4 =findViewById(R.id.layout5_4_4);
-        Layout6_1=findViewById(R.id.layout6_1);
-        Layout6_2=findViewById(R.id.layout6_2);
-        Layout6_3=findViewById(R.id.layout6_3);
-        Layout6_3_1=findViewById(R.id.layout6_3_1);
-        Layout6_3_2=findViewById(R.id.layout6_3_2);
-        Layout6_3_3=findViewById(R.id.layout6_3_3);
-        Layout6_3_3_1=findViewById(R.id.layout6_3_3_1);
-        Layout6_3_3_2=findViewById(R.id.layout6_3_3_2);
-        Layout6_3_4=findViewById(R.id.layout6_3_4);
-        Layout6_3_5=findViewById(R.id.layout6_3_5);
-        Layout6_4 =findViewById(R.id.layout6_4);
-        Layout6_4_1=findViewById(R.id.layout6_4_1);
-        Layout6_4_2=findViewById(R.id.layout6_4_2);
-        Layout6_4_3=findViewById(R.id.layout6_4_3);
-        Layout6_4_4=findViewById(R.id.layout6_4_4);
-        Layout6_4_5=findViewById(R.id.layout6_4_5);
-        Layout6_4_6=findViewById(R.id.layout6_4_6);
-        Layout6_5=findViewById(R.id.layout6_5);
-        Layout6_6=findViewById(R.id.layout6_6);
-        Layout6_7=findViewById(R.id.layout6_7);
-        Layout7_1=findViewById(R.id.layout7_1);
-        Layout7_2=findViewById(R.id.layout7_2);
-         Layout7_2_1=findViewById(R.id.layout7_2_1);
-         Layout7_2_2=findViewById(R.id.layout7_2_2);
-         Layout7_2_3=findViewById(R.id.layout7_2_3);
-         Layout7_3=findViewById(R.id.layout7_3);
-         Layout7_4=findViewById(R.id.layout7_4);
-         Layout7_4_1=findViewById(R.id.layout7_4_1);
-         Layout7_4_2=findViewById(R.id.layout7_4_2);
-         Layout7_4_3=findViewById(R.id.layout7_4_3);
-         Layout7_4_3_1=findViewById(R.id.layout7_4_3_1);
-         Layout7_4_3_2=findViewById(R.id.layout7_4_3_2);
-        Layout7_5=findViewById(R.id.layout7_5);
-        Layout7_6=findViewById(R.id.layout7_6);
-         Layout7_6_1=findViewById(R.id.layout7_6_1);
-        Layout7_6_1_1=findViewById(R.id.layout7_6_1_1);
-        Layout7_6_1_2=findViewById(R.id.layout7_6_1_2);
-        Layout7_6_1_3=findViewById(R.id.layout7_6_1_3);
-        Layout7_6_1_4=findViewById(R.id.layout7_6_1_4);
-        Layout7_6_2=findViewById(R.id.layout7_6_2);
-        Layout8=findViewById(R.id.layout8);
-        Layout8_1=findViewById(R.id.layout8_1);
-        Layout8_2=findViewById(R.id.layout8_2);
-        Layout8_3=findViewById(R.id.layout8_3);
-        Layout9=findViewById(R.id.layout9);
-        Layout9_1=findViewById(R.id.layout9_1);
-        Layout9_2=findViewById(R.id.layout9_2);
-        Layout9_3=findViewById(R.id.layout9_3);
-        Layout10=findViewById(R.id.layout10);
-        Layout10_1=findViewById(R.id.layout10_1);
-        Layout10_2=findViewById(R.id.layout10_2);
-        Layout11=findViewById(R.id.layout11);
-        Layout12=findViewById(R.id.layout12);
-        Layout13=findViewById(R.id.layout13);
+        Layout3_1 = findViewById(R.id.layout3_1);
+        Layout3_2 = findViewById(R.id.layout3_2);
+        Layout3_2_1 = findViewById(R.id.layout3_2_1);
+        Layout3_2_2 = findViewById(R.id.layout3_2_2);
+        Layout3_3 = findViewById(R.id.layout3_3);
+        Layout4_1 = findViewById(R.id.layout4_1);
+        Layout5_1 = findViewById(R.id.layout5_1);
+        Layout5_2 = findViewById(R.id.layout5_2);
+        Layout5_2_1 = findViewById(R.id.layout5_2_1);
+        Layout5_2_2 = findViewById(R.id.layout5_2_2);
+        Layout5_3 = findViewById(R.id.layout5_3);
+        Layout5_4 = findViewById(R.id.layout5_4);
+        Layout5_4_1 = findViewById(R.id.layout5_4_1);
+        Layout5_4_2 = findViewById(R.id.layout5_4_2);
+        Layout5_4_2_1 = findViewById(R.id.layout5_4_2_1);
+        Layout5_4_2_2 = findViewById(R.id.layout5_4_2_2);
+        Layout5_4_2_3 = findViewById(R.id.layout5_4_2_3);
+        Layout5_4_3 = findViewById(R.id.layout5_4_3);
+        Layout5_4_3_1 = findViewById(R.id.layout5_4_3_1);
+        Layout5_4_3_2 = findViewById(R.id.layout5_4_3_2);
+        Layout5_4_3_3 = findViewById(R.id.layout5_4_3_3);
+        Layout5_4_3_4 = findViewById(R.id.layout5_4_3_4);
+        Layout5_4_4 = findViewById(R.id.layout5_4_4);
+        Layout6_1 = findViewById(R.id.layout6_1);
+        Layout6_2 = findViewById(R.id.layout6_2);
+        Layout6_3 = findViewById(R.id.layout6_3);
+        Layout6_3_1 = findViewById(R.id.layout6_3_1);
+        Layout6_3_2 = findViewById(R.id.layout6_3_2);
+        Layout6_3_3 = findViewById(R.id.layout6_3_3);
+        Layout6_3_3_1 = findViewById(R.id.layout6_3_3_1);
+        Layout6_3_3_2 = findViewById(R.id.layout6_3_3_2);
+        Layout6_3_4 = findViewById(R.id.layout6_3_4);
+        Layout6_3_5 = findViewById(R.id.layout6_3_5);
+        Layout6_4 = findViewById(R.id.layout6_4);
+        Layout6_4_1 = findViewById(R.id.layout6_4_1);
+        Layout6_4_2 = findViewById(R.id.layout6_4_2);
+        Layout6_4_3 = findViewById(R.id.layout6_4_3);
+        Layout6_4_4 = findViewById(R.id.layout6_4_4);
+        Layout6_4_5 = findViewById(R.id.layout6_4_5);
+        Layout6_4_6 = findViewById(R.id.layout6_4_6);
+        Layout6_5 = findViewById(R.id.layout6_5);
+        Layout6_6 = findViewById(R.id.layout6_6);
+        Layout6_7 = findViewById(R.id.layout6_7);
+        Layout7_1 = findViewById(R.id.layout7_1);
+        Layout7_2 = findViewById(R.id.layout7_2);
+        Layout7_2_1 = findViewById(R.id.layout7_2_1);
+        Layout7_2_2 = findViewById(R.id.layout7_2_2);
+        Layout7_2_3 = findViewById(R.id.layout7_2_3);
+        Layout7_3 = findViewById(R.id.layout7_3);
+        Layout7_4 = findViewById(R.id.layout7_4);
+        Layout7_4_1 = findViewById(R.id.layout7_4_1);
+        Layout7_4_2 = findViewById(R.id.layout7_4_2);
+        Layout7_4_3 = findViewById(R.id.layout7_4_3);
+        Layout7_4_3_1 = findViewById(R.id.layout7_4_3_1);
+        Layout7_4_3_2 = findViewById(R.id.layout7_4_3_2);
+        Layout7_5 = findViewById(R.id.layout7_5);
+        Layout7_6 = findViewById(R.id.layout7_6);
+        Layout7_6_1 = findViewById(R.id.layout7_6_1);
+        Layout7_6_1_1 = findViewById(R.id.layout7_6_1_1);
+        Layout7_6_1_2 = findViewById(R.id.layout7_6_1_2);
+        Layout7_6_1_3 = findViewById(R.id.layout7_6_1_3);
+        Layout7_6_1_4 = findViewById(R.id.layout7_6_1_4);
+        Layout7_6_2 = findViewById(R.id.layout7_6_2);
+        Layout8 = findViewById(R.id.layout8);
+        Layout8_1 = findViewById(R.id.layout8_1);
+        Layout8_2 = findViewById(R.id.layout8_2);
+        Layout8_3 = findViewById(R.id.layout8_3);
+        Layout9 = findViewById(R.id.layout9);
+        Layout9_1 = findViewById(R.id.layout9_1);
+        Layout9_2 = findViewById(R.id.layout9_2);
+        Layout9_3 = findViewById(R.id.layout9_3);
+        Layout10 = findViewById(R.id.layout10);
+        Layout10_1 = findViewById(R.id.layout10_1);
+        Layout10_2 = findViewById(R.id.layout10_2);
+        Layout11 = findViewById(R.id.layout11);
+        Layout12 = findViewById(R.id.layout12);
+        Layout13 = findViewById(R.id.layout13);
 
         btn3.setOnClickListener(this);
         btn3_2.setOnClickListener(this);
@@ -190,7 +202,22 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row4_1.setOnClickListener(this);
         row5_1.setOnClickListener(this);
         row5_2.setOnClickListener(this);
-      //  btn2.setOnClickListener(this);
+        row5_2_1.setOnClickListener(this);
+        row5_2_2.setOnClickListener(this);
+        row5_3.setOnClickListener(this);
+        row5_4.setOnClickListener(this);
+        row5_4_1.setOnClickListener(this);
+        row5_4_2.setOnClickListener(this);
+        row5_4_2_1.setOnClickListener(this);
+        row5_4_2_2.setOnClickListener(this);
+        row5_4_2_3.setOnClickListener(this);
+        row5_4_3.setOnClickListener(this);
+        row5_4_3_1.setOnClickListener(this);
+        row5_4_3_2.setOnClickListener(this);
+        row5_4_3_3.setOnClickListener(this);
+        row5_4_3_4.setOnClickListener(this);
+        row5_4_4.setOnClickListener(this);
+
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -785,6 +812,78 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow5_2: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_5_2.class );
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_2_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_2_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_2_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_2_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_3: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_3.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_2_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_2_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_2_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_2_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_2_3: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_2_3.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_3_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_3_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_3_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_3_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_3_3: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_3_3.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_3_4: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_3_4.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow5_4_4: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_5_4_4.class);
                 startActivity(intent);
                 break;
             }
