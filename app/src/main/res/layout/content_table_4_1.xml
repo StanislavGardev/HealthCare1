@@ -199,7 +199,7 @@
 
                 <TextView
 
-                    android:id="@+id/table_4"
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -284,7 +284,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/table_1_4"
+
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -370,7 +370,6 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/table_2_4"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"

@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".table_6_3_1"
+            android:label="@string/title_activity_table_6_3_1"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_6_2"
+            android:label="@string/title_activity_table_6_2"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_6_1"
+            android:label="@string/title_activity_table_6_1"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
             android:name=".table_5_4_4"
             android:label="@string/title_activity_table_5_4_4"
             android:parentActivityName=".Activity_2"

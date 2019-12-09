@@ -19,7 +19,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             ,btn10,btn10_1,btn10_2,btn11,btn13,btn14;
 
     TextView row0, row1, row2, row3, row3_1, row3_2, row3_2_1, row3_2_2, row3_3, row4_1, row5_1, row5_2, row5_2_1, row5_2_2, row5_3,
-            row5_4, row5_4_1, row5_4_2, row5_4_2_1, row5_4_2_2, row5_4_2_3, row5_4_3, row5_4_3_1, row5_4_3_2, row5_4_3_3, row5_4_3_4, row5_4_4, row6_1;
+            row5_4, row5_4_1, row5_4_2, row5_4_2_1, row5_4_2_2, row5_4_2_3, row5_4_3, row5_4_3_1, row5_4_3_2, row5_4_3_3, row5_4_3_4, row5_4_4, row6_1,
+            row6_2, row6_3_1, row6_3_2, row6_3_3, row6_3_4, row6_3_5, row6_4_1, row6_4_2, row6_4_3, row6_4_4, row6_4_5, row6_4_6, row6_5, row6_6, row6_7;
 
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
             Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
@@ -66,6 +67,21 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row5_4_3_4 = findViewById(R.id.textViewRow5_4_3_4);
         row5_4_4 = findViewById(R.id.textViewRow5_4_4);
         row6_1 = findViewById(R.id.textViewRow6_1);
+        row6_2 = findViewById(R.id.textViewRow6_2);
+        row6_3_1 = findViewById(R.id.textViewRow6_3_1);
+        row6_3_2 = findViewById(R.id.textViewRow6_3_2);
+        row6_3_3 = findViewById(R.id.textViewRow6_3_3);
+        row6_3_4 = findViewById(R.id.textViewRow6_3_4);
+        row6_3_5 = findViewById(R.id.textViewRow6_3_5);
+        row6_4_1 = findViewById(R.id.textViewRow6_4_1);
+        row6_4_2 = findViewById(R.id.textViewRow6_4_2);
+        row6_4_3 = findViewById(R.id.textViewRow6_4_3);
+        row6_4_4 = findViewById(R.id.textViewRow6_4_4);
+        row6_4_5 = findViewById(R.id.textViewRow6_4_5);
+        row6_4_6 = findViewById(R.id.textViewRow6_4_6);
+        row6_5 = findViewById(R.id.textViewRow6_5);
+        row6_6 = findViewById(R.id.textViewRow6_6);
+        row6_7 = findViewById(R.id.textViewRow6_7);
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
@@ -217,6 +233,23 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row5_4_3_3.setOnClickListener(this);
         row5_4_3_4.setOnClickListener(this);
         row5_4_4.setOnClickListener(this);
+        row6_1.setOnClickListener(this);
+
+        row6_2.setOnClickListener(this);
+        row6_3_1.setOnClickListener(this);
+        row6_3_2.setOnClickListener(this);
+        row6_3_3.setOnClickListener(this);
+        row6_3_4.setOnClickListener(this);
+        row6_3_5.setOnClickListener(this);
+        row6_4_1.setOnClickListener(this);
+        row6_4_2.setOnClickListener(this);
+        row6_4_3.setOnClickListener(this);
+        row6_4_4.setOnClickListener(this);
+        row6_4_5.setOnClickListener(this);
+        row6_4_6.setOnClickListener(this);
+        row6_5.setOnClickListener(this);
+        row6_6.setOnClickListener(this);
+        row6_7.setOnClickListener(this);
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -884,6 +917,24 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow5_4_4: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_5_4_4.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow6_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_6_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow6_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_6_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow6_3_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_6_3_1.class);
                 startActivity(intent);
                 break;
             }
