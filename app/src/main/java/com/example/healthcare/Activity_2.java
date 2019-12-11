@@ -22,7 +22,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             row5_4, row5_4_1, row5_4_2, row5_4_2_1, row5_4_2_2, row5_4_2_3, row5_4_3, row5_4_3_1, row5_4_3_2, row5_4_3_3, row5_4_3_4, row5_4_4, row6_1,
             row6_2, row6_3_1, row6_3_2, row6_3_3_1, row6_3_3_2, row6_3_4, row6_3_5, row6_4_1, row6_4_2, row6_4_3, row6_4_4, row6_4_5, row6_4_5_1, row6_4_5_2, row6_4_5_3, row6_4_6, row6_5, row6_6, row6_7,
             row7, row7_1, row7_2, row7_2_1, row7_2_2, row7_2_3, row7_3, row7_4, row7_4_1, row7_4_2, row7_4_3, row7_4_3_1, row7_4_3_2, row7_5, row7_6, row7_6_1, row7_6_1_1,
-            row7_6_1_2, row7_6_1_3, row7_6_1_4, row7_6_2, row8, row8_1, row8_2, row8_3;
+            row7_6_1_2, row7_6_1_3, row7_6_1_4, row7_6_2, row8, row8_1, row8_2, row8_3, row9_1, row9_2, row9_3, row10_1, row10_2;
 
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
             Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
@@ -114,6 +114,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row8_1 = findViewById(R.id.textViewRow8_1);
         row8_2 = findViewById(R.id.textViewRow8_2);
         row8_3 = findViewById(R.id.textViewRow8_3);
+        row9_1 = findViewById(R.id.textViewRow9_1);
+        row9_2 = findViewById(R.id.textViewRow9_2);
+        row9_3 = findViewById(R.id.textViewRow9_3);
+        row10_1 = findViewById(R.id.textViewRow10_1);
+        row10_2 = findViewById(R.id.textViewRow10_2);
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
@@ -315,6 +320,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row8_1.setOnClickListener(this);
         row8_2.setOnClickListener(this);
         row8_3.setOnClickListener(this);
+        row9_1.setOnClickListener(this);
+        row9_2.setOnClickListener(this);
+        row9_3.setOnClickListener(this);
+        row10_1.setOnClickListener(this);
+        row10_2.setOnClickListener(this);
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -1166,6 +1176,42 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow7_4_2: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_7_4_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow8_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_8_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow8_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_8_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow8_3: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_8_3.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow9_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_9_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow9_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_9_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow9_3: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_9_3.class);
                 startActivity(intent);
                 break;
             }

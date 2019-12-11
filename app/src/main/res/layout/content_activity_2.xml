@@ -1579,7 +1579,7 @@
             <TextView
                 android:id="@+id/textViewRow7_6_2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="30dp"
                 android:text="@string/title_7_6_2" />
@@ -1627,7 +1627,7 @@
         <TextView
             android:id="@+id/textViewRow8_1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_weight="8"
             android:paddingLeft="20dp"
             android:text="@string/title_8_1" />
@@ -1645,7 +1645,7 @@
             <TextView
                 android:id="@+id/textViewRow8_2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
                 android:text="@string/title_8_2" />
@@ -1663,7 +1663,7 @@
             <TextView
                 android:id="@+id/textViewRow8_3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
                 android:text="@string/title_8_3" />
@@ -1706,7 +1706,7 @@
             <TextView
                 android:id="@+id/textViewRow9_1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
                 android:text="@string/title_9_1" />
@@ -1724,7 +1724,7 @@
             <TextView
                 android:id="@+id/textViewRow9_2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
                 android:text="@string/title_9_2" />
@@ -1742,7 +1742,7 @@
             <TextView
                 android:id="@+id/textViewRow9_3"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
                 android:text="@string/title_9_3" />
@@ -1785,7 +1785,7 @@
             <TextView
                 android:id="@+id/textViewRow10_1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
                 android:text="@string/title_10_1" />
@@ -1803,7 +1803,7 @@
             <TextView
                 android:id="@+id/textViewRow10_2"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
                 android:text="@string/title_10_2" />

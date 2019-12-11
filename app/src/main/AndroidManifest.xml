@@ -10,6 +10,60 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".table_9_3"
+            android:label="@string/title_activity_table_9_3"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_9_2"
+            android:label="@string/title_activity_table_9_2"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_9_1"
+            android:label="@string/title_activity_table_9_1"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_8_3"
+            android:label="@string/title_activity_table_8_3"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_8_2"
+            android:label="@string/title_activity_table_8_2"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
+            android:name=".table_8_1"
+            android:label="@string/title_activity_table_8_1"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
             android:name=".table_7_4_2"
             android:label="@string/title_activity_table_7_4_2"
             android:parentActivityName=".Activity_2"
