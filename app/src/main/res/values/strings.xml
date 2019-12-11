@@ -1158,8 +1158,42 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
     <string name="title_13"><b>13. Приложения</b></string>
 
     <string name="Link_8"><b>&lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/12673715.>[8]&lt;/a>,  &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/12780833>[9]&lt;/a>,  &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/15988645>[10]&lt;/a></b></string>
-    <string name="Link_9"><b>&lt;a href=http://www.dir.bg>9&lt;/a></b></string>
-    <string name="Link_11"><b>&lt;a href=http://www.dir.bg>9&lt;/a></b></string>
+    <string name="Link_3_3"><b>&lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/16339333.>[11]&lt;/a>,
+        &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/12399540>[12]&lt;/a>,
+        &lt;a href=http://www.ncbi.nlm.nih.gov/pubmed/9360543>[13]&lt;/a>
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17105798 >[14]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/14634413 >[15]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15126525 >[16]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26779889 >[17]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/25621688 >[18]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/24445948 >[19]&lt;/a></b></string>
+
+    <string name="Link_3_6"><b> &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12824459 >[20]&lt;/a>,
+ &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17499284 >[21]&lt;/a>
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18425978 >[22]&lt;/a>,
+&lt;a href=  http://www.ncbi.nlm.nih.gov/pubmed/19252137 >[23]&lt;/a></b></string>
+    <string name="Link_4_2"><b> &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12458993 >[24]&lt;/a>,
+ &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12665174 >[25]&lt;/a>
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15300807 >[26]&lt;/a>,
+&lt;a href=  http://www.ncbi.nlm.nih.gov/pubmed/10960839 >[27]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17213825 >[28]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16792835 >[29]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/27569432 >[30]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/27264113 >[31]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23803040 >[32]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23803040 >[33]&lt;/a></b></string>
+    <string name="Link_4_3"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12458993 >[24]&lt;/a>,
+ &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12665174 >[25]&lt;/a>
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15300807 >[26]&lt;/a>,
+&lt;a href=  http://www.ncbi.nlm.nih.gov/pubmed/10960839 >[27]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17213825 >[28]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16792835 >[29]&lt;/a>,</b></string>
+    <string name="t"><b></b></string>
+    <string name="r"><b></b></string>
+    <string name="y"><b></b></string>
+    <string name="k"><b></b></string>
+
+
     <string name="Link">@string/Link_8</string>
 
 
@@ -3438,4 +3472,6 @@ https://www.prostatakrebs-bps.de/
     <string name="title_activity_table_9_1">Последващи грижи</string>
     <string name="title_activity_table_9_2">Последващи грижи</string>
     <string name="title_activity_table_9_3">Последващи грижи</string>
+    <string name="title_activity_table_10_1">Психологически условия на качеството на живот</string>
+    <string name="title_activity_table_10_2">Психологически условия на качеството на живот</string>
 </resources>

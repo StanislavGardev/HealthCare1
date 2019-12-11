@@ -225,6 +225,7 @@
                 <TextView
 
 
+                    android:id="@+id/tableLinks3_3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -235,10 +236,9 @@
                     android:text="EK"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
 
             </TableRow>
 
@@ -320,6 +320,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLinks3_4"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -330,13 +331,12 @@
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
-                    android:text="[11-19]"
+                    android:text="EK"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"

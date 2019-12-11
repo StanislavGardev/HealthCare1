@@ -1215,6 +1215,18 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 startActivity(intent);
                 break;
             }
+            case R.id.textViewRow10_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_10_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow10_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_10_2.class);
+                startActivity(intent);
+                break;
+            }
 
 
         }

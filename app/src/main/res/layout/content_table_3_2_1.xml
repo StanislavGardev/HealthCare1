@@ -321,7 +321,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/table_1_4"
+                    android:id="@+id/tableLink_3_6"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"

@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".table_7_3"
-    tools:showIn="@layout/activity_table_7_3">
+    tools:context=".table_10_1"
+    tools:showIn="@layout/activity_table_10_1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="@string/title_7_3"
+                    android:text="@string/title_10_1"
                     android:textSize="18sp" />
             </TableRow>
 
@@ -162,7 +162,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="7.17"
+                    android:text="10.1"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -177,7 +177,7 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text7_17"
+                    android:text="@string/text10_1"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -191,7 +191,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="ST"
+                    android:text="A"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -206,7 +206,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="1+"
+                    android:text="4"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -221,7 +221,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="[387-391]"
+                    android:text="EK въз основа на: [40, 445-448"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -244,7 +244,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="7.18"
+                    android:text="10.2"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -259,7 +259,7 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text7_18"
+                    android:text="@string/text10_2"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -303,7 +303,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="EK въз основа на : [355-357, 360, 361] "
+                    android:text="EK въз основа на: [40, 445, 449-452]"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -325,7 +325,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="7.19"
+                    android:text="10.3"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -339,7 +339,7 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text7_19"
+                    android:text="@string/text10_3"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -353,7 +353,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="B"
+                    android:text="A"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -367,7 +367,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="1+"
+                    android:text="4"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -382,7 +382,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="[387-391] "
+                    android:text="[40, 445, 449-452]"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -404,7 +404,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="7.20"
+                    android:text="10.4"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -419,7 +419,7 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text7_20"
+                    android:text="@string/text10_4"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -432,7 +432,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="A\nA\nA"
+                    android:text="A"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -446,7 +446,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="1+"
+                    android:text="4"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -461,7 +461,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="355, 35[6, 361, 392]  b: [390, 391] "
+                    android:text="EK въз основа на: [40, 445, 450, 451, 453] "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -483,7 +483,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="7.21"
+                    android:text="10.5"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -498,7 +498,7 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text7_21"
+                    android:text="@string/text10_5"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -511,7 +511,6 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="ST"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -547,85 +546,6 @@
             </TableRow>
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2,3,4"
-                android:collapseColumns="0,1,2,3,4">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="7.22"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".4"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="@string/text7_22"
-                    android:textColor="#000"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="A\n0\n0\nB"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="1++"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
-
-                <TextView
-
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="4"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="[355-357, 360, 361] [355, 356, 361, 392] [35, 40, 104, [393] [394-396] [394-396]"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
-
-            </TableRow>
-
-            <TableRow
                 android:id="@+id/Line"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -645,5 +565,6 @@
             </TableRow>
         </TableLayout>
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,21 @@
 package com.example.healthcare;
 
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import android.text.Html;
+import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class table_4_1 extends AppCompatActivity {
-
+    TextView L4_2, L4_3;
+    Spanned Link_4_2, Link_4_3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +32,14 @@ public class table_4_1 extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        L4_2 = findViewById(R.id.tableLink_4_2);
+        L4_3 = findViewById(R.id.tableLink_4_3);
+        Link_4_2 = Html.fromHtml(getString(R.string.Link_4_2));
+        Link_4_3 = Html.fromHtml(getString(R.string.Link_4_3));
+        L4_2.setText(Link_4_2);
+        L4_3.setText(Link_4_3);
+        L4_2.setMovementMethod(LinkMovementMethod.getInstance());
+        L4_3.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
 }
