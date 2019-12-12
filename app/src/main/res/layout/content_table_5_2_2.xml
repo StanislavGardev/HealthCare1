@@ -223,6 +223,7 @@
                 <TextView
 
 
+                    android:id="@+id/tableLink_5_17"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -233,10 +234,9 @@
                     android:text="(към a) [76-88]"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
 
             </TableRow>
 
@@ -318,6 +318,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_5_18"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -331,10 +332,9 @@
                     android:text="EK основано на [101] "
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
             </TableRow>
 
             <TableRow
@@ -413,6 +413,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tableLink_5_19"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -426,10 +427,9 @@
                     android:text="102"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
             </TableRow>
 
             <TableRow

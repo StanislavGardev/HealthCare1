@@ -504,7 +504,7 @@
 
                 <TextView
                     android:layout_column="4"
-                    android:id="@+id/tableLink_4_3"
+                    android:id="@+id/tableLink_5_10"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -600,7 +600,7 @@
 
                 <TextView
                     android:layout_column="4"
-                    android:id="@+id/table_4_4"
+                    android:id="@+id/tableLink_5_12"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"

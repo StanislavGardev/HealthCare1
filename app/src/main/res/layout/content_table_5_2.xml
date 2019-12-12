@@ -240,6 +240,7 @@
                 <TextView
 
 
+                    android:id="@+id/tableLink_5_8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -250,10 +251,9 @@
                     android:text="50.51"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
 
             </TableRow>
 
@@ -334,6 +334,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_5_9"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -347,10 +348,9 @@
                     android:text="[52-55]"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -421,6 +421,7 @@
                     android:textSize="12sp" />
 
                 <TextView
+                    android:id="@+id/tableLink_5_10"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -502,7 +503,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/tableLink_4_3"
+                    android:id="@+id/tableLink_5_11"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -584,7 +585,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/table_4_4"
+                    android:id="@+id/tableLink_5_12"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -664,7 +665,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/table_4_5"
+                    android:id="@+id/tableLink_5_13"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -743,7 +744,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/table_4_6"
+                    android:id="@+id/tableLink_5_14"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"

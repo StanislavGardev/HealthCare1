@@ -194,7 +194,7 @@
 
                 <TextView
 
-                    android:id="@+id/table_6_12_4"
+                    android:id="@+id/tableLink_5_41"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -275,7 +275,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/table_6_13_4"
+                    android:id="@+id/tableLink_5_42"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -289,10 +289,9 @@
                     android:text="EK въз основа на: [147-151"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
             </TableRow>
 
             <TableRow
@@ -443,7 +442,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/tableLink_4_3"
+                    android:id="@+id/tableLink_5_44"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
