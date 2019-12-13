@@ -1420,13 +1420,57 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
     <string name="Link_6_30"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15817332 >[238]&lt;/a>,
 &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11777625 >[239]&lt;/a>,
 &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16520907 >[240]&lt;/a></b></string>
-    <string name="kstr5"><b></b></string>
-    <string name="ksnr5"><b></b></string>
-    <string name="kssr5"><b></b></string>
-    <string name="ksdr5"><b></b></string>
-    <string name="ksrd5"><b></b></string>
-    <string name="ksrf5"><b></b></string>
-    <string name="ksrg5"><b></b></string>
+    <string name="Link_6_33"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17531335 > [241]&lt;/a>,
+ &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15718316 >[242]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/14767279 >[243]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16879929 >[244]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11020563 >[245]&lt;/a>,
+&lt;a href=  http://www.ncbi.nlm.nih.gov/pubmed/12131300 >[246]&lt;/a></b></string>
+    <string name="Link_6_34"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15718316 >[242]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/14767279 >[243]&lt;/a></b></string>
+    <string name="Link_6_35"> 1. <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/14767279 >[243]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16530933 >[247]&lt;/a>
+     </b> 2. <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/14767279 >[243]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16806432>[248]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17499306>[249]&lt;/a></b></string>
+    <string name="Link_6_37"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16686707 > [250]&lt;/a>,
+ &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17296375 >[251]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15758719 >[252]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15540734 >[253]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15028451 >[254]&lt;/a>,
+&lt;a href=  http://www.ncbi.nlm.nih.gov/pubmed/26140518 >[255]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/22672199 >[256]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23669165 >[257]&lt;/a></b></string>
+    <string name="Link_6_38"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/25079940 >[258]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23415962 >[259]&lt;/a></b></string>
+    <string name="Link_6_40"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed?term=16093984 >[172]&lt;/a,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26951947 > [260]&lt;/a>,
+ &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23356910 >[261]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/24373800 >[262]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/27595377 >[263]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28007457 >[264]&lt;/a>,
+&lt;a href=  http://www.ncbi.nlm.nih.gov/pubmed/17082219 >[265]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18930270 >[266]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16813890 >[267]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16286958 >[268]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16965872 >[269]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15705075 >[270]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16700037 >[271]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16847528 >[272]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15794776 >[273]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/20680687 >[274]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9421448 >[275]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16678888 >[276]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17315165 >[277]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9412793 >[278]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/19397390 >[279]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16797831 >[280]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/19912180 >[281]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15536949 >[282]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/20558980 >[283]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18837657 >[284]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16530933 >[247]&lt;/a>></b></string>
+    <string name="Link_6_42"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16286958 >[268]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15536949 >[282]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12394698 >[285]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12660455 >[286]&lt;/a>,</b> EK</string>
     <string name="ksrh5"><b></b></string>
     <string name="kslr5"><b></b></string>
 
