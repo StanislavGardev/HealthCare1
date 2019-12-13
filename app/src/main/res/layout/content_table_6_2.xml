@@ -315,6 +315,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -327,9 +328,9 @@
                     android:padding="1dip"
                     android:text="EK на базата на: [162-164] "
                     android:textAlignment="center"
+
+
                     android:textColor="#000"
-
-
                     android:textSize="12sp" />
             </TableRow>
 
@@ -410,10 +411,10 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
+                    android:text="EK"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
-                    tools:text="EK" />
+                    android:textSize="12sp" />
 
             </TableRow>
 
@@ -577,6 +578,7 @@
                     android:textSize="12sp" />
 
                 <TextView
+                    android:id="@+id/tableLink_6_11"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"

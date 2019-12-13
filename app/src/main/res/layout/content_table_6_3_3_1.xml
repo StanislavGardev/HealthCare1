@@ -220,7 +220,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/tableLink_6_25"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -231,9 +231,9 @@
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
+
+
                     android:text="[106, 176, 214-218] "
-
-
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -326,6 +326,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tableLink_6_26"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -337,9 +338,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="[106, 176, 214-217]"
+
+
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
             </TableRow>
@@ -413,6 +414,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_27"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"

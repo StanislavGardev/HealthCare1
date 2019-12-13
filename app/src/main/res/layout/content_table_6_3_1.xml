@@ -221,6 +221,7 @@
                 <TextView
 
 
+                    android:id="@+id/tableLink_6_12"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -230,10 +231,9 @@
                     android:padding="1dip"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
 
             </TableRow>
 
@@ -313,6 +313,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tableLink_6_13"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -324,9 +325,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:textAlignment="center"
+
+
                     android:textColor="#000"
-
-
                     android:textSize="12sp" />
             </TableRow>
 
@@ -399,6 +400,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_14"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -489,6 +491,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_15"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -500,9 +503,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:textAlignment="center"
+
+
                     android:textColor="#000"
-
-
                     android:textSize="12sp" />
             </TableRow>
 
@@ -581,6 +584,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
+                    android:text="EK"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -654,7 +658,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/table_6_17_4"
+                    android:id="@+id/tableLink_6_17"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
