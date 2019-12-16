@@ -316,6 +316,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tableLink_6_51"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -327,9 +328,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="[310, 311] "
+
+
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
             </TableRow>

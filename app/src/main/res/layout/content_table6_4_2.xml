@@ -221,6 +221,7 @@
                 <TextView
 
 
+                    android:id="@+id/tableLink_6_43"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -230,9 +231,9 @@
                     android:padding="1dip"
                     android:text="260, 263, 267, 287-304"
                     android:textAlignment="center"
+
+
                     android:textColor="#000"
-
-
                     android:textSize="12sp" />
 
             </TableRow>
@@ -313,6 +314,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tableLink_6_44"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -323,10 +325,10 @@
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
-                    android:text="[169]; EK"
+                    android:text=" EK"
+
+
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
             </TableRow>
@@ -400,6 +402,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_45"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -491,6 +494,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_46"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -502,9 +506,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="Непридружаваща: [288-291, 298, 304]; Придружаваща: [291-295, 300, 305]; допълнително: [287, 296, 297, 299, 301-303"
+
+
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
             </TableRow>
@@ -578,6 +582,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_47"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -669,6 +674,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_48"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -680,9 +686,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="EK въз основа на: [177, 185, 205-211, 213] "
+
+
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
             </TableRow>

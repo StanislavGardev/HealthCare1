@@ -220,7 +220,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/tableLink_6_52"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -232,8 +232,6 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="[250, 251, 253, 257, 312, 313] "
-
-
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
