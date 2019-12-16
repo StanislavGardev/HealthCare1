@@ -926,7 +926,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:background="@color/colorPrimaryDark"
-        android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
         <TextView
             android:id="@+id/textViewRow6_4_1"
@@ -945,7 +946,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_2"
@@ -964,7 +966,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_3"
@@ -983,7 +986,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_4"
@@ -1002,7 +1006,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_5"
@@ -1027,7 +1032,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_5_1"
@@ -1046,7 +1052,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_5_2"
@@ -1065,7 +1072,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_5_3"
@@ -1083,7 +1091,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_4_6"
@@ -1102,7 +1111,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_5"
@@ -1121,7 +1131,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_6"
@@ -1140,7 +1151,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/textViewRow6_7"

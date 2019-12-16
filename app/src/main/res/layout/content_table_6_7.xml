@@ -220,7 +220,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/tableLink_6_68"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -231,9 +231,9 @@
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
+
+
                     android:text="[35, 104, 170, 355-361]"
-
-
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -314,6 +314,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tableLink_6_69"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -325,9 +326,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="EK"
+
+
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
             </TableRow>
@@ -401,6 +402,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_6_70"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -492,6 +494,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/tableLink_6_71"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -503,9 +506,9 @@
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="[355, 356, 361] "
+
+
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
             </TableRow>
