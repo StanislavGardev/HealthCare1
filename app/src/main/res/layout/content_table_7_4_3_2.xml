@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".table_7_2_1"
-    tools:showIn="@layout/activity_table_7_2_1">
+    tools:context=".table_7_4_3_2"
+    tools:showIn="@layout/activity_table_7_4_3_2">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -36,15 +36,35 @@
                 android:layout_margin="2dp"
                 android:stretchColumns="0">
 
+
                 <TextView
-                    android:id="@+id/title"
+                    android:id="@+id/title2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="@string/title_7_2_1"
+                    android:text="@string/title_7_4_3_2"
                     android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:stretchColumns="0">
+
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="В препоръките за вторичната терапия не се прави разграничение между асимптоматични и симптоматични пациенти. Актуалните изследвания включват двете групи."
+                    android:textSize="12sp" />
             </TableRow>
 
             <TableRow
@@ -160,7 +180,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="7.9"
+                    android:text="7.46"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
@@ -177,7 +197,7 @@
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="@string/text7_9"
+                    android:text="@string/text7_46"
                     android:textColor="#000"
                     android:textSize="14sp"
 
@@ -194,13 +214,12 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="B"
+                    android:text="ST"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12dp"
 
 
-                    />
+                    android:textSize="12dp" />
 
                 <TextView
 
@@ -212,7 +231,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="2-3"
+                    android:text="4"
                     android:textAlignment="center"
                     android:textColor="#000"
 
@@ -220,103 +239,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-
-
-                    android:id="@+id/tableLink_7_9"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="[372-374] "
-                    android:textAlignment="center"
-                    android:textColor="#000"
-
-
-                    android:textSize="12sp" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-
-                    android:id="@+id/table_1_0"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="7.10"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp"
-
-
-                    />
-
-                <TextView
-
-                    android:id="@+id/table_1_1"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".4"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="@string/text7_10"
-                    android:textColor="#000"
-                    android:textSize="14sp"
-
-
-                    />
-
-                <TextView
-
-                    android:id="@+id/table_1_2"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="A\nB"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp"
-
-
-                    />
-
-                <TextView
-
-                    android:id="@+id/table_1_3"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="2-3"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp"
-
-
-                    />
-
-                <TextView
-
-                    android:id="@+id/tableLink_7_10"
+                    android:id="@+id/textView3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -327,92 +250,9 @@
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
-                    android:text="[372, 373, 375, 376"
-                    android:textAlignment="center"
-                    android:textColor="#000"
+                    android:text="EK"
 
 
-                    android:textSize="12sp" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2,3,4"
-                android:collapseColumns="0,1,2,3,4">
-
-                <TextView
-                    android:id="@+id/table_2_0"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="0"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="7.11"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/table_2_1"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="1"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".4"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="@string/text7_11"
-                    android:textColor="#000"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/table_2_2"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="2"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-
-                    android:text="0"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/table_2_3"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="3"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="3"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/tableLink_7_11"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_column="4"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
-                    android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="[375, 377-382]  "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />

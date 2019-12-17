@@ -766,6 +766,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 else {
 
                     btn7_4.setImageResource(R.drawable.icon_plus);
+                    btn7_4_3.setImageResource(R.drawable.icon_plus);
                     Layout7_4_1.setVisibility(View.GONE);
                     Layout7_4_2.setVisibility(View.GONE);
                     Layout7_4_3.setVisibility(View.GONE);
@@ -785,7 +786,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 else {
 
-                    btn7_4.setImageResource(R.drawable.icon_plus);
+                    btn7_4_3.setImageResource(R.drawable.icon_plus);
                     Layout7_4_3_1.setVisibility(View.GONE);
                     Layout7_4_3_2.setVisibility(View.GONE);
                     openMenu7_4_3 =false;
@@ -1182,6 +1183,60 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow7_4_2: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_7_4_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_4_3_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_4_3_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_4_3_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_4_3_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_5: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_5.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_6: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_6.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_6_1_1: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_6_1_1.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_6_1_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_6_1_2.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_6_1_3: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_6_1_3.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_6_1_4: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_6_1_4.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow7_6_2: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_7_6_2.class);
                 startActivity(intent);
                 break;
             }

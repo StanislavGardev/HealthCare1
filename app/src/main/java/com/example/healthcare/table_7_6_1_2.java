@@ -13,12 +13,14 @@ import androidx.appcompat.widget.Toolbar;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
-public class table_7_2_3 extends AppCompatActivity {
+public class table_7_6_1_2 extends AppCompatActivity {
+    TextView L7_55, L7_56;
+    Spanned Link_7_55, Link_7_56;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_table_7_2_3);
+        setContentView(R.layout.activity_table_7_6_1_2);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -31,12 +33,14 @@ public class table_7_2_3 extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        TextView L7_16;
-        Spanned Link_7_16;
-        L7_16 = findViewById(R.id.tableLink_7_16);
-        Link_7_16 = Html.fromHtml(getString(R.string.Link_7_16));
-        L7_16.setText(Link_7_16);
-        L7_16.setMovementMethod(LinkMovementMethod.getInstance());
+        L7_55 = findViewById(R.id.tableLink_7_55);
+        L7_56 = findViewById(R.id.tableLink_7_56);
+        Link_7_55 = Html.fromHtml(getString(R.string.Link_7_55));
+        Link_7_56 = Html.fromHtml(getString(R.string.Link_7_56));
+        L7_55.setText(Link_7_55);
+        L7_56.setText(Link_7_56);
+        L7_55.setMovementMethod(LinkMovementMethod.getInstance());
+        L7_56.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
 }

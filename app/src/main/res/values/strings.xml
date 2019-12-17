@@ -1622,9 +1622,133 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
     <string name="Link_6_70"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23932338 >[362]&lt;/a></b></string>
     <string name="Link_6_71"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17130095 >[355]&lt;/a>,
 &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16622261 >[356]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11869665 >[361]&lt;/a></b></string>
-    <string name="kslqr5"><b></b></string>
-    <string name="kslqnr5"><b></b></string>
-    <string name="kslqmr5"><b></b></string>
+
+    <string name="Link_7_2">ЕК въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11257657 > [363]&lt;/a>,
+ &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16921049 >[364]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12597949 >[365]&lt;/a></b></string>
+    <string name="Link_7_3">ЕК въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16798415 >[366]&lt;/a></b></string>
+    <string name="Link_7_4">ЕК въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/7683341 >[367]&lt;/a>,
+&lt;a href=  http://www.ncbi.nlm.nih.gov/pubmed/7531783 >[368]&lt;/a></b></string>
+    <string name="Link_7_5">ЕК въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17694553 >[370]&lt;/a></b></string>
+    <string name="Link_7_6">ЕК въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/10235151 >[371]&lt;/a></b></string>
+    <string name="Link_7_9"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16046649 >[372]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17532494 >[373]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18400368 >[374]&lt;/a></b></string>
+    <string name="Link_7_10"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16046649 >[372]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17532494 >[373]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17513807 >[375]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18954710 >[376]&lt;/a></b></string>
+    <string name="Link_7_11"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17513807 >[375]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18963539 >[377]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11295206 >[378]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/8607240 >[379]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9609639 >[380]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9240639 >[381]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9308935 >[382]&lt;/a></b></string>
+    <string name="Link_7_12"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17694553 >[370]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/19303197 >[383]&lt;/a></b></string>
+    <string name="Link_7_13"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17694553 >[370]&lt;/a></b></string>
+    <string name="Link_7_15">a: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23763889 >[384]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28063191 >[385]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28258616 >[386]&lt;/a></b> \n b: EK</string>
+
+    <string name="Link_7_16">ЕК въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a></b></string>
+    <string name="Link_7_17"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23306100  >[387]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26244877 >[388]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26719232 >[389]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28578607 >[390]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28578639 >[391]&lt;/a></b></string>
+    <string name="Link_7_18">ЕК въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17130095 >[355]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16622261 >[356]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9052476 >[357]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17346269 >[360]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11869665 >[361]&lt;/a></b></string>
+    <string name="Link_7_19"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23306100  >[387]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26244877 >[388]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26719232 >[389]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28578607 >[390]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28578639 >[391]&lt;/a></b></string>
+    <string name="Link_7_21">a: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17130095 >[355]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16622261 >[356]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11869665 >[361]&lt;/a>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17404365 >[392]&lt;/a>
+    </b> b: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28578607 >[390]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28578639 >[391]&lt;/a></b></string>
+    <string name="Link_7_22">a: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17130095 >[355]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16622261 >[356]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9052476 >[357]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17346269 >[360]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11869665 >[361]&lt;/a></b> b:  <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17130095 >[355]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16622261 >[356]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11869665 >[361]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17404365 >[392]&lt;/a></b>
+        c:  <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/10801170 >[393]&lt;/a></b>
+        d:  <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26378418 >[394]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23630216 >[395]&lt;/a>,
+&lt;a href= www.ncbi.nlm.nih.gov/pubmed/23550669 >[396]&lt;/a></b>
+        e:  <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26378418 >[394]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23630216 >[395]&lt;/a>,
+&lt;a href= www.ncbi.nlm.nih.gov/pubmed/23550669 >[396]&lt;/a></b></string>
+    <string name="Link_7_29">EK на базата на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23665272 >[397]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15470213 >[398]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18182665 >[399]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23228172 >[400]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/20818862 >[401]&lt;/a></b></string>
+    <string name="Link_7_31"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15470213 >[398]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18182665 >[399]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23228172 >[400]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/24881730 >[402]&lt;/a></b></string>
+    <string name="Link_7_32"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23228172 >[400]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/24881730 >[402]&lt;/a></b></string>
+    <string name="Link_7_33"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15470213 >[398]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18182665 >[399]&lt;/a></b></string>
+
+    <string name="Link_7_34"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15470213 >[398]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18182665 >[399]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23228172 >[400]&lt;/a>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23863050 >[403]&lt;/a></b></string>
+    <string name="Link_7_35"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15470213 >[398]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18182665 >[399]&lt;/a></b></string>
+    <string name="Link_7_36"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23228172 >[400]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/24881730 >[402]&lt;/a></b></string>
+    <string name="Link_7_37"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23863050 >[403]&lt;/a></b></string>
+    <string name="Link_7_39">EK въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15470213 >[398]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18182665 >[399]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23228172 >[400]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/24881730 >[402]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23863050 >[403]&lt;/a></b></string>
+
+    <string name="Link_7_40"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23863050 >[403]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/21612468 >[404]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/22995653 >[405]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23142059 >[406]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/22894553 >[407]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/20888992 >[408]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/21353695 >[409]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12359855 >[410]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17054286 >[411]&lt;/a></b></string>
+    <string name="Link_7_41">Abirateron: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/21612468 >[404]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/22995653 >[405]&lt;/a></b> Enzalutamid: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/22894553 >[407]&lt;/a></b></string>
+    <string name="Link_7_42"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/20888992 >[408]&lt;/a></b></string>
+    <string name="Link_7_43"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23863050 >[403]&lt;/a></b></string>
+    <string name="Link_7_44">EK въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17306441 >[412]&lt;/a></b></string>
+    <string name="Link_7_45"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/27765862 >[413]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/27506431 >[414]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26985056 >[415]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26871285 >[416]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/27683041 >[417]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26099227 >[418]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26795286 >[419]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26964917 >[420]&lt;/a></b></string>
+    <string name="Link_7_47"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23863050 >[403]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/14596519 >[421]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16299924 >[422]&lt;/a></b></string>
+    <string name="Link_7_48"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/14596519 >[421]&lt;/a></b></string>
+    <string name="Link_7_49"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/23863050 >[403]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16299924 >[422]&lt;/a></b></string>
+    <string name="Link_7_50">золедронова
+киселина: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26719232 >[389]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26794729 >[423]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/27614621 >[424]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/24590644 >[425]&lt;/a></b> други бифосфонати,
+денозумаб: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/21353695 >[409]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17054286 >[411]&lt;/a>,
+        &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/25425475 >[426]&lt;/a></b></string>
+    <string name="Link_7_51"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/21353695 >[409]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17054286 >[411]&lt;/a>,</b></string>
+    <string name="Link_7_52"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/21353695 >[409]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15992459 >[427]&lt;/a></b></string>
+    <string name="Link_7_55"><b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a></b>; EK</string>
+    <string name="Link_7_56">a: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11072942 >[428]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12835883 >[429]&lt;/a></b> b: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a></b> , EK</string>
+    <string name="Link_7_59">EK въз основа на: <b>&lt;a href= http://www.akdae.de/Arzneimitteltherapie/TE/A-Z/PDF/Tumorschmerz.pdf >[430]&lt;/a></b></string>
+    <string name="Link_7_60">EK въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18195338 >[431]&lt;/a></b></string>
+    <string name="Link_7_61">EK въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18195338 >[431]&lt;/a></b></string>
+    <string name="Link_7_62">EK въз основа на: <b>&lt;a href= http://www.akdae.de/Arzneimitteltherapie/TE/A-Z/PDF/Tumorschmerz.pdf >[430]&lt;/a></b></string>
+    <string name="Link_7_63">EK въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18195338 >[431]&lt;/a></b></string>
+    <string name="kslqamr5"><b></b></string>
 
 
     <string name="Link">@string/Link_8</string>
@@ -3526,12 +3650,12 @@ PSMA въз основа на препоръката на
 страничните ефекти от
 лъчетерапията за момента не е
 възможна.</string>
-    <string name="text7_56">/n a. Острия проктит може
+    <string name="text7_56">\n a. Острия проктит може
 да се лекува локално със
 сукрафлат, бутират или
 хидрокортизон (Sucralfat, Butyrat
 или Hydrocortison)
-/n/n b. Лечението на
+\n\n b. Лечението на
 диарията трябва да бъде
 симптоматично.</string>
     <string name="text7_57">На пациентите трябва да им
@@ -3582,11 +3706,11 @@ PSMA въз основа на препоръката на
 от поставената диагноза, ръководството за палиативна медицина на онкологичната програма (S3-
 Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
 (http://leitlinienprogramm-onkologie.de/Palliativmedizin.80.0.html).</b></string>
-    <string name="text7_61">/n a. Определянето на
+    <string name="text7_61">\n a. Определянето на
 медицинска стратегия за лечение
 трябва да бъде интердисциплинарно и мулти-
 професионално.
-/n/n b. На пациентите трябва да
+\n\n b. На пациентите трябва да
 е на разположение
 интердисциплинарен екип за
 лечение (включително
@@ -3595,11 +3719,11 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
 палиативно обучен персонал).</string>
 
 
-    <string name="text7_62">/n a. Медикаментозното
+    <string name="text7_62">\n a. Медикаментозното
 лечение на туморните болки трябва
 да става на базата на поетапния
 план СЗО (WHO).
-/n/n b. В рамките на
+\n\n b. В рамките на
 палиативните терапии за болката
 трябва да се разглеждат и
 немедикаментозни (например
@@ -3895,7 +4019,7 @@ https://www.prostatakrebs-bps.de/
     <string name="title_activity_table_7_2_3">Терапия на PSA рецидив</string>
     <string name="title_activity_table_7_2_2">Терапия на PSA рецидив</string>
     <string name="title_activity_table_7_3">Диагностика и терапия на рецидивиращ или метастазиращ рак на простатата</string>
-    <string name="title_activity_table_7_4">tДиагностика и терапия на рецидивиращ или метастазиращ рак на простатата</string>
+    <string name="title_activity_table_7_4">Диагностика и терапия на рецидивиращ или метастазиращ рак на простатата</string>
     <string name="title_activity_table_7_4_1"> Терапия при андрогеннонезависим или кастрационно резистентен рак на простатата</string>
     <string name="title_activity_table_7_4_2">Терапия при андрогеннонезависим или кастрационно резистентен рак на простатата</string>
     <string name="title_activity_table_8_1">Рехабилитация
@@ -3907,4 +4031,16 @@ https://www.prostatakrebs-bps.de/
     <string name="title_activity_table_9_3">Последващи грижи</string>
     <string name="title_activity_table_10_1">Психологически условия на качеството на живот</string>
     <string name="title_activity_table_10_2">Психологически условия на качеството на живот</string>
+    <string name="title_activity_table_7_4_3_1">Вторична терапия</string>
+    <string name="title_activity_table_7_4_3_2">Вторична терапия</string>
+    <string name="title_activity_table_7_5">Диагностика и терапия на рецидивиращ или метастазиращ рак на простатата</string>
+    <string name="title_activity_table_7_6">Диагностика и терапия на рецидивиращ или метастазиращ рак на простатата</string>
+    <string name="title_activity_table_7_6_1">Поддържаща и палиативна терапия</string>
+    <string name="title_activity_table_7_6_1_2">Профилактично/поддържащо третиране на чести нежелани ефекти,
+свързани с лечението</string>
+    <string name="title_activity_table_7_6_1_3">Профилактично/поддържащо третиране на чести нежелани ефекти,
+свързани с лечението</string>
+    <string name="title_activity_table_7_6_1_4">Профилактично/поддържащо третиране на чести нежелани ефекти,
+свързани с лечението</string>
+    <string name="title_activity_table_7_6_2">Поддържаща и палиативна терапия</string>
 </resources>

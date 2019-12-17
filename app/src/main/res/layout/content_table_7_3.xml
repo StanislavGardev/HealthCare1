@@ -212,7 +212,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/tableLink_5_10"
+                    android:id="@+id/tableLink_7_17"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -294,7 +294,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/tableLink_5_12"
+                    android:id="@+id/tableLink_7_18"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -373,7 +373,7 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/tableLink_5_13"
+                    android:id="@+id/tableLink_7_19"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -452,7 +452,6 @@
                     android:textSize="12sp" />
 
                 <TextView
-                    android:id="@+id/tableLink_5_14"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -461,7 +460,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="355, 35[6, 361, 392]  b: [390, 391] "
+                    android:text="EK"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -531,6 +530,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_7_21"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
@@ -610,6 +610,7 @@
 
                 <TextView
 
+                    android:id="@+id/tableLink_7_22"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_column="4"
