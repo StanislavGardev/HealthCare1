@@ -655,7 +655,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                     openMenu6_4 =true;
                 } else {
                     btn6_4.setImageResource(R.drawable.icon_plus);
-
+                    btn6_4_5.setImageResource(R.drawable.icon_plus);
                     Layout6_4_1.setVisibility(View.GONE);
                     Layout6_4_2.setVisibility(View.GONE);
                     Layout6_4_3.setVisibility(View.GONE);

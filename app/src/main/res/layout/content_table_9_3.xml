@@ -221,7 +221,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="EK въз основа на: [369]"
+                    android:text="EK "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -303,7 +303,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="EK въз основа на: [104]"
+                    android:text="EK "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -382,7 +382,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="EK въз основа на: [104] "
+                    android:text="EK"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />

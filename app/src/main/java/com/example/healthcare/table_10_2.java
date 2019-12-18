@@ -1,7 +1,11 @@
 package com.example.healthcare;
 
 import android.os.Bundle;
+import android.text.Html;
+import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -10,6 +14,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 public class table_10_2 extends AppCompatActivity {
+    TextView L10_6, L10_8;
+    Spanned Link_10_6, Link_10_8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +33,15 @@ public class table_10_2 extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        L10_6 = findViewById(R.id.tableLink_10_6);
+        L10_8 = findViewById(R.id.tableLink_10_8);
+        Link_10_6 = Html.fromHtml(getString(R.string.Link_10_6));
+        Link_10_8 = Html.fromHtml(getString(R.string.Link_10_8));
+        L10_6.setText(Link_10_6);
+        L10_8.setText(Link_10_8);
+        L10_6.setMovementMethod(LinkMovementMethod.getInstance());
+        L10_8.setMovementMethod(LinkMovementMethod.getInstance());
+
     }
 
 }

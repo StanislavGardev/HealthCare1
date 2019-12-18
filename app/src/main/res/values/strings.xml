@@ -1748,7 +1748,48 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
     <string name="Link_7_61">EK въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18195338 >[431]&lt;/a></b></string>
     <string name="Link_7_62">EK въз основа на: <b>&lt;a href= http://www.akdae.de/Arzneimitteltherapie/TE/A-Z/PDF/Tumorschmerz.pdf >[430]&lt;/a></b></string>
     <string name="Link_7_63">EK въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/18195338 >[431]&lt;/a></b></string>
-    <string name="kslqamr5"><b></b></string>
+    <string name="Link_8_4"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17433028 >[434]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17487874 >[435]&lt;/a></b></string>
+    <string name="Link_8_5">Физиотерапевтични
+ED-Training: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26538105 >[436]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/22573231 >[437]&lt;/a></b> Терапия с
+медикаментозни и
+помощни вещества:
+Експеретен консенсус
+въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17983900 >[438]&lt;/a></b></string>
+    <string name="Link_8_8"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/28399980 >[439]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26584972 >[440]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26003426 >[441]&lt;/a></b></string>
+    <string name="Link_9_10">EK въз овнова на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a></b></string>
+    <string name="Link_9_11">EK въз овнова на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a></b></string>
+    <string name="Link_9_12">EK въз овнова на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a></b></string>
+    <string name="Link_9_14"><b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17183557 >[442]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15643240 >[443]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/15310998 >[444]&lt;/a></b>\nEK</string>
+    <string name="Link_10_1">EK въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11838718 >[445]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11409068 >[446]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/8194021 >[448]&lt;/a></b></string>
+    <string name="Link_10_2">EK въз основа на:<b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11838718 >[445]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11180578 >[449]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/10638532 >[450]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9301699 >[451]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/8695246 >[452]&lt;/a></b></string>
+    <string name="Link_10_3"><b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11838718 >[445]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11180578 >[449]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/10638532 >[450]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9301699 >[451]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/8695246 >[452]&lt;/a></b></string>
+    <string name="Link_10_4">EK въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11838718 >[445]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/10638532 >[450]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9301699 >[451]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/12515988 >[453]&lt;/a></b></string>
+
+    <string name="Link_10_6">EK въз основа на: <b>&lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,
+    &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/11180578 >[449]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17278186 >[454]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/16015462 >[455]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/10960925 >[456]&lt;/a></b></string>
+    <string name="Link_10_8">EK въз основа на: <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9301699 >[451]&lt;/a></b></string>
+    <string name="kslqdamr5"><b></b></string>
+    <string name="kslsqamr5"><b></b></string>
+    <string name="kslaqamr5"><b></b></string>
 
 
     <string name="Link">@string/Link_8</string>

@@ -1662,7 +1662,7 @@
         android:layout_marginBottom="3dp"
         android:background="@color/colorPrimaryDark"
         android:orientation="horizontal"
-
+            android:visibility="gone"
         >
 
         <TextView
@@ -1680,7 +1680,7 @@
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-
+            android:visibility="gone"
             >
 
             <TextView
@@ -1698,7 +1698,7 @@
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-
+            android:visibility="gone"
             >
 
             <TextView
@@ -1741,7 +1741,7 @@
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-
+            android:visibility="gone"
             >
 
             <TextView
@@ -1759,7 +1759,7 @@
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-
+            android:visibility="gone"
             >
 
             <TextView
@@ -1777,7 +1777,7 @@
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-
+            android:visibility="gone"
             >
 
             <TextView
@@ -1820,7 +1820,7 @@
             android:layout_marginBottom="3dp"
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
-
+            android:visibility="gone"
             >
 
             <TextView
@@ -1839,6 +1839,7 @@
             android:background="@color/colorPrimaryDark"
             android:orientation="horizontal"
 
+            android:visibility="gone"
             >
 
             <TextView
