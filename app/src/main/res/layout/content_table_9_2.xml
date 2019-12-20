@@ -176,7 +176,7 @@
                     android:layout_span="1"
                     android:layout_weight=".4"
                     android:background="@color/cardview_light_background"
-                    android:padding="1dip"
+                    android:padding="5dip"
                     android:text="@string/text9_14"
                     android:textColor="#000"
                     android:textSize="14sp" />
@@ -220,7 +220,7 @@
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
-                    android:padding="1dip"
+                    android:padding="5dip"
                     android:text="[442-444] \n EK "
                     android:textAlignment="center"
                     android:textColor="#000"

@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Table_11"
+    tools:showIn="@layout/activity_table_11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="340dp"
+            tools:visibility="visible"
+
+            >
+
+            <TableRow
+                android:id="@+id/title_PK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="@string/title_11"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/firstRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="@string/pk1"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Показател"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 4 \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="@string/pk1_1"
+
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="@string/pk1_2"
+
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="• Възможно най-често пълен доклад след пункционна биопсия."
+
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK2"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 2: Доклад за находки в лимфните възли (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 4 \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk2_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:text="За оценка на категорията на лимфните възли всички лимфни възли трябва да бъдат макроскопично подготвени и след това поставени, изследвани и изброени. Лимфните възли трябва да бъдат оценявани отделно според указаните региони. След хистологичното изследване трябва да бъде определена pN-категорията (pN0 или pN1). Общият брой и броят на засегнатите лимфни възли, както и средната стойност на големината на метастазите трябва да бъде указана." />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често пълни отчети след лимфаденектомия."
+
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK3"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 3: Активно наблюдение (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 4 \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk3_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk3_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често да бъдат изпълнение необходимите параметри при започване на активно наблюдение"
+
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK4"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/Notes"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Бележки: Висок риск: PSA > 20 нг/мл или Gleason-оценка = 8 или cT-категория 2c"
+                    android:textSize="13sp" />
+            </TableRow>
+
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK5"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK6"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK7"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK8"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK9"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/Notes9"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Бележки: Висок риск: PSA > 20 нг/мл или Gleason-оценка = 8 или cT-категория 2c"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+
+
+                <!-- first element of the row-->
+
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:textAlignment="center"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Показател за качество"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Съответна препоръка"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+                <TextView
+
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="1dip"
+                    android:text="Доказателствена база/допълнителна информация"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/PK10"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Брояч :"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Препоръка 5.42. "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="0,1,2"
+                android:collapseColumns="0,1,2">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_1"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="@string/pk4_2"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:layout_span="1"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+
+                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+       
+
+            </TableRow>
+        </TableLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
