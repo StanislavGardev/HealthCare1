@@ -1883,7 +1883,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="48dp"
                 android:layout_weight="8"
-                android:paddingLeft="10dp" />
+                android:paddingLeft="10dp"
+                android:text="12. Приложения" />
 
 
         </LinearLayout>
