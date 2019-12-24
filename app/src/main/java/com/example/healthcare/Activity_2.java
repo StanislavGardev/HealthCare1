@@ -120,6 +120,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row10_1 = findViewById(R.id.textViewRow10_1);
         row10_2 = findViewById(R.id.textViewRow10_2);
         row11 = findViewById(R.id.textViewRow11);
+        row13 = findViewById(R.id.textViewRow12);
 
         btn3=findViewById(R.id.imageButton3);
         btn3_2=findViewById(R.id.imageButton3_2);
@@ -224,7 +225,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         Layout10_2 = findViewById(R.id.layout10_2);
         Layout11 = findViewById(R.id.layout11);
         Layout12 = findViewById(R.id.layout12);
-        Layout13 = findViewById(R.id.layout13);
+
 
         btn3.setOnClickListener(this);
         btn3_2.setOnClickListener(this);
@@ -327,6 +328,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row10_1.setOnClickListener(this);
         row10_2.setOnClickListener(this);
         row11.setOnClickListener(this);
+        row13.setOnClickListener(this);
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -1293,6 +1295,12 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             case R.id.textViewRow11: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, Table_11.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.textViewRow12: {
+                Intent intent;
+                intent = new Intent(Activity_2.this, table_13.class);
                 startActivity(intent);
                 break;
             }
