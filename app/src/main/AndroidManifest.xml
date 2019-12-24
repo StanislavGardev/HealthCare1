@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".table_13"
+            android:label="@string/title_activity_table_13"
+            android:parentActivityName=".Activity_2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.healthcare.Activity_2" />
+        </activity>
+        <activity
             android:name=".Table_11"
             android:label="@string/title_activity_table_11"
             android:parentActivityName=".Activity_2"

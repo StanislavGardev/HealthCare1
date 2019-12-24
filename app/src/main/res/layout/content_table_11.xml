@@ -366,13 +366,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="Препоръка 5.49 ."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -564,13 +564,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="Препоръка 6.8."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -762,13 +762,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="Препоръка 6.67."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -945,7 +945,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:text="ПК 5: Без хормонална терапия при локално ограничен рак на простатата и радикална простатектомия (ново 2018)"
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
@@ -979,13 +979,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="Препоръка 6.64"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1026,7 +1026,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_1"
+                    android:text="@string/pk5_1"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1041,7 +1041,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_2"
+                    android:text="@string/pk5_2"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1056,7 +1056,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:text="Без хормонална терапия при локално ограничен рак на простатата и радикална простатектомия"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1143,7 +1143,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:text="ПК 6: Без хормонална терапия при локално ограничен рак на простатата с нисък риск и външна лъчетерапия (ново 2018)"
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
@@ -1177,13 +1177,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="Препоръка 6.65."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1224,7 +1224,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_1"
+                    android:text="@string/pk6_1"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1239,7 +1239,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_2"
+                    android:text="Пациентите с локално ограничен рак на простатата с нисък риск не трябва да преминават през хормонална терапия в допълнение на лъчетерапията."
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1254,7 +1254,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:text="Без адювантна хормонална терапия при ограничен рак на простатата с нисък рикс и външна лъчетеряпия."
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1341,7 +1341,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:text="ПК 7: Спасителна радиотерапия при рецидивирал рак на простатата (от 2014, преди: ПК 8)"
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
@@ -1375,13 +1375,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="Препоръка 7.10."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1392,13 +1392,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:text="НП A, НД 2-3 \n Цел на качеството: "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1422,7 +1422,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_1"
+                    android:text="@string/pk7_1"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1437,7 +1437,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_2"
+                    android:text="@string/pk7_2"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1452,7 +1452,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:text="Възможно най-често започване на спасителна лъчетерапия при PSA по-малко от 0,5 нг/мл"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1539,7 +1539,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:text="ПК 8: Превенция на остеонекроза на челюстта (от 2014, преди: ПК 9)"
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
@@ -1573,13 +1573,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="Препоръка 7.52."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1590,13 +1590,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:text="НП A, НД 3+ \n Цел на качеството: "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1620,7 +1620,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_1"
+                    android:text="@string/pk8_1"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1635,7 +1635,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_2"
+                    android:text="@string/pk8_2"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1650,7 +1650,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:text="Възможно най-често преглед при зъболекар преди началото на терапия с бисфосфонати или денозумаб."
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1737,7 +1737,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:text="ПК 9: Следоперативни усложнения след радикална простатектомия (от 2014, преди: ПК 10)"
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
@@ -1771,13 +1771,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="В съответствие със съответния индикатор на ICHOM."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1788,13 +1788,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:text="Няма препоръка, по-скоро изведено от една специфична зел на ръководството. Изискване за обосноваване: 10% \n Цел на качеството: "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -1818,7 +1818,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_1"
+                    android:text="@string/pk9_1"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1833,7 +1833,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_2"
+                    android:text="Съответства на целта на ръководството: Установяване на постоперативни усложнения"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1848,7 +1848,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:text="Възможно най-редки Clavien- Dindo степен III или IV след радикална простатектомия при локализиран рак на простатата."
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -1864,12 +1864,13 @@
                 android:stretchColumns="0">
 
                 <TextView
+                    android:id="@+id/pk9_notes"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Бележки: Висок риск: PSA > 20 нг/мл или Gleason-оценка = 8 или cT-категория 2c"
+                    android:text="@string/pk9notess"
                     android:textSize="13sp" />
             </TableRow>
 
@@ -1953,7 +1954,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="ПК 4: Лъчетерапия и и хормонална терапия при локално ограничен рак на простатата с висок риск (от 2014)"
+                    android:text="ПК 10: Усложнения след окончателна лъчетерапия (от 2014, променено 2018, преди: ПК 11)"
                     android:textSize="13sp"
                     android:textStyle="bold" />
             </TableRow>
@@ -1987,13 +1988,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Препоръка 5.42. "
+                    android:text="В съответствие със съответния индикатор ICHOM."
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -2004,13 +2005,13 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="НП A, НД 1+ \n Цел на качеството: "
+                    android:text="Няма препоръка, по-скоро изведена от една конкретна цел на ръководството. \n Цел на качеството: "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -2034,7 +2035,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_1"
+                    android:text="@string/pk10_1"
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -2049,7 +2050,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="@string/pk4_2"
+                    android:text="Съответства на целта на ръководството: Установяване на усложнения след окончателна лъчетерапия."
                     android:textColor="#000"
                     android:textSize="12sp" />
 
@@ -2064,12 +2065,52 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
-                    android:text="Възможно най-често адювантна хормонална терапия при локално ограничен рак на простатата с висок риск и външна лъчетерапия"
+                    android:text="Възможно най-рядко CTCAE степен III или IV след окончателна лъчетерапия"
                     android:textColor="#000"
                     android:textSize="12sp" />
-       
+
 
             </TableRow>
+
+            <TableRow
+
+                android:id="@+id/Notes10"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+
+                <TextView
+                    android:id="@+id/pk10_notes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
+                    android:padding="5dp"
+                    android:text="Източник за класификацията: [459]"
+                    android:textSize="13sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:stretchColumns="0">
+
+                <TextView
+                    android:id="@+id/textViewLine"
+                    android:layout_weight=".1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="----------------------"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:background="@color/cardview_light_background" />
+            </TableRow>
+
         </TableLayout>
 
 
