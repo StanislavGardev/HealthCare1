@@ -44,8 +44,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="Това е ново
-" />
+                android:text="@string/title_0" />
 
 
         </LinearLayout>
@@ -64,8 +63,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="1. Информация за тази кратка версия
-" />
+                android:text="@string/title_1" />
 
 
         </LinearLayout>
@@ -84,9 +82,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="2.Въведение
-
-" />
+                android:text="@string/title_2" />
 
 
         </LinearLayout>
@@ -106,8 +102,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="9"
                 android:paddingLeft="10dp"
-                android:text="3. Епидемиология, рискови фактори, превенция и хранене
-" />
+                android:text="@string/title_3" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
@@ -135,7 +130,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
-                android:text="3.1 Епидемиология" />
+                android:text="@string/title_3_1" />
 
 
         </LinearLayout>
@@ -156,7 +151,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
-                android:text="3.2 Рискови фактори" />
+                android:text="@string/title_3_2" />
 
             <ImageButton
                 android:id="@+id/imageButton3_2"
@@ -182,7 +177,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="30dp"
-                android:text="3.2.1 Рискови фактори за появата на рак на простатата" />
+                android:text="@string/title_3_2_1" />
 
 
         </LinearLayout>
@@ -203,7 +198,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="30dp"
-                android:text="3.2.2 Заместване на тестостерона" />
+                android:text="@string/title_3_2_2" />
 
 
         </LinearLayout>
@@ -223,7 +218,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="20dp"
-                android:text="3.3 Превенция и хранене" />
+                android:text="@string/title_3_3" />
 
 
         </LinearLayout>
@@ -244,7 +239,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="9"
                 android:paddingLeft="10dp"
-                android:text="4. Ранна диагностика" />
+                android:text="@string/title_4" />
 
             <ImageButton
                 android:id="@+id/imageButton4"
@@ -270,7 +265,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="9"
                 android:paddingLeft="20dp"
-                android:text="4.1 PSA и ДРИ при ранното откриване/скрининиг" />
+                android:text="@string/title_4_1" />
 
 
 
@@ -290,7 +285,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="5. Диагностика и стадиране" />
+                android:text="@string/title_5" />
 
             <ImageButton
                 android:id="@+id/imageButton5"
@@ -676,7 +671,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="6. Терапия на рак на простатата без метастази" />
+                android:text="@string/title_6" />
 
             <ImageButton
                 android:id="@+id/imageButton6"
@@ -1180,8 +1175,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="7. Диагностика и терапия на рецидивиращ или метастазиращ
-рак на простатата" />
+                android:text="@string/title_7" />
 
             <ImageButton
                 android:id="@+id/imageButton7"
@@ -1645,7 +1639,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="8. Рехабилитация" />
+                android:text="@string/title_8" />
 
             <ImageButton
                 android:id="@+id/imageButton8"
@@ -1803,7 +1797,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="10. Психологически условия на качеството на живот" />
+                android:text="@string/title_10" />
 
             <ImageButton
                 android:id="@+id/imageButton10"
@@ -1884,7 +1878,7 @@
                 android:layout_height="48dp"
                 android:layout_weight="8"
                 android:paddingLeft="10dp"
-                android:text="12. Приложения" />
+                android:text="@string/title_12" />
 
 
         </LinearLayout>

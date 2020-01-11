@@ -1063,6 +1063,11 @@ USA (124,8/100.000), по-специално при афроамериканци
 
     <string name="title_activity_2">Ръководство – кратка версия</string>
     <string name="title_activity_table">Ръководство</string>
+    <string name="title_0"><b> Това е ново</b></string>
+    <string name="title_1"><b>1. Информация за тази кратка версия</b></string>
+    <string name="title_2"><b>2. Въведение</b></string>
+    <string name="title_3"><b>3. Епидемиология, рискови фактори, превенция и хранене</b></string>
+    <string name="title_3_1"><b>3.1 Епидемиология</b></string>
     <string name="title_3_2"><b>3.2 Рискови фактори</b></string>
     <string name="title_3_2_1"><b>3.2.1 Рискови фактори за появата на рак на простатата</b></string>
     <string name="title_3_2_2"><b>3.2.2 Заместване на тестостерона</b></string>

@@ -707,9 +707,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 else {
                     btn7.setImageResource(R.drawable.icon_plus);
-                    btn6_3.setImageResource(R.drawable.icon_plus);
-                    btn6_3_3.setImageResource(R.drawable.icon_plus);
-                    btn6_4.setImageResource(R.drawable.icon_plus);
+                    btn7_2.setImageResource(R.drawable.icon_plus);
+                    btn7_4.setImageResource(R.drawable.icon_plus);
+                    btn7_4_3.setImageResource(R.drawable.icon_plus);
+                    btn7_6.setImageResource(R.drawable.icon_plus);
+                    btn7_6_1.setImageResource(R.drawable.icon_plus);
 
                     Layout7_1.setVisibility(View.GONE);
                     Layout7_2.setVisibility(View.GONE);
@@ -808,6 +810,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 else {
 
                     btn7_6.setImageResource(R.drawable.icon_plus);
+                    btn7_6_1.setImageResource(R.drawable.icon_plus);
                     Layout7_6_1.setVisibility(View.GONE);
                     Layout7_6_2.setVisibility(View.GONE);
                     Layout7_6_1_1.setVisibility(View.GONE);
