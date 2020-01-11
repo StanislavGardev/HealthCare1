@@ -31,7 +31,7 @@ TextView table1_4;
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        table1_4 = findViewById(R.id.table_3_2);
+        table1_4 = findViewById(R.id.tableLink_3_2_1);
         Spanned Link_1_4 = Html.fromHtml(getString(R.string.Link_8));
         table1_4.setText(Link_1_4);
         table1_4.setMovementMethod(LinkMovementMethod.getInstance());

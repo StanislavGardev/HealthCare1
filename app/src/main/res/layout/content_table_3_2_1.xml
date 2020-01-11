@@ -321,7 +321,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/tableLink_3_6"
+                    android:id="@+id/tableLink_3_2_1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
@@ -335,10 +335,9 @@
                     android:text=""
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="12sp"
 
 
-                    />
+                    android:textSize="12sp" />
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"

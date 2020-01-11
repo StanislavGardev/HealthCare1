@@ -1146,7 +1146,7 @@ Leitlinie Palliativmedizin des Leitlinienprogramms Onkologie)
     <string name="title_8_1"><b>8.1 Рехабилитация след терапия с цел лечение</b></string>
     <string name="title_8_2"><b>8.2 Рехабилитация за пациенти при хормонална терапия</b></string>
     <string name="title_8_3"><b>8.3 Рехабилитация за пациенти в палиативна ситуация</b></string>
-    <string name="title_9"><b>9 Последващи грижи</b></string>
+    <string name="title_9"><b>9. Последващи грижи</b></string>
     <string name="title_9_1"><b>9.1 Последващи грижи след локално насочена терапия с цел излекуване</b></string>
     <string name="title_9_2"><b>9.2 Замяна на тестостерона след рак на простатата</b></string>
     <string name="title_9_3"><b>9.3 Проследяване при хормонална тераипя</b></string>
@@ -3141,13 +3141,13 @@ GnRH-Blocker)или с подоходящия
 системен рецидив.
 За тази цел е необходимо да се
 установят
-•
+\n •
 Времето за удвояване на
 PSA;
-•
+\n •
 Латентното време за
 основната терапиа с цел лечение.
-•
+\n •
 Gleason-Score</string>
     <string name="text7_7">При асимптотични пациенти с
 биохимичен рецидив с PSA
