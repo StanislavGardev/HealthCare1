@@ -254,7 +254,7 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
 
-                    android:text="@string/text7_53"
+                    android:text="@string/text7_54"
                     android:textColor="#000"
 
 
