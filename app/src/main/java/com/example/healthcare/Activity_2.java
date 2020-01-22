@@ -10,9 +10,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 public class Activity_2 extends AppCompatActivity implements View.OnClickListener{
     ImageButton btn3,btn3_2,btn4,btn5,btn5_2,btn5_4,btn5_4_2,btn5_4_3,btn6,
             btn6_3, btn6_3_3, btn6_4, btn6_4_5, btn7, btn7_2, btn7_4, btn7_4_3, btn7_6, btn7_6_1, btn8, btn8_1, btn8_2, btn8_3, btn9, btn9_1, btn9_2, btn9_3
@@ -331,14 +328,14 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row13.setOnClickListener(this);
 
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+//        FloatingActionButton fab = findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
     }
 
     @Override
