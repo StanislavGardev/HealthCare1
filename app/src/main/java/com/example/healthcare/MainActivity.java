@@ -2,6 +2,9 @@ package com.example.healthcare;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
+import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -11,7 +14,8 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 Button btn1, btn2;
-TextView text;
+    TextView text, linkView;
+    Spanned link;
 
     View zoomView;
 
@@ -27,8 +31,12 @@ TextView text;
 
 //        btn1=findViewById(R.id.button);
 //        btn2=findViewById(R.id.button2);
+        linkView = findViewById(R.id.textViewLink);
         text=findViewById(R.id.textViewFirstText);
         text.setOnClickListener(this);
+        link = Html.fromHtml(getString(R.string.firstPage));
+        linkView.setText(link);
+        linkView.setMovementMethod(LinkMovementMethod.getInstance());
 //        btn1.setOnClickListener(this);
 //        btn2.setOnClickListener(this);
 

@@ -10,8 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class table_5_3 extends AppCompatActivity {
-    TextView L5_21, L5_23, L5_24, L5_25, L5_27, L5_28, L5_29;
-    Spanned Link_5_21, Link_5_23, Link_5_24, Link_5_25, Link_5_27, Link_5_28, Link_5_29;
+    TextView L5_21, L5_23, L5_24, L5_25, L5_27, L5_28, L5_29, links;
+    Spanned textLinks, Link_5_21, Link_5_23, Link_5_24, Link_5_25, Link_5_27, Link_5_28, Link_5_29;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,7 @@ public class table_5_3 extends AppCompatActivity {
         L5_27 = findViewById(R.id.tableLink_5_27);
         L5_28 = findViewById(R.id.tableLink_5_28);
         L5_29 = findViewById(R.id.tableLink_5_29);
+        links = findViewById(R.id.textViewLinks);
         Link_5_21 = Html.fromHtml(getString(R.string.Link_5_21));
         Link_5_23 = Html.fromHtml(getString(R.string.Link_5_23));
         Link_5_24 = Html.fromHtml(getString(R.string.Link_5_24));
@@ -43,6 +44,8 @@ public class table_5_3 extends AppCompatActivity {
         Link_5_27 = Html.fromHtml(getString(R.string.Link_5_27));
         Link_5_28 = Html.fromHtml(getString(R.string.Link_5_28));
         Link_5_29 = Html.fromHtml(getString(R.string.Link_5_29));
+        textLinks = Html.fromHtml(getString(R.string.text5_3));
+        links.setText(textLinks);
         L5_21.setText(Link_5_21);
         L5_23.setText(Link_5_23);
         L5_24.setText(Link_5_24);
@@ -50,6 +53,7 @@ public class table_5_3 extends AppCompatActivity {
         L5_27.setText(Link_5_27);
         L5_28.setText(Link_5_28);
         L5_29.setText(Link_5_29);
+        links.setMovementMethod(LinkMovementMethod.getInstance());
         L5_21.setMovementMethod(LinkMovementMethod.getInstance());
         L5_23.setMovementMethod(LinkMovementMethod.getInstance());
         L5_24.setMovementMethod(LinkMovementMethod.getInstance());

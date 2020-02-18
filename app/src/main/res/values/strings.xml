@@ -1061,7 +1061,7 @@ USA (124,8/100.000), по-специално при афроамериканци
 
     </string>
 
-    <string name="firstPage">Неофициален превод на  <b>&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/26993315 >Линк&lt;/a>,</b></string>
+    <string name="firstPage">Неофициален превод от  <b>&lt;a href= https://www.leitlinienprogramm-onkologie.de/home/ >Leitlinienprogramm Onkologie &lt;/a></b></string>
     <string name="title_activity_2">Ръководство – кратка версия</string>
     <string name="title_activity_table">Ръководство</string>
     <string name="title_0"><b> Това е ново</b></string>
@@ -2035,19 +2035,19 @@ RADS), би трябвало да се направи
 първична диагноза.</string>
     <string name="text5_3">Като ръководство за стадиране трябва да се ползва актуалната UICC-Класификация.
 Ръководството на класификацията UICC е основа на всички клинични проучвания и се използва
-аналогично на всички други налични класификации [ &lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17509297 >[105]&lt;/a>]. Стадиите T1-2 N0 M0 се
+аналогично на всички други налични класификации  &lt;a href= http://www.nice.org.uk/Guidance/CG58 >[40]&lt;/a>,&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17509297 >[105]&lt;/a>. Стадиите T1-2 N0 M0 се
 обобщават като локално ограничен рак на простатата. Локално напредналия рак на простатата
 обхваща стадии T3-4 N0 M0. Стадиите N1и/или M1 се означават съответно като напреднал и
 метастазирал рак на простатата.
 \nЛокално ограниченият рак на простатата се разделя на рискови групи според развитието на рецидиви
-[&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9749478 >[106]&lt;/a>]:
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9749478 >[106]&lt;/a>:
 \n\n•
 Нисък рикс: PSA ≤ 10 ng/ml и Gleason-Score 6 и cT категория 1c, 2a.
 \n\n• Среден риск (или междинен): PSA между 10 ng/ml и 20 ng/ml или Gleason-Score 7 или cT
 категория 2b.
 \n\n•
-Висок риск: PSA > 20 ng/ml или Gleason-Score ≥ 8 или cT категория 2c [&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17509297 >[105]&lt;/a>,
-&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9749478 >[106]&lt;/a>]
+Висок риск: PSA > 20 ng/ml или Gleason-Score ≥ 8 или cT категория 2c &lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/17509297 >[105]&lt;/a>,
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/9749478 >[106]&lt;/a>
 \n\nТази класификация на рисковете е основа за множество клинични изследвания, а параметрите
 стойност на PSA, Gleason-Score и T категория са основа за номограмите.
 Промените на акуталната класификация UICC в сравнение с предишните версии трябва да се вземат
