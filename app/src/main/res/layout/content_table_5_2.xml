@@ -324,7 +324,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="1+ bis 3 "
+                    android:text="1+ до 3 "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
@@ -415,7 +415,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="1+ bis 3 "
+                    android:text="1+ до 3 "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
@@ -497,7 +497,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="1+ bis 3 "
+                    android:text="1+ до 3 "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
