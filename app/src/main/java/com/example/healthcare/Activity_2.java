@@ -15,19 +15,18 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             btn6_3, btn6_3_3, btn6_4, btn6_4_5, btn7, btn7_2, btn7_4, btn7_4_3, btn7_6, btn7_6_1, btn8, btn8_1, btn8_2, btn8_3, btn9, btn9_1, btn9_2, btn9_3
             ,btn10,btn10_1,btn10_2,btn11,btn13,btn14;
 
-    TextView row0, row1, row2, row3, row3_1, row3_2, row3_2_1, row3_2_2, row3_3, row4, row4_1, row5, row5_1, row5_2, row5_2_1, row5_2_2, row5_3,
+    TextView row0, row1, row2, row3, row3_1, row3_2, row3_2_1, row3_2_2, row3_3, row4, row4_1, row5, row5_1, row5_2, row5_2_0, row5_2_1, row5_2_2, row5_3,
             row5_4, row5_4_1, row5_4_2, row5_4_2_1, row5_4_2_2, row5_4_2_3, row5_4_3, row5_4_3_1, row5_4_3_2, row5_4_3_3, row5_4_3_4, row5_4_4, row6, row6_1,
             row6_2, row6_3, row6_3_1, row6_3_2, row6_3_3, row6_3_3_1, row6_3_3_2, row6_3_4, row6_3_5, row6_4, row6_4_1, row6_4_2, row6_4_3, row6_4_4, row6_4_5, row6_4_5_1, row6_4_5_2, row6_4_5_3, row6_4_6, row6_5, row6_6, row6_7,
-            row7, row7_1, row7_2, row7_2_1, row7_2_2, row7_2_3, row7_3, row7_4, row7_4_1, row7_4_2, row7_4_3, row7_4_3_1, row7_4_3_2, row7_5, row7_6, row7_6_1, row7_6_1_1,
+            row7, row7_1, row7_2, row7_2_0, row7_2_1, row7_2_2, row7_2_3, row7_3, row7_4, row7_4_0, row7_4_1, row7_4_2, row7_4_3, row7_4_3_1, row7_4_3_2, row7_5, row7_6, row7_6_0, row7_6_1, row7_6_1_1,
             row7_6_1_2, row7_6_1_3, row7_6_1_4, row7_6_2, row8, row8_1, row8_2, row8_3, row9, row9_1, row9_2, row9_3, row10, row10_1, row10_2, row11, row12, row13;
 
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
-            Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
+            Layout5_2, Layout5_2_0, Layout5_2_1, Layout5_2_2, Layout5_3, Layout5_4, Layout5_4_1, Layout5_4_2, Layout5_4_2_1,
             Layout5_4_2_2,Layout5_4_2_3,Layout5_4_3,Layout5_4_3_1,Layout5_4_3_2,Layout5_4_3_3,Layout5_4_3_4,Layout5_4_4,
            Layout6_1, Layout6_2, Layout6_3,Layout6_3_1,Layout6_3_2,Layout6_3_3,Layout6_3_3_1,Layout6_3_3_2,Layout6_3_4,Layout6_3_5,
             Layout6_4, Layout6_4_1, Layout6_4_2, Layout6_4_3, Layout6_4_4, Layout6_4_5, Layout6_4_5_1, Layout6_4_5_2, Layout6_4_5_3, Layout6_4_6, Layout6_5, Layout6_6, Layout6_7,
-            Layout7_1, Layout7_2,Layout7_2_1,Layout7_2_2,Layout7_2_3,Layout7_3,Layout7_4,Layout7_4_1,Layout7_4_2,Layout7_4_3,Layout7_4_3_1,Layout7_4_3_2
-            ,Layout7_5,Layout7_6,Layout7_6_1,Layout7_6_1_1,Layout7_6_1_2,Layout7_6_1_3,Layout7_6_1_4,Layout7_6_2,
+            Layout7_1, Layout7_2, Layout7_2_0, Layout7_2_1, Layout7_2_2, Layout7_2_3, Layout7_3, Layout7_4, Layout7_4_0, Layout7_4_1, Layout7_4_2, Layout7_4_3, Layout7_4_3_1, Layout7_4_3_2, Layout7_5, Layout7_6, Layout7_6_0, Layout7_6_1, Layout7_6_1_1, Layout7_6_1_2, Layout7_6_1_3, Layout7_6_1_4, Layout7_6_2,
     Layout8,Layout8_1,Layout8_2,Layout8_3,Layout9,Layout9_1,Layout9_2,Layout9_3,Layout10,Layout10_1,Layout10_2,Layout11,Layout12,Layout13;
 
     private boolean openMenu3 =false,openMenu3_2 =false,openMenu4 =false,openMenu5 =false,openMenu5_2 =false,
@@ -53,6 +52,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row5 = findViewById(R.id.textViewRow5);
         row5_1 =findViewById(R.id.textViewRow5_1);
         row5_2 =findViewById(R.id.textViewRow5_2);
+        row5_2_0 = findViewById(R.id.textViewRow5_2_0);
         row5_2_1 = findViewById(R.id.textViewRow5_2_1);
         row5_2_2 = findViewById(R.id.textViewRow5_2_2);
         row5_3 = findViewById(R.id.textViewRow5_3);
@@ -96,11 +96,13 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row7 = findViewById(R.id.textViewRow7);
         row7_1 = findViewById(R.id.textViewRow7_1);
         row7_2 = findViewById(R.id.textViewRow7_2);
+        row7_2_0 = findViewById(R.id.textViewRow7_2_0);
         row7_2_1 = findViewById(R.id.textViewRow7_2_1);
         row7_2_2 = findViewById(R.id.textViewRow7_2_2);
         row7_2_3 = findViewById(R.id.textViewRow7_2_3);
         row7_3 = findViewById(R.id.textViewRow7_3);
         row7_4 = findViewById(R.id.textViewRow7_4);
+        row7_4_0 = findViewById(R.id.textViewRow7_4_0);
         row7_4_1 = findViewById(R.id.textViewRow7_4_1);
         row7_4_2 = findViewById(R.id.textViewRow7_4_2);
         row7_4_3 = findViewById(R.id.textViewRow7_4_3);
@@ -108,6 +110,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row7_4_3_2 = findViewById(R.id.textViewRow7_4_3_2);
         row7_5 = findViewById(R.id.textViewRow7_5);
         row7_6 = findViewById(R.id.textViewRow7_6);
+        row7_6_0 = findViewById(R.id.textViewRow7_6_0);
         row7_6_1 = findViewById(R.id.textViewRow7_6_1);
         row7_6_1_1 = findViewById(R.id.textViewRow7_6_1_1);
         row7_6_1_2 = findViewById(R.id.textViewRow7_6_1_2);
@@ -160,6 +163,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         Layout4_1 = findViewById(R.id.layout4_1);
         Layout5_1 = findViewById(R.id.layout5_1);
         Layout5_2 = findViewById(R.id.layout5_2);
+        Layout5_2_0 = findViewById(R.id.layout5_2_0);
         Layout5_2_1 = findViewById(R.id.layout5_2_1);
         Layout5_2_2 = findViewById(R.id.layout5_2_2);
         Layout5_3 = findViewById(R.id.layout5_3);
@@ -200,11 +204,13 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         Layout6_7 = findViewById(R.id.layout6_7);
         Layout7_1 = findViewById(R.id.layout7_1);
         Layout7_2 = findViewById(R.id.layout7_2);
+        Layout7_2_0 = findViewById(R.id.layout7_2_0);
         Layout7_2_1 = findViewById(R.id.layout7_2_1);
         Layout7_2_2 = findViewById(R.id.layout7_2_2);
         Layout7_2_3 = findViewById(R.id.layout7_2_3);
         Layout7_3 = findViewById(R.id.layout7_3);
         Layout7_4 = findViewById(R.id.layout7_4);
+        Layout7_4_0 = findViewById(R.id.layout7_4_0);
         Layout7_4_1 = findViewById(R.id.layout7_4_1);
         Layout7_4_2 = findViewById(R.id.layout7_4_2);
         Layout7_4_3 = findViewById(R.id.layout7_4_3);
@@ -212,6 +218,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         Layout7_4_3_2 = findViewById(R.id.layout7_4_3_2);
         Layout7_5 = findViewById(R.id.layout7_5);
         Layout7_6 = findViewById(R.id.layout7_6);
+        Layout7_6_0 = findViewById(R.id.layout7_6_0);
         Layout7_6_1 = findViewById(R.id.layout7_6_1);
         Layout7_6_1_1 = findViewById(R.id.layout7_6_1_1);
         Layout7_6_1_2 = findViewById(R.id.layout7_6_1_2);
@@ -271,6 +278,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row5.setOnClickListener(this);
         row5_1.setOnClickListener(this);
         row5_2.setOnClickListener(this);
+        row5_2_0.setOnClickListener(this);
         row5_2_1.setOnClickListener(this);
         row5_2_2.setOnClickListener(this);
         row5_3.setOnClickListener(this);
@@ -313,11 +321,13 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row7.setOnClickListener(this);
         row7_1.setOnClickListener(this);
         row7_2.setOnClickListener(this);
+        row7_2_0.setOnClickListener(this);
         row7_2_1.setOnClickListener(this);
         row7_2_2.setOnClickListener(this);
         row7_2_3.setOnClickListener(this);
         row7_3.setOnClickListener(this);
         row7_4.setOnClickListener(this);
+        row7_4_0.setOnClickListener(this);
         row7_4_1.setOnClickListener(this);
         row7_4_2.setOnClickListener(this);
         row7_4_3.setOnClickListener(this);
@@ -325,6 +335,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row7_4_3_2.setOnClickListener(this);
         row7_5.setOnClickListener(this);
         row7_6.setOnClickListener(this);
+        row7_6_0.setOnClickListener(this);
         row7_6_1.setOnClickListener(this);
         row7_6_1_1.setOnClickListener(this);
         row7_6_1_2.setOnClickListener(this);
@@ -463,6 +474,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                     btn5_4_3.setImageResource(R.drawable.icon_plus);
                     Layout5_1.setVisibility(View.GONE);
                     Layout5_2.setVisibility(View.GONE);
+                    Layout5_2_0.setVisibility(View.GONE);
                     Layout5_2_1.setVisibility(View.GONE);
                     Layout5_2_2.setVisibility(View.GONE);
                     Layout5_3.setVisibility(View.GONE);
@@ -486,15 +498,18 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton5_2: {
+            case R.id.imageButton5_2:
+            case R.id.textViewRow5_2: {
                 if(!openMenu5_2){
                     btn5_2.setImageResource(R.drawable.icon_minus);
+                    Layout5_2_0.setVisibility(View.VISIBLE);
                     Layout5_2_1.setVisibility(View.VISIBLE);
                     Layout5_2_2.setVisibility(View.VISIBLE);
                     openMenu5_2=true;
                 }
                 else {
                     btn5_2.setImageResource(R.drawable.icon_plus);
+                    Layout5_2_0.setVisibility(View.GONE);
                     Layout5_2_1.setVisibility(View.GONE);
                     Layout5_2_2.setVisibility(View.GONE);
                     openMenu5_2 =false;
@@ -744,11 +759,13 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
                     Layout7_1.setVisibility(View.GONE);
                     Layout7_2.setVisibility(View.GONE);
+                    Layout7_2_0.setVisibility(View.GONE);
                     Layout7_2_1.setVisibility(View.GONE);
                     Layout7_2_2.setVisibility(View.GONE);
                     Layout7_2_3.setVisibility(View.GONE);
                     Layout7_3.setVisibility(View.GONE);
                     Layout7_4.setVisibility(View.GONE);
+                    Layout7_4_0.setVisibility(View.GONE);
                     Layout7_4_1.setVisibility(View.GONE);
                     Layout7_4_2.setVisibility(View.GONE);
                     Layout7_4_3.setVisibility(View.GONE);
@@ -756,6 +773,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                     Layout7_4_3_2.setVisibility(View.GONE);
                     Layout7_5.setVisibility(View.GONE);
                     Layout7_6.setVisibility(View.GONE);
+                    Layout7_6_0.setVisibility(View.GONE);
                     Layout7_6_1.setVisibility(View.GONE);
                     Layout7_6_1_1.setVisibility(View.GONE);
                     Layout7_6_1_2.setVisibility(View.GONE);
@@ -772,9 +790,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton7_2: {
+            case R.id.imageButton7_2:
+            case R.id.textViewRow7_2: {
                 if(!openMenu7_2){
                     btn7_2.setImageResource(R.drawable.icon_minus);
+                    Layout7_2_0.setVisibility(View.VISIBLE);
                     Layout7_2_1.setVisibility(View.VISIBLE);
                     Layout7_2_2.setVisibility(View.VISIBLE);
                     Layout7_2_3.setVisibility(View.VISIBLE);
@@ -783,6 +803,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 else {
 
                     btn7_2.setImageResource(R.drawable.icon_plus);
+                    Layout7_2_0.setVisibility(View.GONE);
                     Layout7_2_1.setVisibility(View.GONE);
                     Layout7_2_2.setVisibility(View.GONE);
                     Layout7_2_3.setVisibility(View.GONE);
@@ -790,9 +811,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton7_4: {
+            case R.id.imageButton7_4:
+            case R.id.textViewRow7_4: {
                 if(!openMenu7_4){
                     btn7_4.setImageResource(R.drawable.icon_minus);
+                    Layout7_4_0.setVisibility(View.VISIBLE);
                     Layout7_4_1.setVisibility(View.VISIBLE);
                     Layout7_4_2.setVisibility(View.VISIBLE);
                     Layout7_4_3.setVisibility(View.VISIBLE);
@@ -802,6 +825,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
                     btn7_4.setImageResource(R.drawable.icon_plus);
                     btn7_4_3.setImageResource(R.drawable.icon_plus);
+                    Layout7_4_0.setVisibility(View.GONE);
                     Layout7_4_1.setVisibility(View.GONE);
                     Layout7_4_2.setVisibility(View.GONE);
                     Layout7_4_3.setVisibility(View.GONE);
@@ -829,9 +853,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton7_6: {
+            case R.id.imageButton7_6:
+            case R.id.textViewRow7_6: {
                 if(!openMenu7_6){
                     btn7_6.setImageResource(R.drawable.icon_minus);
+                    Layout7_6_0.setVisibility(View.VISIBLE);
                     Layout7_6_1.setVisibility(View.VISIBLE);
                     Layout7_6_2.setVisibility(View.VISIBLE);
                     Layout7_2_3.setVisibility(View.VISIBLE);
@@ -841,6 +867,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
                     btn7_6.setImageResource(R.drawable.icon_plus);
                     btn7_6_1.setImageResource(R.drawable.icon_plus);
+                    Layout7_6_0.setVisibility(View.GONE);
                     Layout7_6_1.setVisibility(View.GONE);
                     Layout7_6_2.setVisibility(View.GONE);
                     Layout7_6_1_1.setVisibility(View.GONE);
@@ -981,7 +1008,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 startActivity(intent);
                 break;
             }
-            case R.id.textViewRow5_2: {
+            case R.id.textViewRow5_2_0: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_5_2.class );
                 startActivity(intent);
@@ -1179,7 +1206,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 startActivity(intent);
                 break;
             }
-            case R.id.textViewRow7_2: {
+            case R.id.textViewRow7_2_0: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_7_2.class);
                 startActivity(intent);
@@ -1209,7 +1236,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 startActivity(intent);
                 break;
             }
-            case R.id.textViewRow7_4: {
+            case R.id.textViewRow7_4_0: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_7_4.class);
                 startActivity(intent);
@@ -1245,7 +1272,7 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 startActivity(intent);
                 break;
             }
-            case R.id.textViewRow7_6: {
+            case R.id.textViewRow7_6_0: {
                 Intent intent;
                 intent = new Intent(Activity_2.this, table_7_6.class);
                 startActivity(intent);
