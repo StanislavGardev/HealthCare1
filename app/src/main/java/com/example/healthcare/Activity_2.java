@@ -15,11 +15,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
             btn6_3, btn6_3_3, btn6_4, btn6_4_5, btn7, btn7_2, btn7_4, btn7_4_3, btn7_6, btn7_6_1, btn8, btn8_1, btn8_2, btn8_3, btn9, btn9_1, btn9_2, btn9_3
             ,btn10,btn10_1,btn10_2,btn11,btn13,btn14;
 
-    TextView row0, row1, row2, row3, row3_1, row3_2, row3_2_1, row3_2_2, row3_3, row4_1, row5_1, row5_2, row5_2_1, row5_2_2, row5_3,
-            row5_4, row5_4_1, row5_4_2, row5_4_2_1, row5_4_2_2, row5_4_2_3, row5_4_3, row5_4_3_1, row5_4_3_2, row5_4_3_3, row5_4_3_4, row5_4_4, row6_1,
-            row6_2, row6_3_1, row6_3_2, row6_3_3_1, row6_3_3_2, row6_3_4, row6_3_5, row6_4_1, row6_4_2, row6_4_3, row6_4_4, row6_4_5, row6_4_5_1, row6_4_5_2, row6_4_5_3, row6_4_6, row6_5, row6_6, row6_7,
+    TextView row0, row1, row2, row3, row3_1, row3_2, row3_2_1, row3_2_2, row3_3, row4, row4_1, row5, row5_1, row5_2, row5_2_1, row5_2_2, row5_3,
+            row5_4, row5_4_1, row5_4_2, row5_4_2_1, row5_4_2_2, row5_4_2_3, row5_4_3, row5_4_3_1, row5_4_3_2, row5_4_3_3, row5_4_3_4, row5_4_4, row6, row6_1,
+            row6_2, row6_3, row6_3_1, row6_3_2, row6_3_3, row6_3_3_1, row6_3_3_2, row6_3_4, row6_3_5, row6_4, row6_4_1, row6_4_2, row6_4_3, row6_4_4, row6_4_5, row6_4_5_1, row6_4_5_2, row6_4_5_3, row6_4_6, row6_5, row6_6, row6_7,
             row7, row7_1, row7_2, row7_2_1, row7_2_2, row7_2_3, row7_3, row7_4, row7_4_1, row7_4_2, row7_4_3, row7_4_3_1, row7_4_3_2, row7_5, row7_6, row7_6_1, row7_6_1_1,
-            row7_6_1_2, row7_6_1_3, row7_6_1_4, row7_6_2, row8, row8_1, row8_2, row8_3, row9_1, row9_2, row9_3, row10_1, row10_2, row11, row12, row13;
+            row7_6_1_2, row7_6_1_3, row7_6_1_4, row7_6_2, row8, row8_1, row8_2, row8_3, row9, row9_1, row9_2, row9_3, row10, row10_1, row10_2, row11, row12, row13;
 
     LinearLayout Layout3_1, Layout3_2, Layout3_2_1, Layout3_2_2,Layout3_3,Layout4_1,Layout5_1,
             Layout5_2,Layout5_2_1,Layout5_2_2,Layout5_3,Layout5_4,Layout5_4_1,Layout5_4_2,Layout5_4_2_1,
@@ -44,10 +44,13 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row2=findViewById(R.id.textViewRow2);
         row3=findViewById(R.id.textViewRow3);
         row3_1=findViewById(R.id.textViewRow3_1);
+        row3_2 = findViewById(R.id.textViewRow3_2);
         row3_2_1 =findViewById(R.id.textViewRow3_2_1);
         row3_2_2 =findViewById(R.id.textViewRow3_2_2);
         row3_3 =findViewById(R.id.textViewRow3_3);
+        row4 = findViewById(R.id.textViewRow4);
         row4_1 =findViewById(R.id.textViewRow4_1);
+        row5 = findViewById(R.id.textViewRow5);
         row5_1 =findViewById(R.id.textViewRow5_1);
         row5_2 =findViewById(R.id.textViewRow5_2);
         row5_2_1 = findViewById(R.id.textViewRow5_2_1);
@@ -65,14 +68,18 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row5_4_3_3 = findViewById(R.id.textViewRow5_4_3_3);
         row5_4_3_4 = findViewById(R.id.textViewRow5_4_3_4);
         row5_4_4 = findViewById(R.id.textViewRow5_4_4);
+        row6 = findViewById(R.id.textViewRow6);
         row6_1 = findViewById(R.id.textViewRow6_1);
         row6_2 = findViewById(R.id.textViewRow6_2);
+        row6_3 = findViewById(R.id.textViewRow6_3);
         row6_3_1 = findViewById(R.id.textViewRow6_3_1);
         row6_3_2 = findViewById(R.id.textViewRow6_3_2);
+        row6_3_3 = findViewById(R.id.textViewRow6_3_3);
         row6_3_3_1 = findViewById(R.id.textViewRow6_3_3_1);
         row6_3_3_2 = findViewById(R.id.textViewRow6_3_3_2);
         row6_3_4 = findViewById(R.id.textViewRow6_3_4);
         row6_3_5 = findViewById(R.id.textViewRow6_3_5);
+        row6_4 = findViewById(R.id.textViewRow6_4);
         row6_4_1 = findViewById(R.id.textViewRow6_4_1);
         row6_4_2 = findViewById(R.id.textViewRow6_4_2);
         row6_4_3 = findViewById(R.id.textViewRow6_4_3);
@@ -111,9 +118,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row8_1 = findViewById(R.id.textViewRow8_1);
         row8_2 = findViewById(R.id.textViewRow8_2);
         row8_3 = findViewById(R.id.textViewRow8_3);
+        row9 = findViewById(R.id.textViewRow9);
         row9_1 = findViewById(R.id.textViewRow9_1);
         row9_2 = findViewById(R.id.textViewRow9_2);
         row9_3 = findViewById(R.id.textViewRow9_3);
+        row10 = findViewById(R.id.textViewRow10);
         row10_1 = findViewById(R.id.textViewRow10_1);
         row10_2 = findViewById(R.id.textViewRow10_2);
         row11 = findViewById(R.id.textViewRow11);
@@ -253,10 +262,13 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row2.setOnClickListener(this);
         row3.setOnClickListener(this);
         row3_1.setOnClickListener(this);
+        row3_2.setOnClickListener(this);
         row3_2_1.setOnClickListener(this);
         row3_2_2.setOnClickListener(this);
         row3_3.setOnClickListener(this);
+        row4.setOnClickListener(this);
         row4_1.setOnClickListener(this);
+        row5.setOnClickListener(this);
         row5_1.setOnClickListener(this);
         row5_2.setOnClickListener(this);
         row5_2_1.setOnClickListener(this);
@@ -274,14 +286,18 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row5_4_3_3.setOnClickListener(this);
         row5_4_3_4.setOnClickListener(this);
         row5_4_4.setOnClickListener(this);
+        row6.setOnClickListener(this);
         row6_1.setOnClickListener(this);
         row6_2.setOnClickListener(this);
+        row6_3.setOnClickListener(this);
         row6_3_1.setOnClickListener(this);
         row6_3_2.setOnClickListener(this);
+        row6_3_3.setOnClickListener(this);
         row6_3_3_1.setOnClickListener(this);
         row6_3_3_2.setOnClickListener(this);
         row6_3_4.setOnClickListener(this);
         row6_3_5.setOnClickListener(this);
+        row6_4.setOnClickListener(this);
         row6_4_1.setOnClickListener(this);
         row6_4_2.setOnClickListener(this);
         row6_4_3.setOnClickListener(this);
@@ -319,9 +335,11 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         row8_1.setOnClickListener(this);
         row8_2.setOnClickListener(this);
         row8_3.setOnClickListener(this);
+        row9.setOnClickListener(this);
         row9_1.setOnClickListener(this);
         row9_2.setOnClickListener(this);
         row9_3.setOnClickListener(this);
+        row10.setOnClickListener(this);
         row10_1.setOnClickListener(this);
         row10_2.setOnClickListener(this);
         row11.setOnClickListener(this);
