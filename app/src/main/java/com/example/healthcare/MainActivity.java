@@ -36,6 +36,7 @@ Button btn1, btn2;
         text.setOnClickListener(this);
         link = Html.fromHtml(getString(R.string.firstPage));
         linkView.setText(link);
+
         linkView.setMovementMethod(LinkMovementMethod.getInstance());
 //        btn1.setOnClickListener(this);
 //        btn2.setOnClickListener(this);

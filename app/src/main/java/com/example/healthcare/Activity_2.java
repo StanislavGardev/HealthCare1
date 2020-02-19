@@ -369,7 +369,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 break;
             }
 //
-            case R.id.imageButton3: {
+            case R.id.imageButton3:
+            case R.id.textViewRow3: {
                 if(!openMenu3){
                     btn3.setImageResource(R.drawable.icon_minus);
                     Layout3_1.setVisibility(View.VISIBLE);
@@ -395,7 +396,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
                 break;
             }
-            case R.id.imageButton3_2: {
+            case R.id.imageButton3_2:
+            case R.id.textViewRow3_2: {
                 if(!openMenu3_2){
                     btn3_2.setImageResource(R.drawable.icon_minus);
 
@@ -411,7 +413,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                                     }
                 break;
             }
-            case R.id.imageButton4: {
+            case R.id.imageButton4:
+            case R.id.textViewRow4: {
                 if(!openMenu4){
                     btn4.setImageResource(R.drawable.icon_minus);
                     Layout4_1.setVisibility(View.VISIBLE);
@@ -424,7 +427,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                                 }
                 break;
             }
-            case R.id.imageButton5: {
+            case R.id.imageButton5:
+            case R.id.textViewRow5: {
                 if(!openMenu5){
                     btn5.setImageResource(R.drawable.icon_minus);
                     Layout5_1.setVisibility(View.VISIBLE);
@@ -479,7 +483,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton5_4: {
+            case R.id.imageButton5_4:
+            case R.id.textViewRow5_4: {
                 if(!openMenu5_4){
                     btn5_4.setImageResource(R.drawable.icon_minus);
                     Layout5_4_1.setVisibility(View.VISIBLE);
@@ -509,7 +514,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton5_4_2: {
+            case R.id.imageButton5_4_2:
+            case R.id.textViewRow5_4_2: {
                 if(!openMenu5_4_2){
                     btn5_4_2.setImageResource(R.drawable.icon_minus);
                     Layout5_4_2_1.setVisibility(View.VISIBLE);
@@ -530,7 +536,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton5_4_3: {
+            case R.id.imageButton5_4_3:
+            case R.id.textViewRow5_4_3: {
                 if(!openMenu5_4_3){
                     btn5_4_3.setImageResource(R.drawable.icon_minus);
                     Layout5_4_3_1.setVisibility(View.VISIBLE);
@@ -551,7 +558,9 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
                 }
                 break;
-            } case R.id.imageButton6: {
+            }
+            case R.id.imageButton6:
+            case R.id.textViewRow6: {
                 if(!openMenu6){
 
                     btn6.setImageResource(R.drawable.icon_minus);
@@ -603,7 +612,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton6_3: {
+            case R.id.imageButton6_3:
+            case R.id.textViewRow6_3: {
                 if(!openMenu6_3){
                     btn6_3.setImageResource(R.drawable.icon_minus);
                     Layout6_3_1.setVisibility(View.VISIBLE);
@@ -628,7 +638,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton6_3_3: {
+            case R.id.imageButton6_3_3:
+            case R.id.textViewRow6_3_3: {
                 if(!openMenu6_3_3){
                     btn6_3_3.setImageResource(R.drawable.icon_minus);
                     Layout6_3_3_1.setVisibility(View.VISIBLE);
@@ -644,7 +655,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton6_4: {
+            case R.id.imageButton6_4:
+            case R.id.textViewRow6_4: {
                 if(!openMenu6_4){
                     btn6_4.setImageResource(R.drawable.icon_minus);
                     Layout6_4_1.setVisibility(View.VISIBLE);
@@ -671,7 +683,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton6_4_5: {
+            case R.id.imageButton6_4_5:
+            case R.id.textViewRow6_4_5: {
                 if (!openMenu6_4_5) {
                     btn6_4_5.setImageResource(R.drawable.icon_minus);
                     Layout6_4_5_1.setVisibility(View.VISIBLE);
@@ -688,7 +701,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton7: {
+            case R.id.imageButton7:
+            case R.id.textViewRow7: {
                 if(!openMenu7){
 
                     btn7.setImageResource(R.drawable.icon_minus);
@@ -780,7 +794,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton7_4_3: {
+            case R.id.imageButton7_4_3:
+            case R.id.textViewRow7_4_3: {
                 if(!openMenu7_4_3){
                     btn7_4_3.setImageResource(R.drawable.icon_minus);
                     Layout7_4_3_1.setVisibility(View.VISIBLE);
@@ -819,7 +834,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton7_6_1: {
+            case R.id.imageButton7_6_1:
+            case R.id.textViewRow7_6_1: {
                 if(!openMenu7_6_1){
                     btn7_6_1.setImageResource(R.drawable.icon_minus);
                     Layout7_6_1_1.setVisibility(View.VISIBLE);
@@ -838,7 +854,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton8: {
+            case R.id.imageButton8:
+            case R.id.textViewRow8: {
                 if(!openMenu8){
                     btn8.setImageResource(R.drawable.icon_minus);
                     Layout8_1.setVisibility(View.VISIBLE);
@@ -856,7 +873,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton9: {
+            case R.id.imageButton9:
+            case R.id.textViewRow9: {
                 if(!openMenu9){
                     btn9.setImageResource(R.drawable.icon_minus);
                     Layout9_1.setVisibility(View.VISIBLE);
@@ -874,7 +892,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
                 }
                 break;
             }
-            case R.id.imageButton10: {
+            case R.id.imageButton10:
+            case R.id.textViewRow10: {
                 if(!openMenu10){
                     btn10.setImageResource(R.drawable.icon_minus);
                     Layout10_1.setVisibility(View.VISIBLE);

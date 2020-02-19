@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -56,7 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -75,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -95,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -234,11 +234,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textViewRow4"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:layout_weight="9"
@@ -279,11 +279,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/textViewRow5"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:layout_weight="8"
@@ -482,7 +482,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -502,7 +502,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -522,7 +522,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -568,7 +568,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -588,7 +588,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -608,7 +608,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -628,7 +628,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -669,7 +669,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -826,7 +826,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -846,7 +846,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1038,7 +1038,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1058,7 +1058,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1078,7 +1078,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1178,7 +1178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -1423,7 +1423,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1443,7 +1443,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1537,7 +1537,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1557,7 +1557,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1577,7 +1577,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1597,7 +1597,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorAccent"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
@@ -1639,7 +1639,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -1718,11 +1718,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/textViewRow9"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:layout_weight="8"
@@ -1797,11 +1797,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/textViewRow10"
                     android:layout_width="wrap_content"
                     android:layout_height="48dp"
                     android:layout_weight="8"
@@ -1859,7 +1859,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView
@@ -1878,7 +1878,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="3dp"
-                android:background="?attr/colorPrimary"
+                android:background="?attr/colorPrimaryDark"
                 android:orientation="horizontal">
 
                 <TextView

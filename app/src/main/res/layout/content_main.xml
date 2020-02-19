@@ -22,7 +22,7 @@
         android:textColor="#ffffff"
         android:padding="50dp"
         android:textSize="25sp"
-        android:background="?attr/colorPrimary" />
+        android:background="?attr/colorAccent" />
 
     <TextView
         android:id="@+id/textViewLink"
@@ -32,7 +32,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFirstText" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewFirstText"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center"
+        android:textColorLink="@android:color/white" />
 
     <!--    <Button-->
 <!--        android:id="@+id/button"-->
