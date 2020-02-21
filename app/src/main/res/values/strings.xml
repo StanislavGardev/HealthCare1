@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Ръководство</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_scrolling">Ръководство</string>
+
     <string name="large_text">
 
         "Material is the metaphor.\n\n"
@@ -2269,18 +2269,15 @@ prostate cancer – ATYP“\n\n.
 уролозите:
 \n\n• Броят и локализацията на раково
 позитивните тъканни проби.
-\n\n• Полуколичествена
-(Semiquantitative???) оценка на
+\n\n• Полуколичествена оценка на
 разпространението на тумора (в
-проценти и/или мм)\n\n. 
+проценти и/или мм)\n\n.•
 Gleason- Score според
 ISUP 2014 и СЗО (WHO)
 2016
-\n\n
+\n\n•
 Когато може да се оцени
-трябва да се укаже
-инфилтрацията на
-периневралната
+трябва да се укаже периневралната
 инфилтрация (Pn1),
 инфилтрацията на
 капсулата, нарастване
@@ -2343,7 +2340,7 @@ ISUP 2014 и СЗО (WHO)
 подразделянето на категория pT3a
 (преминаването в капсулата = тумор в
 мастната тъкан) според Epstein et al.
-[153] във фокалното проникване на
+&lt;a href= http://www.ncbi.nlm.nih.gov/pubmed/8772781 >[153]&lt;/a> във фокалното проникване на
 капсулата (няколко туморни жлези
 непосредствено извън простатата в
 една или две секции) и установено
@@ -4007,6 +4004,7 @@ https://www.prostatakrebs-bps.de/
     <string name="title_activity_table3_2_1">table3_2_1</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_scrolling">Ръководство</string>
     <string name="title_activity_table_3_2_1">Рискови фактори</string>
     <string name="title_activity_table_3_2_2">Рискови фактори</string>
     <string name="title_activity_table_3_3">Превенция и хранене</string>

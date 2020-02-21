@@ -2,15 +2,10 @@ package com.example.healthcare;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import  android.text.Html;
-import android.view.View;
-import android.widget.TextView;
 
 public  class ScrollingActivity extends AppCompatActivity {
     private final String htmlText = "<body><h1>Heading Text</h1><p>This tutorial " +
@@ -42,6 +37,7 @@ public  class ScrollingActivity extends AppCompatActivity {
 //        });
        TextView text=findViewById(R.id.textToLoad);
        text.setText(textToSet);
+         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 }
