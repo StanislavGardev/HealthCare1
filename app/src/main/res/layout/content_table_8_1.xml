@@ -620,7 +620,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="EK; виж също  S3-ръководството по психооноклогия "
+                    android:text="EK; виж също  S3-ръководството по психоонклогия "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />

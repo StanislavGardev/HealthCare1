@@ -162,7 +162,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
-                    android:text="9.14"
+                    android:text="9.5"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />

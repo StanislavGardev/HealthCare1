@@ -73,11 +73,12 @@
                 android:stretchColumns="0">
 
                 <TextView
+                    android:id="@+id/pk12_notes"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
-                    android:text="За класификацията на нивата на доказателства в използваните проучвания в ръководството се използва показаната в таблица 2 система на (Scottish Intercollegiate Guidelines Network (SIGN)) (вижe http://www.sign.ac.uk/pdf/sign50.pdf)."
+                    android:text="@string/pk12notes"
                     android:textSize="13sp" />
             </TableRow>
 

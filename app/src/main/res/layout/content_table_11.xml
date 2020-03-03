@@ -2087,7 +2087,7 @@
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:text="Източник за класификацията: [459]"
+                    android:text="@string/pk10notes"
                     android:textSize="13sp" />
             </TableRow>
 
