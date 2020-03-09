@@ -1,11 +1,14 @@
 package com.example.healthcare;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,10 +18,10 @@ import androidx.appcompat.widget.Toolbar;
 public class table_7_5 extends AppCompatActivity implements GestureDetector.OnGestureListener {
     TextView L7_47, L7_48, L7_49, L7_50, L7_51, L7_52;
     Spanned Link_7_47, Link_7_48, Link_7_49, Link_7_50, Link_7_51, Link_7_52;
+    ScrollView scrollView;
     public static final int SWIPE_THRESHOLD = 100;
     public static final int SWIPE_VELOCITY_THRESHOLD = 100;
     private GestureDetector gestureDetector;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +39,7 @@ public class table_7_5 extends AppCompatActivity implements GestureDetector.OnGe
 //            }
 //        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        scrollView = findViewById(R.id.scrollView75);
         L7_47 = findViewById(R.id.tableLink_7_47);
         L7_48 = findViewById(R.id.tableLink_7_48);
         L7_49 = findViewById(R.id.tableLink_7_49);
@@ -55,18 +59,25 @@ public class table_7_5 extends AppCompatActivity implements GestureDetector.OnGe
         L7_51.setText(Link_7_51);
         L7_52.setText(Link_7_52);
         L7_47.setMovementMethod(LinkMovementMethod.getInstance());
-        L7_48.setMovementMethod(LinkMovementMethod.getInstance());
+        // L7_48.setMovementMethod(LinkMovementMethod.getInstance());
         L7_49.setMovementMethod(LinkMovementMethod.getInstance());
         L7_50.setMovementMethod(LinkMovementMethod.getInstance());
         L7_51.setMovementMethod(LinkMovementMethod.getInstance());
         L7_52.setMovementMethod(LinkMovementMethod.getInstance());
+        scrollView.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                v.onTouchEvent(event);
+                gestureDetector.onTouchEvent(event);
+                return true;
+            }
+        });
 
-
+        gestureDetector = new GestureDetector(getApplicationContext(), this);
     }
 
     @Override
     public boolean onDown(MotionEvent e) {
-        return false;
+        return true;
     }
 
     @Override
@@ -129,11 +140,19 @@ public class table_7_5 extends AppCompatActivity implements GestureDetector.OnGe
     }
 
     private void onSwipeLeft() {
-        Toast.makeText(this, "Swipe Left", Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "Swipe Left", Toast.LENGTH_LONG).show();
+        Intent intent;
+        intent = new Intent(table_7_5.this, table_7_6.class);
+        startActivity(intent);
+        this.finish();
     }
 
     private void onSwipeRight() {
-        Toast.makeText(this, "Swipe Right", Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "Swipe Right", Toast.LENGTH_LONG).show();
+        Intent intent;
+        intent = new Intent(table_7_5.this, table_7_4_3_2.class);
+        startActivity(intent);
+        this.finish();
 
     }
 
@@ -142,4 +161,6 @@ public class table_7_5 extends AppCompatActivity implements GestureDetector.OnGe
         gestureDetector.onTouchEvent(event);
         return super.onTouchEvent(event);
     }
+
+
 }
