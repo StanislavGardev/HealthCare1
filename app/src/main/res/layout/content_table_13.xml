@@ -9,6 +9,7 @@
     tools:showIn="@layout/activity_table_13">
 
     <ScrollView
+        android:id="@+id/scrollView13"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorPrimaryDark">
@@ -837,8 +838,8 @@
                 android:id="@+id/firstRow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:layout_marginTop="3dp">
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="1dp">
 
 
                 <!-- first element of the row-->
@@ -985,14 +986,14 @@
 
                 <TextView
                     android:id="@+id/textViewLine"
-                    android:layout_weight=".1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="----------------------"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:textSize="18sp"
+                    android:text="----------------------"
                     android:textAlignment="center"
-                    android:background="@color/cardview_light_background" />
+                    android:textSize="18sp" />
             </TableRow>
 
         </TableLayout>

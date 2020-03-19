@@ -9,6 +9,7 @@
     tools:showIn="@layout/activity_table_5_2_1">
 
     <ScrollView
+        android:id="@+id/scrollView521"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorPrimaryDark">

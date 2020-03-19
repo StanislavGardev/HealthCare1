@@ -9,6 +9,7 @@
     tools:showIn="@layout/activity_table_11">
 
     <ScrollView
+        android:id="@+id/scrollView11"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorPrimaryDark">
@@ -52,8 +53,8 @@
                 android:id="@+id/firstRow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:layout_marginTop="3dp">
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="1dp">
 
 
                 <!-- first element of the row-->
@@ -68,11 +69,11 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginRight="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -92,9 +93,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -112,9 +113,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -142,8 +143,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -168,8 +169,8 @@
                     android:layout_height="match_parent"
                     android:layout_column="1"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
@@ -185,8 +186,8 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
@@ -201,8 +202,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -270,11 +271,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -292,9 +293,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -310,9 +311,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -340,8 +341,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -383,8 +384,8 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
@@ -399,8 +400,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -428,9 +429,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="5dp"
 
+                    android:text="За оценка на категорията на лимфните възли всички лимфни възли трябва да бъдат макроскопично подготвени и след това поставени, изследвани и изброени. Лимфните възли трябва да бъдат оценявани отделно според указаните региони. След хистологичното изследване трябва да бъде определена pN-категорията (pN0 или pN1). Общият брой и броят на засегнатите лимфни възли, както и средната стойност на големината на метастазите трябва да бъде указана."
                     android:textColor="#000"
-                    android:textSize="12sp"
-                    android:text="За оценка на категорията на лимфните възли всички лимфни възли трябва да бъдат макроскопично подготвени и след това поставени, изследвани и изброени. Лимфните възли трябва да бъдат оценявани отделно според указаните региони. След хистологичното изследване трябва да бъде определена pN-категорията (pN0 или pN1). Общият брой и броят на засегнатите лимфни възли, както и средната стойност на големината на метастазите трябва да бъде указана." />
+                    android:textSize="12sp" />
 
                 <TextView
 
@@ -468,11 +469,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -490,9 +491,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -508,9 +509,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -538,8 +539,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -581,8 +582,8 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
@@ -597,8 +598,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -666,11 +667,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -688,9 +689,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -706,9 +707,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -736,8 +737,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -779,8 +780,8 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
@@ -795,8 +796,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -883,11 +884,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -905,9 +906,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -923,9 +924,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -953,8 +954,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -996,8 +997,8 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
@@ -1012,8 +1013,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1081,11 +1082,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -1103,9 +1104,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1121,9 +1122,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1151,8 +1152,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1194,8 +1195,8 @@
                     android:layout_height="match_parent"
                     android:layout_column="2"
                     android:layout_marginLeft="1dp"
-                    android:layout_marginRight="1dp"
                     android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
@@ -1210,8 +1211,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1279,11 +1280,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -1301,9 +1302,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1319,9 +1320,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1349,8 +1350,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1408,8 +1409,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1477,11 +1478,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -1499,9 +1500,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1517,9 +1518,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1547,8 +1548,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1606,8 +1607,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1675,11 +1676,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -1697,9 +1698,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1715,9 +1716,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1745,8 +1746,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1804,8 +1805,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -1892,11 +1893,11 @@
                     android:layout_height="match_parent"
                     android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:textAlignment="center"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Показател за качество"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
 
@@ -1914,9 +1915,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Съответна препоръка"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1932,9 +1933,9 @@
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="Доказателствена база/допълнителна информация"
+                    android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp"
-                    android:textAlignment="center"
 
 
                     />
@@ -1962,8 +1963,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -2021,8 +2022,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:shrinkColumns="0,1,2"
-                android:collapseColumns="0,1,2">
+                android:collapseColumns="0,1,2"
+                android:shrinkColumns="0,1,2">
 
                 <TextView
 
@@ -2101,14 +2102,14 @@
 
                 <TextView
                     android:id="@+id/textViewLine"
-                    android:layout_weight=".1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="----------------------"
+                    android:layout_weight=".1"
+                    android:background="@color/cardview_light_background"
                     android:padding="5dp"
-                    android:textSize="18sp"
+                    android:text="----------------------"
                     android:textAlignment="center"
-                    android:background="@color/cardview_light_background" />
+                    android:textSize="18sp" />
             </TableRow>
 
         </TableLayout>

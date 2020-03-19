@@ -10,7 +10,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -59,7 +58,7 @@ public class table_7_5 extends AppCompatActivity implements GestureDetector.OnGe
         L7_51.setText(Link_7_51);
         L7_52.setText(Link_7_52);
         L7_47.setMovementMethod(LinkMovementMethod.getInstance());
-        // L7_48.setMovementMethod(LinkMovementMethod.getInstance());
+        L7_48.setMovementMethod(LinkMovementMethod.getInstance());
         L7_49.setMovementMethod(LinkMovementMethod.getInstance());
         L7_50.setMovementMethod(LinkMovementMethod.getInstance());
         L7_51.setMovementMethod(LinkMovementMethod.getInstance());
@@ -118,26 +117,26 @@ public class table_7_5 extends AppCompatActivity implements GestureDetector.OnGe
             }
         } else {
             // up or down swipe
-            if (Math.abs(diffY) > SWIPE_THRESHOLD && Math.abs(velocityY) > SWIPE_VELOCITY_THRESHOLD) {
-                if (diffY > 0) {
-                    onSwipeBottom();
-                } else {
-                    onSwipeTop();
-                }
-                result = true;
-            }
+//            if (Math.abs(diffY) > SWIPE_THRESHOLD && Math.abs(velocityY) > SWIPE_VELOCITY_THRESHOLD) {
+//                if (diffY > 0) {
+//                    onSwipeBottom();
+//                } else {
+//                    onSwipeTop();
+//                }
+//                result = true;
+//            }
         }
 
         return result;
     }
 
-    private void onSwipeTop() {
-        Toast.makeText(this, "Swipe Top", Toast.LENGTH_LONG).show();
-    }
-
-    private void onSwipeBottom() {
-        Toast.makeText(this, "Swipe Bottom", Toast.LENGTH_LONG).show();
-    }
+//    private void onSwipeTop() {
+//        Toast.makeText(this, "Swipe Top", Toast.LENGTH_LONG).show();
+//    }
+//
+//    private void onSwipeBottom() {
+//        Toast.makeText(this, "Swipe Bottom", Toast.LENGTH_LONG).show();
+//    }
 
     private void onSwipeLeft() {
         //Toast.makeText(this, "Swipe Left", Toast.LENGTH_LONG).show();

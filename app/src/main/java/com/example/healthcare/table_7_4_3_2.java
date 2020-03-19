@@ -6,7 +6,6 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ScrollView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -88,31 +87,32 @@ public class table_7_4_3_2 extends AppCompatActivity implements GestureDetector.
             }
         } else {
             // up or down swipe
-            if (Math.abs(diffY) > SWIPE_THRESHOLD && Math.abs(velocityY) > SWIPE_VELOCITY_THRESHOLD) {
-                if (diffY > 0) {
-                    onSwipeBottom();
-                } else {
-                    onSwipeTop();
-                }
-                result = true;
-            }
+//            if (Math.abs(diffY) > SWIPE_THRESHOLD && Math.abs(velocityY) > SWIPE_VELOCITY_THRESHOLD) {
+//                if (diffY > 0) {
+//                    onSwipeBottom();
+//                } else {
+//                    onSwipeTop();
+//                }
+//                result = true;
+//            }
         }
 
         return result;
     }
 
-    private void onSwipeTop() {
-        Toast.makeText(this, "Swipe Top", Toast.LENGTH_LONG).show();
-    }
-
-    private void onSwipeBottom() {
-        Toast.makeText(this, "Swipe Bottom", Toast.LENGTH_LONG).show();
-    }
+//    private void onSwipeTop() {
+//        Toast.makeText(this, "Swipe Top", Toast.LENGTH_LONG).show();
+//    }
+//
+//    private void onSwipeBottom() {
+//        Toast.makeText(this, "Swipe Bottom", Toast.LENGTH_LONG).show();
+//    }
 
     private void onSwipeLeft() {
         //Toast.makeText(this, "Swipe Left", Toast.LENGTH_LONG).show();
         Intent intent;
         intent = new Intent(table_7_4_3_2.this, table_7_5.class);
+        startActivity(intent);
         startActivity(intent);
         this.finish();
     }
