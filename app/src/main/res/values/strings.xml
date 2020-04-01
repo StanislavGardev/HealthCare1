@@ -4118,5 +4118,9 @@ Gleason-оценка.
     <string name="title_activity_table_13">Приложение</string>
     <string name="pk10notes">Източник за класификацията:&lt;a href= http://evs.nci.nih.gov/ftp1/CTCAE/CTCAE_4.03_2010-06-14_QuickReference_5x7.pdf>[459]&lt;/a></string>
     <string name="pk12notes">За класификацията на нивата на доказателства в използваните проучвания в ръководството се използва показаната в таблица 2 система на (Scottish Intercollegiate Guidelines Network (SIGN)) (вижтe &lt;a href=http://www.sign.ac.uk/pdf/sign50.pdf>тук&lt;/a>).</string>
+    <string name="title_activity_scrolling0">Това е ново</string>
+    <string name="title_activity_scrolling2">Въведение</string>
+    <string name="title_activity_scrolling1">Информация за тази кратка версия</string>
+    <string name="title_activity_scrolling_activity3_1">Епидемиология</string>
 </resources>
 

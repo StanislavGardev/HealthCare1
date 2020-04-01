@@ -2,46 +2,30 @@ package com.example.healthcare;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.Spanned;
-import android.text.method.LinkMovementMethod;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class table_3_2_1 extends AppCompatActivity implements GestureDetector.OnGestureListener {
-TextView table1_4;
+public class ScrollingActivity3_1 extends AppCompatActivity implements GestureDetector.OnGestureListener {
+    private GestureDetector gestureDetector;
     public static final int SWIPE_THRESHOLD = 100;
     public static final int SWIPE_VELOCITY_THRESHOLD = 100;
-    private GestureDetector gestureDetector;
-    ScrollView scrollView;
+    TextView scrollView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_table_3_2_1);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        setContentView(R.layout.activity_scrolling_activity3_1);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        scrollView = findViewById(R.id.scrollView321);
 
-//        FloatingActionButton fab = findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        table1_4 = findViewById(R.id.tableLink_3_2_1);
-        Spanned Link_1_4 = Html.fromHtml(getString(R.string.Link_8));
-        table1_4.setText(Link_1_4);
-        table1_4.setMovementMethod(LinkMovementMethod.getInstance());
+        scrollView = findViewById(R.id.scrollView31);
         scrollView.setOnTouchListener(new View.OnTouchListener() {
             public boolean onTouch(View v, MotionEvent event) {
                 v.onTouchEvent(event);
@@ -49,9 +33,7 @@ TextView table1_4;
                 return true;
             }
         });
-
         gestureDetector = new GestureDetector(getApplicationContext(), this);
-
     }
 
     @Override
@@ -99,9 +81,9 @@ TextView table1_4;
             // up or down swipe
             if (Math.abs(diffY) > SWIPE_THRESHOLD && Math.abs(velocityY) > SWIPE_VELOCITY_THRESHOLD) {
                 if (diffY > 0) {
-                    onSwipeBottom();
+                    // onSwipeBottom();
                 } else {
-                    onSwipeTop();
+                    //  onSwipeTop();
                 }
                 result = true;
             }
@@ -110,18 +92,18 @@ TextView table1_4;
         return result;
     }
 
-    private void onSwipeTop() {
-        Toast.makeText(this, "Swipe Top", Toast.LENGTH_LONG).show();
-    }
-
-    private void onSwipeBottom() {
-        Toast.makeText(this, "Swipe Bottom", Toast.LENGTH_LONG).show();
-    }
+//    private void onSwipeTop() {
+//        Toast.makeText(this, "Swipe Top", Toast.LENGTH_LONG).show();
+//    }
+//
+//    private void onSwipeBottom() {
+//        Toast.makeText(this, "Swipe Bottom", Toast.LENGTH_LONG).show();
+//    }
 
     private void onSwipeLeft() {
         //Toast.makeText(this, "Swipe Left", Toast.LENGTH_LONG).show();
         Intent intent;
-        intent = new Intent(table_3_2_1.this, table_3_2_2.class);
+        intent = new Intent(ScrollingActivity3_1.this, table_3_2_1.class);
         startActivity(intent);
         startActivity(intent);
         this.finish();
@@ -130,7 +112,7 @@ TextView table1_4;
     private void onSwipeRight() {
         //Toast.makeText(this, "Swipe Right", Toast.LENGTH_LONG).show();
         Intent intent;
-        intent = new Intent(table_3_2_1.this, ScrollingActivity3_1.class);
+        intent = new Intent(ScrollingActivity3_1.this, ScrollingActivity2.class);
         startActivity(intent);
         this.finish();
 

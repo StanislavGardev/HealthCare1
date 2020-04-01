@@ -375,25 +375,26 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
         switch (v.getId()) {
 
             case R.id.textViewRow0:{
-                Intent intent;
 
-                intent = new Intent(Activity_2.this, ScrollingActivity.class );
-                intent.putExtra("textToLoad",R.string.this_is_new);
+                Intent intent;
+                intent = new Intent(Activity_2.this, ScrollingActivity0.class);
+//                intent = new Intent(Activity_2.this, ScrollingActivity.class );
+//                intent.putExtra("textToLoad",R.string.this_is_new);
                 startActivity(intent);
                 // ScrollingActivity.text.setText(R.string.this_is_new);
                 break;
             }
             case R.id.textViewRow1:{
                 Intent intent;
-                intent = new Intent(Activity_2.this, ScrollingActivity.class );
-                intent.putExtra("textToLoad",R.string.informationForThisVer);
+                intent = new Intent(Activity_2.this, ScrollingActivity1.class);
+                //  intent.putExtra("textToLoad",R.string.informationForThisVer);
                 startActivity(intent);               // ScrollingActivity.text.setText(R.string.informationForThosVer);
                 break;
             }
             case R.id.textViewRow2:{
                 Intent intent;
-                intent = new Intent(Activity_2.this, ScrollingActivity.class );
-                intent.putExtra("textToLoad",R.string.introduction);
+                intent = new Intent(Activity_2.this, ScrollingActivity2.class);
+                // intent.putExtra("textToLoad",R.string.introduction);
                 startActivity(intent);               // ScrollingActivity.text.setText(R.string.informationForThosVer);
                 break;
             }
@@ -957,8 +958,8 @@ public class Activity_2 extends AppCompatActivity implements View.OnClickListene
 
             case R.id.textViewRow3_1: {
                 Intent intent;
-                intent = new Intent(Activity_2.this, ScrollingActivity.class );
-                intent.putExtra("textToLoad",R.string.epidemiology);
+                intent = new Intent(Activity_2.this, ScrollingActivity3_1.class);
+                //intent.putExtra("textToLoad",R.string.epidemiology);
                 startActivity(intent);
                 break;
             }
