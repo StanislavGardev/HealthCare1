@@ -38,8 +38,6 @@ public class table_3_2_2 extends AppCompatActivity implements GestureDetector.On
 //        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         L3_4 = findViewById(R.id.tableLinks3_3);
-
-
         Links3_3 = Html.fromHtml(getString(R.string.Link_3_3));
         L3_4.setText(Links3_3);
         L3_4.setMovementMethod(LinkMovementMethod.getInstance());
