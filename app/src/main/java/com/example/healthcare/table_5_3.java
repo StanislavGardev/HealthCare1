@@ -79,6 +79,14 @@ public class table_5_3 extends AppCompatActivity implements GestureDetector.OnGe
             }
         });
 
+        links.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                v.onTouchEvent(event);
+                gestureDetector.onTouchEvent(event);
+                return true;
+            }
+        });
+
         gestureDetector = new GestureDetector(getApplicationContext(), this);
     }
 
