@@ -219,26 +219,33 @@
 
 
                     android:textSize="12sp" />
-
-                <TextView
-                    android:id="@+id/tableLink_6_57"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
+                    android:orientation="vertical"
+                    android:layout_column="4"
                     android:layout_weight=".1"
+                    android:layout_margin="1dp">
+                <TextView
+                    android:id="@+id/tableLink_6_57"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_span="1"
                     android:background="@color/cardview_light_background"
                     android:clickable="true"
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
-
-
                     android:text="[329] "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
@@ -315,25 +322,33 @@
 
 
                     />
-
-                <TextView
-                    android:id="@+id/tableLink_6_58"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
+                    android:orientation="vertical"
+                    android:layout_column="4"
                     android:layout_weight=".1"
+                    android:layout_margin="1dp">
+                <TextView
+                    android:id="@+id/tableLink_6_58"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_span="1"
                     android:background="@color/cardview_light_background"
                     android:clickable="true"
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
-
-
                     android:text="[287, 330]. "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
@@ -494,25 +509,33 @@
 
 
                     />
-
-                <TextView
-                    android:id="@+id/tableLink_6_60"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
+                    android:orientation="vertical"
+                    android:layout_column="4"
                     android:layout_weight=".1"
+                    android:layout_margin="1dp">
+                <TextView
+                    android:id="@+id/tableLink_6_60"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_span="1"
                     android:background="@color/cardview_light_background"
                     android:clickable="true"
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="[331]; b) Облъчване на тазовите лимфни потози: [332-336] "
-
-
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
@@ -581,23 +604,31 @@
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
-
-                <TextView
-
-                    android:id="@+id/tableLink_6_61"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:orientation="vertical"
                     android:layout_column="4"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
                     android:layout_weight=".1"
+                    android:layout_margin="1dp">
+                <TextView
+                    android:id="@+id/tableLink_6_61"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_column="4"
+                    android:layout_span="1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="[332-336]"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
