@@ -88,6 +88,7 @@ public class table_5_3 extends AppCompatActivity implements GestureDetector.OnGe
         });
 
         gestureDetector = new GestureDetector(getApplicationContext(), this);
+
     }
 
     @Override
