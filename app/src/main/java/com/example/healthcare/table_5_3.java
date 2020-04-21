@@ -76,5 +76,6 @@ public class table_5_3 extends HealthCareActivity {
         });
 
         gestureDetector = new GestureDetector(getApplicationContext(), this);
+
     }
 }
