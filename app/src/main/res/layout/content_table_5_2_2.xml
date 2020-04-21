@@ -220,6 +220,7 @@
 
 
                     />
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -227,25 +228,29 @@
                     android:layout_column="4"
                     android:layout_weight=".1"
                     android:layout_margin="1dp">
-                <TextView
-                    android:id="@+id/tableLink_5_17"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:layout_span="1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="(към a) [76-88]"
-                    android:textAlignment="center"
-                    android:textColor="#000"
 
+                    <TextView
 
-                    android:textSize="12sp" />
+                        android:id="@+id/tableLink_5_17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:linksClickable="true"
+                        android:padding="1dip"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight=".1"
                         android:background="@color/cardview_light_background" />
                 </LinearLayout>
+
             </TableRow>
 
             <TableRow
@@ -323,6 +328,7 @@
 
 
                     />
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -330,21 +336,22 @@
                     android:layout_column="4"
                     android:layout_weight=".1"
                     android:layout_margin="1dp">
-                <TextView
 
-                    android:id="@+id/tableLink_5_18"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:layout_span="1"
-                    android:background="@color/cardview_light_background"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:linksClickable="true"
-                    android:padding="1dip"
-                    android:text="EK основано на [101] "
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
+                    <TextView
+
+                        android:id="@+id/tableLink_5_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:linksClickable="true"
+                        android:padding="1dip"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -427,6 +434,7 @@
 
 
                     />
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -434,20 +442,22 @@
                     android:layout_column="4"
                     android:layout_weight=".1"
                     android:layout_margin="1dp">
-                <TextView
-                    android:id="@+id/tableLink_5_19"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:layout_span="1"
-                    android:background="@color/cardview_light_background"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:linksClickable="true"
-                    android:padding="1dip"
-                    android:text="102"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
+
+                    <TextView
+
+                        android:id="@+id/tableLink_5_19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:linksClickable="true"
+                        android:padding="1dip"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
