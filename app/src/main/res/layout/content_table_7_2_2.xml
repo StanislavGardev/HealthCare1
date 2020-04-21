@@ -212,20 +212,35 @@
                     android:textColor="#000"
                     android:textSize="12sp" />
 
-                <TextView
-                    android:id="@+id/tableLink_7_12"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:orientation="vertical"
                     android:layout_column="4"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
                     android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="[370, 383] "
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
+                    android:layout_margin="1dp">
+
+                    <TextView
+
+                        android:id="@+id/tableLink_7_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:linksClickable="true"
+                        android:padding="1dip"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
 
             </TableRow>
 
@@ -294,20 +309,35 @@
                     android:textColor="#000"
                     android:textSize="12sp" />
 
-                <TextView
-                    android:id="@+id/tableLink_7_13"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:orientation="vertical"
                     android:layout_column="4"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
                     android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="[370] "
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
+                    android:layout_margin="1dp">
+
+                    <TextView
+
+                        android:id="@+id/tableLink_7_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:linksClickable="true"
+                        android:padding="1dip"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
 
             </TableRow>
 
@@ -451,20 +481,35 @@
                     android:textColor="#000"
                     android:textSize="12sp" />
 
-                <TextView
-                    android:id="@+id/tableLink_7_15"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:orientation="vertical"
                     android:layout_column="4"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
                     android:layout_weight=".1"
-                    android:background="@color/cardview_light_background"
-                    android:padding="1dip"
-                    android:text="a: [384-386] \n b: EK "
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="12sp" />
+                    android:layout_margin="1dp">
+
+                    <TextView
+
+                        android:id="@+id/tableLink_7_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/cardview_light_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:linksClickable="true"
+                        android:padding="1dip"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
 
             </TableRow>
 
