@@ -218,25 +218,30 @@
 
 
                     android:textSize="12sp" />
-
-                <TextView
-
-
-                    android:id="@+id/tableLink_6_43"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
+                    android:orientation="vertical"
+                    android:layout_column="4"
                     android:layout_weight=".1"
+                    android:layout_margin="1dp">
+                <TextView
+                    android:id="@+id/tableLink_6_43"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_span="1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="260, 263, 267, 287-304"
                     android:textAlignment="center"
-
-
                     android:textColor="#000"
                     android:textSize="12sp" />
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
@@ -322,9 +327,6 @@
                     android:layout_span="1"
                     android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:linksClickable="true"
                     android:padding="1dip"
                     android:text=" EK"
 
@@ -400,23 +402,32 @@
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
-
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_column="4"
+                    android:layout_weight=".1"
+                    android:layout_margin="1dp">
                 <TextView
 
                     android:id="@+id/tableLink_6_45"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_column="4"
-                    android:layout_margin="1dp"
                     android:layout_span="1"
-                    android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="IMRT: [177, 178]  IGRT: [179-182] "
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
@@ -492,26 +503,33 @@
 
 
                     />
-
-                <TextView
-
-                    android:id="@+id/tableLink_6_46"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
+                    android:orientation="vertical"
+                    android:layout_column="4"
                     android:layout_weight=".1"
+                    android:layout_margin="1dp">
+                <TextView
+                    android:id="@+id/tableLink_6_46"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_span="1"
                     android:background="@color/cardview_light_background"
                     android:clickable="true"
                     android:focusable="true"
                     android:linksClickable="true"
                     android:padding="1dip"
                     android:text="Непридружаваща: [288-291, 298, 304]; Придружаваща: [291-295, 300, 305]; допълнително: [287, 296, 297, 299, 301-303"
-
-
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
@@ -580,23 +598,31 @@
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
-
-                <TextView
-
-                    android:id="@+id/tableLink_6_47"
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:orientation="vertical"
                     android:layout_column="4"
-                    android:layout_margin="1dp"
-                    android:layout_span="1"
                     android:layout_weight=".1"
+                    android:layout_margin="1dp">
+                <TextView
+                    android:id="@+id/tableLink_6_47"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_column="4"
+                    android:layout_span="1"
                     android:background="@color/cardview_light_background"
                     android:padding="1dip"
                     android:text="EK въз основа на: [202, 203, 306, 307]"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
@@ -672,15 +698,20 @@
 
 
                     />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_column="4"
+                    android:layout_weight=".1"
+                    android:layout_margin="1dp">
 
                 <TextView
 
                     android:id="@+id/tableLink_6_48"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_margin="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_span="1"
-                    android:layout_weight=".1"
                     android:background="@color/cardview_light_background"
                     android:clickable="true"
                     android:focusable="true"
@@ -692,6 +723,12 @@
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@color/cardview_light_background" />
+                </LinearLayout>
             </TableRow>
 
             <TableRow
